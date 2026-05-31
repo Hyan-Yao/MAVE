@@ -1,0 +1,55 @@
+{
+  "model": "gpt-4o-mini",
+  "input_dir": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Class Meeting Downing Soc 100 4.19.2021/preprocessor_output_now",
+  "total_hits": 8,
+  "hits": [
+    {
+      "minute": 4,
+      "grid": "grid_10",
+      "reasoning": "The individual is actively using a writing instrument, indicating writing behavior.",
+      "file": "minute_04.json"
+    },
+    {
+      "minute": 7,
+      "grid": "grid_03",
+      "reasoning": "The individual is holding a writing instrument and has paper in their hand, indicating potential writing activity.",
+      "file": "minute_07.json"
+    },
+    {
+      "minute": 9,
+      "grid": "grid_10",
+      "reasoning": "The second frame shows a hand holding a writing instrument above a surface, indicating active writing behavior.",
+      "file": "minute_09.json"
+    },
+    {
+      "minute": 15,
+      "grid": "grid_00",
+      "reasoning": "The description indicates the presence of a writing instrument and suggests that writing is likely occurring based on the individual's posture and focus.",
+      "file": "minute_15.json"
+    },
+    {
+      "minute": 24,
+      "grid": "grid_09",
+      "reasoning": "The presence of a writing instrument suggests potential writing activity, despite no direct evidence of active writing.",
+      "file": "minute_24.json"
+    },
+    {
+      "minute": 31,
+      "grid": "grid_09",
+      "reasoning": "The individual is holding a writing instrument and appears to be engaged in a task involving writing.",
+      "file": "minute_31.json"
+    },
+    {
+      "minute": 35,
+      "grid": "grid_09",
+      "reasoning": "The individual is holding a writing instrument, indicating engagement in writing or note-taking activities.",
+      "file": "minute_35.json"
+    },
+    {
+      "minute": 36,
+      "grid": "grid_00",
+      "reasoning": "The individual is seen holding a pen and actively gesturing as if emphasizing a point or making a note, indicating writing behavior.",
+      "file": "minute_36.json"
+    }
+  ]
+}

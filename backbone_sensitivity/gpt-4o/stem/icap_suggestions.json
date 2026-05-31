@@ -1,0 +1,303 @@
+{
+  "model": "openai/gpt-4o",
+  "class_size": 30,
+  "efficiency_summary": {
+    "total_elapsed_ms": 7672,
+    "total_elapsed_sec": 7.672,
+    "avg_kp_elapsed_ms": 6605,
+    "total_prompt_tokens": 15455,
+    "total_completion_tokens": 3308,
+    "total_tokens": 18763,
+    "estimated_total_cost_usd": 0.095985,
+    "throughput_kp_per_min": 86.027,
+    "pricing": {
+      "prompt_cost_per_1m": 3.0,
+      "completion_cost_per_1m": 15.0
+    },
+    "pricing_note": "Estimated cost based on token usage and configurable per-1M-token pricing."
+  },
+  "results": [
+    {
+      "knowledge_point_id": 1,
+      "topic": "Project Overview",
+      "student_current_ci": "p/a",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 0,
+        "end_minute": 1,
+        "a_total_hits": 3,
+        "a_trend": "rising"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The class currently demonstrates a passive approach to the project as students are not actively contributing or engaging in self-generated outputs. The transcript indicates no students are speaking or showing evidence of individual construction as they have not started cutting the foam board or completed their assignment drawings. This signals a lack of individual effort and cognitive construction, as stated: 'okay so um has uh has anybody started the project yet...'.",
+      "proposed_rewrite": "To engage students in Constructive Mode, ask each student to independently develop a detailed project plan outlining their approach, expected outcomes, and potential challenges. This plan should be personally reflective and submitted individually.",
+      "scaffolding_strategy": "1. Instruct students to individually create a step-by-step guide on how they will tackle the project, including resources needed and timelines. 2. Provide individual feedback through digital platforms where each student submits their unique plan and receives tailored advice for improvement and progression.",
+      "new_question": "Can you describe the specific steps you will take to start and complete your project, and list any challenges you anticipate?",
+      "reference_answer": "To complete my project, I will first outline the design on paper by Wednesday, then cut the foam board by Friday, and assemble the pieces over the weekend. I anticipate that accurately cutting the foam board may be a challenge, so I plan to practice with spare materials.",
+      "efficiency": {
+        "elapsed_ms": 7169,
+        "prompt_tokens": 852,
+        "completion_tokens": 303,
+        "total_tokens": 1155,
+        "estimated_cost_usd": 0.007101
+      }
+    },
+    {
+      "knowledge_point_id": 2,
+      "topic": "Foam Board Cutting Tips",
+      "student_current_ci": "p/a",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 1,
+        "end_minute": 3,
+        "a_total_hits": 4,
+        "a_trend": "falling"
+      },
+      "error": "LLM failed: No JSON object found in model response: {\n  \"knowledge_point_id\": 2,\n  \"target_mode\": \"c\",\n  \"gap_diagnosis\": \"The current student cognitive interaction is at p/a level, evidenced by a lack of active student participation in the transcript ('Active Speakers=0'). The focus is on teacher explanation without students producing individual out",
+      "confidence": 0.0,
+      "efficiency": {
+        "elapsed_ms": 5720,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "estimated_cost_usd": 0.0
+      }
+    },
+    {
+      "knowledge_point_id": 3,
+      "topic": "Design Composition Advice",
+      "student_current_ci": "p/a",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 3,
+        "end_minute": 7,
+        "a_total_hits": 5,
+        "a_trend": "stable"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The current cognitive engagement does not reach the target mode of 'constructive' as there are no active speakers and no evidence of individual student outputs. The transcript shows the teacher providing extensive feedback and suggestions without prompting individual cognitive construction: 'you should probably just start cutting already' and 'come to the office hours.' This indicates passive reception rather than active knowledge generation.",
+      "proposed_rewrite": "Shift focus from providing solutions to prompting students to independently explore and apply composition principles in their own work. This can be achieved by assigning a task where students individually analyze and redesign one of their previous compositions based on the principles discussed.",
+      "scaffolding_strategy": "Introduce individual reflection exercises where each student selects one of their previous drawings and writes a detailed analysis of its composition, identifying static elements and proposing specific changes for improvement. Follow this with a solo redesign task, where students recreate their design incorporating principles like asymmetry and continuance.",
+      "new_question": "How would you individually modify one of your past compositions to enhance its dynamism using the principle of continuance?",
+      "reference_answer": "I would extend the main diagonal line in my composition beyond the border of the canvas to create a sense of ongoing movement. By positioning one of the central elements slightly off-center, I can break the symmetry and add more tension and interest to the piece.",
+      "efficiency": {
+        "elapsed_ms": 6455,
+        "prompt_tokens": 1365,
+        "completion_tokens": 299,
+        "total_tokens": 1664,
+        "estimated_cost_usd": 0.00858
+      }
+    },
+    {
+      "knowledge_point_id": 4,
+      "topic": "Office Hours Announcement",
+      "student_current_ci": "p/a",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 7,
+        "end_minute": 8,
+        "a_total_hits": 4,
+        "a_trend": "falling"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The gap exists because none of the students are actively speaking or engaging. The coverage is bottlenecked with 0% active speakers, indicating that students have not yet converted the information into outputs. The transcript shows the teacher is disseminating information about office hours without engaging students in processing or personalizing the details: 'oh by the way so the office hours have changed right and uh i haven't put it on the calendar so maybe you should write this down.'",
+      "proposed_rewrite": "After announcing the office hours, prompt each student to individually write a short reflection on how the new schedule aligns with their availability and academic commitments, encouraging them to think critically about time management.",
+      "scaffolding_strategy": "1. Ask each student to independently create a personal weekly schedule that incorporates the new office hour times, highlighting potential conflicts and strategies for attending. 2. Encourage students to write a brief reflection on how attending office hours can impact their learning, and what specific questions they plan to ask when they attend.",
+      "new_question": "How do the new office hour times align with your schedule, and what specific questions will you prepare for your next visit?",
+      "reference_answer": "The new office hours on Monday and Wednesday mornings fit well with my class schedule. I plan to attend the Wednesday morning session and will prepare questions about the upcoming project deadline and feedback on my last assignment.",
+      "efficiency": {
+        "elapsed_ms": 6627,
+        "prompt_tokens": 881,
+        "completion_tokens": 309,
+        "total_tokens": 1190,
+        "estimated_cost_usd": 0.007278
+      }
+    },
+    {
+      "knowledge_point_id": 5,
+      "topic": "Encouragement to Attend Office Hours",
+      "student_current_ci": "c",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 8,
+        "end_minute": 12,
+        "a_total_hits": 5,
+        "a_trend": "stable"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The current class interaction is bottlenecked at a single active speaker who is engaging at the constructive level, as indicated by the individual sharing of thoughts and personal experiences to understand the value of office hours. However, the rest of the class remains silent, meaning the behavior hasn't converted into widespread constructive outputs for the whole class. The transcript confirms this: \"and i i think that'll work um i have to be honest you guys haven't been on fire about um uh coming to office hours.\"",
+      "proposed_rewrite": "To scale the constructive mode to more students, the instructor could implement individual reflection tasks where each student writes a short paragraph about their personal feelings or experiences with office hours, aiming to explore their barriers or misconceptions.",
+      "scaffolding_strategy": "1. Ask each student to independently jot down their personal reasons for not attending office hours and propose solutions or incentives that might motivate them to attend. 2. Following this, request students to individually design a personal infographic or mind map that visually represents the benefits and opportunities of attending office hours, based solely on their reflections.",
+      "new_question": "What are your personal barriers to attending office hours, and what solutions can you think of to overcome these individually?",
+      "reference_answer": "I often feel like I'm bothering the professor during office hours, which discourages me from attending. However, I realize that the professor is there to help and not just playing games as mentioned in the lecture. A solution I think of is setting reminders for myself to attend at least one session and preparing questions beforehand to make the most of the time.",
+      "efficiency": {
+        "elapsed_ms": 6761,
+        "prompt_tokens": 1316,
+        "completion_tokens": 349,
+        "total_tokens": 1665,
+        "estimated_cost_usd": 0.009183
+      }
+    },
+    {
+      "knowledge_point_id": 6,
+      "topic": "Project Submission Guidelines",
+      "student_current_ci": "p/a",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 12,
+        "end_minute": 14,
+        "a_total_hits": 1,
+        "a_trend": "falling"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The current mode remains at passive/active (p/a), with no active student participation. The excerpt reveals a teacher-centered explanation of project submission without student interaction: 'okay so when you're ready to turn in the assignment...'. Coverage is bottlenecked as no students are actively engaging; instead, the teacher is simply walking through procedural steps with no cognitive outputs from students.",
+      "proposed_rewrite": "To transition into the constructive mode, prompt individual students to independently create a visual guide or infographic illustrating the project submission process. This requires students to generate personal interpretations and representations of the instructions provided.",
+      "scaffolding_strategy": "1. Ask each student to individually draft a step-by-step storyboard or flowchart of the project submission process, emphasizing their understanding of each step. 2. Provide each student with a scenario involving a potential error in submission and have them individually write a reflective response on how they would identify and correct the mistake.",
+      "new_question": "Can you individually create a visual diagram or infographic that explains the steps for submitting your project, including any specific file requirements?",
+      "reference_answer": "Certainly! Here's my infographic: Step 1 - Navigate to 'Project One Module'. Step 2 - Click on 'Submit Assignment'. Step 3 - Upload four images of the project from different angles. Ensure images show volume and detail. Step 4 - Review submission for accuracy, following outlined requirements.",
+      "efficiency": {
+        "elapsed_ms": 6140,
+        "prompt_tokens": 976,
+        "completion_tokens": 314,
+        "total_tokens": 1290,
+        "estimated_cost_usd": 0.007638
+      }
+    },
+    {
+      "knowledge_point_id": 7,
+      "topic": "Final Project Requirements",
+      "student_current_ci": "c",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 14,
+        "end_minute": 18,
+        "a_total_hits": 1,
+        "a_trend": "stable"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The current speaking student has not exhibited constructive, self-generated knowledge creation. Instead, their questions and the instructor's monologue suggest an active mode at best. The transcript shows the student asking for clarification on logistics rather than engaging in cognitive construction of the project requirements. With only 3.3% of the class actively speaking, the coverage of the target mode is severely limited, indicating that a large majority of students remain passive.",
+      "proposed_rewrite": "Encourage each student to individually draft a detailed project plan outlining the steps they will take to meet the final project requirements, including what media they will use to document their project. This plan should reflect their understanding and personal interpretation of the requirements, promoting a deeper individual connection with the project.",
+      "scaffolding_strategy": "1) Assign a reflective journal entry where each student individually writes about potential challenges and creative solutions for their final project. This will encourage students to constructively think through the project requirements. 2) Use a digital tool, like a private online board, where students individually post their project plan interpretations and receive personalized feedback from the teacher to refine their understanding.",
+      "new_question": "What are some innovative ways you might document your project that align with the requirements, and how do you plan to address any potential challenges?",
+      "reference_answer": "I plan to create a short stop-motion video to show the moving parts of my project, capturing step-by-step progress. This approach will allow me to creatively present the functionality while ensuring high-quality documentation. A potential challenge is lighting, which I will overcome by using multiple adjustable lamps to ensure clarity in my images.",
+      "efficiency": {
+        "elapsed_ms": 6731,
+        "prompt_tokens": 1317,
+        "completion_tokens": 356,
+        "total_tokens": 1673,
+        "estimated_cost_usd": 0.009291
+      }
+    },
+    {
+      "knowledge_point_id": 8,
+      "topic": "Material Recommendations",
+      "student_current_ci": "p/a",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 18,
+        "end_minute": 19,
+        "a_total_hits": 0,
+        "a_trend": "stable"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The current level is passive/active (p/a), as the teacher is instructing students to acquire specific materials. No individual cognitive construction is present. The transcript reveals no student engagement or output creation: 'so what i would like you to get those materials as soon as you can.' The entire class remains silent.",
+      "proposed_rewrite": "Introduce an individualized task where each student independently creates a detailed sketch or plan for using the wire in their upcoming project. This task should require them to consider and document the properties of the material and how it will be applied to their unique project ideas.",
+      "scaffolding_strategy": "1. Independent Thought Journal: Have each student maintain a journal detailing their thought process and reflections on the material selection. They should note why they chose specific materials and how they plan to solve potential issues, such as bending out kinks in wires. 2. Personal Project Blueprint: Require students to draft a blueprint of their project, including annotations about material selection based on their research and understanding. This blueprint should demonstrate their individual problem-solving approach and decision-making process.",
+      "new_question": "What specific challenges do you anticipate in using the wire for your project, and how do you plan to address them individually?",
+      "reference_answer": "I anticipate that the wire may not easily stay straight due to its square shape. To address this, I will use a tool to carefully straighten the wire before incorporating it into my design. Additionally, I will sketch my project to ensure precise measurements and adjustments.",
+      "efficiency": {
+        "elapsed_ms": 5572,
+        "prompt_tokens": 980,
+        "completion_tokens": 335,
+        "total_tokens": 1315,
+        "estimated_cost_usd": 0.007965
+      }
+    },
+    {
+      "knowledge_point_id": 9,
+      "topic": "Drawing Quality Feedback",
+      "student_current_ci": "p/a",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 19,
+        "end_minute": 21,
+        "a_total_hits": 1,
+        "a_trend": "stable"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The current engagement level is passive/active (p/a). Students are listening but not generating new outputs or constructing their own understanding. The transcript focuses on specific instructions about materials and tools, without prompting individual cognitive construction or reflection. The class size is 30 with no active speakers, indicating no student has individually transformed the information into new knowledge or outputs.",
+      "proposed_rewrite": "Prompt each student to individually draw a plan of their intended wire sculpture on paper, incorporating the specific tools and wire type discussed. They should also write a reflection on why each tool is chosen, based on the properties explained.",
+      "scaffolding_strategy": "1. Have each student independently sketch a basic design for their wire project, detailing the steps they will take to construct it and the tools they will use. Encourage them to annotate their sketches with reasons for their material choices. 2. Ask students to write a personal reflection on how the properties of the wire and tools align with their artistic goals, encouraging deeper analysis and personal connection to the material.",
+      "new_question": "Can you independently create a sketch and explain why you chose each specific tool and material for your wire project?",
+      "reference_answer": "For my wire sculpture, I drew a sketch that includes curves and sharp angles. I chose the black wire because it is visible against a white background and easy to bend into the shapes I need. I will use needle nose pliers because they provide precise bends and have a built-in wire cutter, which is convenient for my design.",
+      "efficiency": {
+        "elapsed_ms": 7638,
+        "prompt_tokens": 1112,
+        "completion_tokens": 335,
+        "total_tokens": 1447,
+        "estimated_cost_usd": 0.008361
+      }
+    },
+    {
+      "knowledge_point_id": 10,
+      "topic": "Design Process and Narrative",
+      "student_current_ci": "i",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "i",
+      "a_behavior": {
+        "start_minute": 21,
+        "end_minute": 51,
+        "a_total_hits": 33,
+        "a_trend": "rising"
+      },
+      "target_mode": "i",
+      "gap_diagnosis": "The class size is 30, but only 3 students are actively speaking, resulting in low coverage of 10.0%. While the students engaged in the transcript are discussing, reflecting, and even seeking validation from the teacher, the interaction seems limited to a few participants. The conversation is rich with individual insights but lacks broader peer-to-peer interactivity as the instructor is the primary focus. This is evident from exchanges like 'do you think I should add like just a couple of layers or just add it all the way to like the one' and 'it looks like your cuts are nice and clean.'",
+      "proposed_rewrite": "Encourage students to form pairs or small groups to exchange feedback on their design processes and narratives. This can be done by assigning roles such as 'feedback giver' and 'feedback receiver' within breakout sessions, enabling dynamic peer review and encouraging cross-pollination of ideas.",
+      "scaffolding_strategy": "1. Implement structured peer review sessions where students present their projects to a partner or small group and receive constructive feedback. Rotate roles to ensure all students engage as both presenters and reviewers. 2. Organize a virtual gallery walk where students post their work and provide annotated feedback on at least two peers' projects, fostering a collaborative learning environment.",
+      "new_question": "How did working in pairs influence your understanding of the design process and narrative of your project?",
+      "reference_answer": "Working with my partner helped me see my project from a different perspective. They pointed out areas I could improve, such as adding more layers to create depth, and also validated some of my design choices. This interaction made me more confident and inspired new ideas for further development.",
+      "efficiency": {
+        "elapsed_ms": 7161,
+        "prompt_tokens": 5571,
+        "completion_tokens": 372,
+        "total_tokens": 5943,
+        "estimated_cost_usd": 0.022293
+      }
+    },
+    {
+      "knowledge_point_id": 11,
+      "topic": "Cheating and Academic Integrity",
+      "student_current_ci": "c",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 51,
+        "end_minute": 53,
+        "a_total_hits": 3,
+        "a_trend": "falling"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The cognitive level for the speaking student appears to be at the constructive level, as the student is independently reflecting on their previous sketches and considering how to integrate them into a new project. The student is generating ideas and thinking critically about how to enhance their work. However, the coverage is bottlenecked because only one student is actively participating, which constitutes just 3.3% of the class. This indicates that while one student has reached the target mode, the vast majority are silent and potentially not engaging at the same cognitive level.",
+      "proposed_rewrite": "To transition more students into the constructive mode, focus on requiring each student to create an individual reflection journal. This journal should capture their thought process, planning, and reflections on how their design choices align with academic integrity.",
+      "scaffolding_strategy": "1. Implement an individual task where each student independently sketches a design that demonstrates their understanding of academic integrity, clearly labeling and explaining each element of their design. 2. Schedule regular one-on-one reflection sessions where students individually articulate their project ideas and the ethical considerations they are embedding within their designs, ensuring each student has a chance to construct knowledge independently.",
+      "new_question": "How can you independently incorporate the principles of academic integrity into your project design?",
+      "reference_answer": "I can incorporate academic integrity by ensuring that all the sources for my design inspiration are properly credited, and any collaborative influence is distinctly acknowledged. I will also independently create original elements that reflect my personal artistic vision while adhering to ethical guidelines.",
+      "efficiency": {
+        "elapsed_ms": 6687,
+        "prompt_tokens": 1085,
+        "completion_tokens": 336,
+        "total_tokens": 1421,
+        "estimated_cost_usd": 0.008295
+      }
+    }
+  ]
+}

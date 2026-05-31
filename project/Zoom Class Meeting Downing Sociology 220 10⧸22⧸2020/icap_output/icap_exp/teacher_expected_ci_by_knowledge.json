@@ -1,0 +1,207 @@
+{
+  "mode": "prompt_llm_expected_ci",
+  "model": "gpt-4o-mini",
+  "knowledge_source": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Class Meeting Downing Sociology 220 10⧸22⧸2020/icap_output/icap_split_free/knowledge_segments_global_free.json",
+  "student_ci_source": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Class Meeting Downing Sociology 220 10⧸22⧸2020/icap_output/icap_student/knowledge_segments_global_classification.json",
+  "segment_count": 8,
+  "class_size": 30,
+  "c_ratio_threshold": 0.5,
+  "summary": {
+    "expected_c_count": 6,
+    "expected_i_count": 2,
+    "note": "Rule-first expected CI: if I exists or C-ratio>=50%, expect I; otherwise expect C."
+  },
+  "efficiency": {
+    "elapsed_sec": 13.692,
+    "request_count": 8,
+    "pricing_model_reference": "gpt-4o-mini",
+    "prompt_cost_per_1m": 0.15,
+    "completion_cost_per_1m": 0.6,
+    "prompt_tokens": 11549,
+    "completion_tokens": 679,
+    "total_tokens": 12228,
+    "avg_prompt_tokens_per_req": 1443.625,
+    "avg_completion_tokens_per_req": 84.875,
+    "avg_total_tokens_per_req": 1528.5,
+    "throughput_tokens_per_sec": 893.076,
+    "estimated_total_cost_usd": 0.00214
+  },
+  "results": [
+    {
+      "knowledge_point_id": 1,
+      "topic": "Relationship with Water",
+      "summary": "The discussion begins by examining personal relationships with water, prompting students to reflect on its importance in their lives.",
+      "position_index_1based": 1,
+      "position_phase": "early",
+      "current_student_ci": "i",
+      "current_student_speaker_count": 3,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": true,
+      "rule_reason": "Expected level upgraded to I because either I behavior already exists or C ratio reached at least 50%.",
+      "expected_ci_level": "c",
+      "expected_reason": "This knowledge point encourages students to engage in dialogue about their personal experiences and perspectives on water, fostering a deeper understanding through shared insights.",
+      "suggested_question": "How does your personal experience with water differ from someone else's, and what factors do you think influence those differences?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 2100,
+        "completion_tokens": 85,
+        "total_tokens": 2185,
+        "estimated_cost_usd": 0.000366
+      }
+    },
+    {
+      "knowledge_point_id": 2,
+      "topic": "Access and Privilege",
+      "summary": "The conversation highlights disparities in water access, contrasting experiences in developed regions with those in areas facing severe water scarcity.",
+      "position_index_1based": 2,
+      "position_phase": "early",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "This knowledge point encourages students to reflect on and articulate their understanding of water access disparities, fostering individual critical thinking.",
+      "suggested_question": "What are some specific examples of how water access varies between developed regions and areas facing severe water scarcity?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 390,
+        "completion_tokens": 76,
+        "total_tokens": 466,
+        "estimated_cost_usd": 0.000104
+      }
+    },
+    {
+      "knowledge_point_id": 3,
+      "topic": "Geographical Differences",
+      "summary": "Students share their experiences with water access based on geographical locations, illustrating how local conditions influence perceptions and behaviors regarding water use.",
+      "position_index_1based": 3,
+      "position_phase": "middle",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "This knowledge point encourages students to reflect on their personal experiences and articulate how geographical differences affect water access, fostering individual constructive output.",
+      "suggested_question": "Can you describe a specific experience you have had with water access in your geographical location and how it has influenced your views on water use?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 393,
+        "completion_tokens": 86,
+        "total_tokens": 479,
+        "estimated_cost_usd": 0.000111
+      }
+    },
+    {
+      "knowledge_point_id": 4,
+      "topic": "Water Rights and Quality",
+      "summary": "The discourse delves into water rights issues, discussing the quality of water in different regions and the implications for communities facing contamination.",
+      "position_index_1based": 4,
+      "position_phase": "middle",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "This knowledge point encourages learners to produce their own analysis of water rights and quality issues, fostering deeper understanding through individual output.",
+      "suggested_question": "What are the potential impacts of water contamination on a community, and how might these issues be addressed?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 395,
+        "completion_tokens": 82,
+        "total_tokens": 477,
+        "estimated_cost_usd": 0.000108
+      }
+    },
+    {
+      "knowledge_point_id": 5,
+      "topic": "Socioeconomic Factors",
+      "summary": "The discussion emphasizes the role of socioeconomic status in determining access to clean water, linking it to broader social justice issues.",
+      "position_index_1based": 5,
+      "position_phase": "middle",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "This knowledge point encourages students to reflect on and articulate their understanding of how socioeconomic factors influence access to clean water, fostering individual critical thinking.",
+      "suggested_question": "How does socioeconomic status impact an individual's access to clean water, and what are some potential solutions to address this issue?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 393,
+        "completion_tokens": 83,
+        "total_tokens": 476,
+        "estimated_cost_usd": 0.000109
+      }
+    },
+    {
+      "knowledge_point_id": 6,
+      "topic": "Environmental Justice",
+      "summary": "The conversation touches on environmental justice, exploring how marginalized communities often face greater challenges related to water access and quality.",
+      "position_index_1based": 6,
+      "position_phase": "late",
+      "current_student_ci": "i",
+      "current_student_speaker_count": 2,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": true,
+      "rule_reason": "Expected level upgraded to I because either I behavior already exists or C ratio reached at least 50%.",
+      "expected_ci_level": "i",
+      "expected_reason": "The discussion on water access and quality encourages students to share personal experiences and engage in dialogue about environmental justice.",
+      "suggested_question": "How do your personal experiences with water access compare to those of your classmates, and what solutions can we propose together to address disparities in water quality?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 4032,
+        "completion_tokens": 88,
+        "total_tokens": 4120,
+        "estimated_cost_usd": 0.000658
+      }
+    },
+    {
+      "knowledge_point_id": 7,
+      "topic": "Water Footprint and Consumption",
+      "summary": "The discourse concludes with an examination of the water footprint associated with various products, emphasizing the hidden water costs in everyday consumption.",
+      "position_index_1based": 7,
+      "position_phase": "late",
+      "current_student_ci": "i",
+      "current_student_speaker_count": 2,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": true,
+      "rule_reason": "Expected level upgraded to I because either I behavior already exists or C ratio reached at least 50%.",
+      "expected_ci_level": "i",
+      "expected_reason": "The discussion encourages students to engage in dialogue about the implications of water consumption, fostering collaborative learning.",
+      "suggested_question": "What are some sociological implications of the high virtual water content in products like milk and leather shoes, and how can we address these issues together?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 1820,
+        "completion_tokens": 85,
+        "total_tokens": 1905,
+        "estimated_cost_usd": 0.000324
+      }
+    },
+    {
+      "knowledge_point_id": 8,
+      "topic": "Climate Change Impact",
+      "summary": "The impact of climate change on water resources is discussed, highlighting how rising temperatures and changing weather patterns affect water availability.",
+      "position_index_1based": 8,
+      "position_phase": "late",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 1,
+      "current_c_ratio": 0.033,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.033 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "This knowledge point emphasizes the need for learners to produce their own understanding of how climate change impacts water resources, which is essential for deeper comprehension.",
+      "suggested_question": "Based on the lecture, what are three specific ways that climate change is altering the water cycle, and how might these changes affect local ecosystems?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 2026,
+        "completion_tokens": 94,
+        "total_tokens": 2120,
+        "estimated_cost_usd": 0.00036
+      }
+    }
+  ]
+}

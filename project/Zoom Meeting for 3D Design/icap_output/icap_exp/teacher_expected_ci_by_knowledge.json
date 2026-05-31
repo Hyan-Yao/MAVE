@@ -1,0 +1,273 @@
+{
+  "mode": "prompt_llm_expected_ci",
+  "model": "gpt-4o-mini",
+  "knowledge_source": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/icap_output/icap_split_free/knowledge_segments_global_free.json",
+  "student_ci_source": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/icap_output/icap_student/knowledge_segments_global_classification.json",
+  "segment_count": 11,
+  "class_size": 30,
+  "c_ratio_threshold": 0.5,
+  "summary": {
+    "expected_c_count": 8,
+    "expected_i_count": 3,
+    "note": "Rule-first expected CI: if I exists or C-ratio>=50%, expect I; otherwise expect C."
+  },
+  "efficiency": {
+    "elapsed_sec": 11.266,
+    "request_count": 11,
+    "pricing_model_reference": "gpt-4o-mini",
+    "prompt_cost_per_1m": 0.15,
+    "completion_cost_per_1m": 0.6,
+    "prompt_tokens": 11904,
+    "completion_tokens": 863,
+    "total_tokens": 12767,
+    "avg_prompt_tokens_per_req": 1082.182,
+    "avg_completion_tokens_per_req": 78.455,
+    "avg_total_tokens_per_req": 1160.636,
+    "throughput_tokens_per_sec": 1133.233,
+    "estimated_total_cost_usd": 0.002303
+  },
+  "results": [
+    {
+      "knowledge_point_id": 1,
+      "topic": "Project Overview",
+      "summary": "Introduction to the project and its deadline.",
+      "position_index_1based": 1,
+      "position_phase": "early",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "Students need to produce their own project plans to ensure they understand the requirements and timeline.",
+      "suggested_question": "What specific steps will you take to complete your project by the deadline?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 512,
+        "completion_tokens": 69,
+        "total_tokens": 581,
+        "estimated_cost_usd": 0.000118
+      }
+    },
+    {
+      "knowledge_point_id": 2,
+      "topic": "Foam Board Cutting Tips",
+      "summary": "Advice on cutting foam board effectively.",
+      "position_index_1based": 2,
+      "position_phase": "early",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 3,
+      "current_c_ratio": 0.1,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.100 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "This knowledge point emphasizes the importance of using the right tools and techniques for effective foam board cutting, which requires learners to apply their understanding and produce their own cutting strategies.",
+      "suggested_question": "What specific steps will you take to ensure you are using the correct blade and technique for cutting foam board effectively?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 770,
+        "completion_tokens": 88,
+        "total_tokens": 858,
+        "estimated_cost_usd": 0.000168
+      }
+    },
+    {
+      "knowledge_point_id": 3,
+      "topic": "Design Composition Advice",
+      "summary": "Guidance on avoiding symmetry in design to create dynamic projects.",
+      "position_index_1based": 3,
+      "position_phase": "early",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "This knowledge point encourages students to produce unique design outputs that avoid symmetry, fostering individual creativity.",
+      "suggested_question": "Create a design sketch that intentionally avoids symmetry and incorporates elements that extend beyond the borders of the canvas.",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 1033,
+        "completion_tokens": 75,
+        "total_tokens": 1108,
+        "estimated_cost_usd": 0.0002
+      }
+    },
+    {
+      "knowledge_point_id": 4,
+      "topic": "Office Hours Announcement",
+      "summary": "Changes to office hours and their availability for students.",
+      "position_index_1based": 4,
+      "position_phase": "middle",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "This knowledge point requires students to produce their own notes on the updated office hours, ensuring they engage with the material constructively.",
+      "suggested_question": "Can you summarize the new office hours and their availability for students in your own words?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 541,
+        "completion_tokens": 76,
+        "total_tokens": 617,
+        "estimated_cost_usd": 0.000127
+      }
+    },
+    {
+      "knowledge_point_id": 5,
+      "topic": "Encouragement to Attend Office Hours",
+      "summary": "Encouragement for students to utilize office hours for assistance.",
+      "position_index_1based": 5,
+      "position_phase": "middle",
+      "current_student_ci": "i",
+      "current_student_speaker_count": 2,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": true,
+      "rule_reason": "Expected level upgraded to I because either I behavior already exists or C ratio reached at least 50%.",
+      "expected_ci_level": "i",
+      "expected_reason": "Encouraging dialogue about office hours fosters collaborative learning and addresses student concerns.",
+      "suggested_question": "What are some reasons you think students might hesitate to attend office hours, and how can we encourage each other to make better use of this resource?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 975,
+        "completion_tokens": 81,
+        "total_tokens": 1056,
+        "estimated_cost_usd": 0.000195
+      }
+    },
+    {
+      "knowledge_point_id": 6,
+      "topic": "Project Submission Guidelines",
+      "summary": "Instructions on how to submit projects and required formats.",
+      "position_index_1based": 6,
+      "position_phase": "middle",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "This knowledge point emphasizes the importance of producing specific outputs (project images) for submission, which requires individual constructive engagement.",
+      "suggested_question": "What are the specific steps you will take to ensure you capture and submit the required images for your project?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 635,
+        "completion_tokens": 78,
+        "total_tokens": 713,
+        "estimated_cost_usd": 0.000142
+      }
+    },
+    {
+      "knowledge_point_id": 7,
+      "topic": "Final Project Requirements",
+      "summary": "Details on the requirements for the final project submission.",
+      "position_index_1based": 7,
+      "position_phase": "middle",
+      "current_student_ci": "i",
+      "current_student_speaker_count": 2,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": true,
+      "rule_reason": "Expected level upgraded to I because either I behavior already exists or C ratio reached at least 50%.",
+      "expected_ci_level": "i",
+      "expected_reason": "Encouraging dialogue about project requirements fosters collaborative understanding and clarifies expectations.",
+      "suggested_question": "What specific elements of your final project do you think will require the most documentation, and why?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 976,
+        "completion_tokens": 71,
+        "total_tokens": 1047,
+        "estimated_cost_usd": 0.000189
+      }
+    },
+    {
+      "knowledge_point_id": 8,
+      "topic": "Material Recommendations",
+      "summary": "Recommendations for materials needed for the projects.",
+      "position_index_1based": 8,
+      "position_phase": "late",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "Students need to independently identify and summarize the specific materials required for their projects, demonstrating their understanding of the instructions.",
+      "suggested_question": "Can you list the specific materials you need for your project and explain why each one is necessary?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 633,
+        "completion_tokens": 79,
+        "total_tokens": 712,
+        "estimated_cost_usd": 0.000142
+      }
+    },
+    {
+      "knowledge_point_id": 9,
+      "topic": "Drawing Quality Feedback",
+      "summary": "Feedback on the quality of drawings submitted by students.",
+      "position_index_1based": 9,
+      "position_phase": "late",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "This knowledge point encourages students to produce their own feedback on drawing quality, which enhances their understanding and application of the concepts discussed.",
+      "suggested_question": "Based on the feedback provided, what specific qualities would you look for in your own drawing to ensure it meets the project requirements?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 771,
+        "completion_tokens": 84,
+        "total_tokens": 855,
+        "estimated_cost_usd": 0.000166
+      }
+    },
+    {
+      "knowledge_point_id": 10,
+      "topic": "Design Process and Narrative",
+      "summary": "Importance of narrative in design and how to approach titling projects.",
+      "position_index_1based": 10,
+      "position_phase": "late",
+      "current_student_ci": "i",
+      "current_student_speaker_count": 3,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": true,
+      "rule_reason": "Expected level upgraded to I because either I behavior already exists or C ratio reached at least 50%.",
+      "expected_ci_level": "i",
+      "expected_reason": "The dialogue among students promotes collaborative learning and deeper understanding of the design process.",
+      "suggested_question": "How can you each contribute to improving the narrative of your projects, and what specific elements do you think are essential to include?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 4315,
+        "completion_tokens": 78,
+        "total_tokens": 4393,
+        "estimated_cost_usd": 0.000694
+      }
+    },
+    {
+      "knowledge_point_id": 11,
+      "topic": "Cheating and Academic Integrity",
+      "summary": "Discussion on academic integrity and the consequences of cheating.",
+      "position_index_1based": 11,
+      "position_phase": "late",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 1,
+      "current_c_ratio": 0.033,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.033 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "This knowledge point emphasizes the importance of understanding academic integrity, which requires students to reflect on their own values and produce original thoughts about the consequences of cheating.",
+      "suggested_question": "What are three potential consequences of cheating that you believe could impact a student's future?",
+      "expected_confidence": 0.0,
+      "efficiency": {
+        "prompt_tokens": 743,
+        "completion_tokens": 84,
+        "total_tokens": 827,
+        "estimated_cost_usd": 0.000162
+      }
+    }
+  ]
+}

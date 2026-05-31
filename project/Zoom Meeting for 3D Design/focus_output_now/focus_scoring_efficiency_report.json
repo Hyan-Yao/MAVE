@@ -1,0 +1,135 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "max_workers": 10,
+  "elapsed_sec": 140.972,
+  "requests": 178,
+  "total_prompt_tokens": 216631,
+  "total_completion_tokens": 21509,
+  "total_tokens": 238140,
+  "req_per_sec": 1.262658,
+  "tokens_per_sec": 1689.266,
+  "prompt_cost_per_1m": 0.15,
+  "completion_cost_per_1m": 0.6,
+  "estimated_prompt_cost_usd": 0.032495,
+  "estimated_completion_cost_usd": 0.012905,
+  "estimated_total_cost_usd": 0.0454,
+  "total_candidate_grids": 178,
+  "total_success_grids": 178,
+  "success_ratio": 1.0,
+  "window_metrics": [
+    {
+      "window_label": "0m_3m",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 13.336
+    },
+    {
+      "window_label": "3m_6m",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 9.272
+    },
+    {
+      "window_label": "6m_9m",
+      "candidate_grids": 10,
+      "successful_grids": 10,
+      "elapsed_sec": 11.146
+    },
+    {
+      "window_label": "9m_12m",
+      "candidate_grids": 10,
+      "successful_grids": 10,
+      "elapsed_sec": 8.192
+    },
+    {
+      "window_label": "12m_15m",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 5.577
+    },
+    {
+      "window_label": "15m_21m",
+      "candidate_grids": 10,
+      "successful_grids": 10,
+      "elapsed_sec": 5.28
+    },
+    {
+      "window_label": "21m_24m",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 7.879
+    },
+    {
+      "window_label": "24m_27m",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 11.583
+    },
+    {
+      "window_label": "27m_30m",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 18.629
+    },
+    {
+      "window_label": "30m_33m",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 9.33
+    },
+    {
+      "window_label": "33m_36m",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 4.087
+    },
+    {
+      "window_label": "36m_39m",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 4.608
+    },
+    {
+      "window_label": "39m_42m",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 3.942
+    },
+    {
+      "window_label": "42m_45m",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 3.649
+    },
+    {
+      "window_label": "45m_48m",
+      "candidate_grids": 12,
+      "successful_grids": 12,
+      "elapsed_sec": 5.03
+    },
+    {
+      "window_label": "48m_51m",
+      "candidate_grids": 10,
+      "successful_grids": 10,
+      "elapsed_sec": 3.961
+    },
+    {
+      "window_label": "51m_54m",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 3.806
+    },
+    {
+      "window_label": "54m_57m",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 3.937
+    },
+    {
+      "window_label": "57m_60m",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 7.729
+    }
+  ]
+}

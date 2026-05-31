@@ -1,0 +1,459 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "max_workers": 20,
+  "elapsed_sec": 860.446,
+  "requests": 1532,
+  "total_prompt_tokens": 73930786,
+  "total_completion_tokens": 295076,
+  "total_tokens": 74225862,
+  "req_per_sec": 1.780471,
+  "tokens_per_sec": 86264.37,
+  "prompt_cost_per_1m": 0.15,
+  "completion_cost_per_1m": 0.6,
+  "estimated_prompt_cost_usd": 11.089618,
+  "estimated_completion_cost_usd": 0.177046,
+  "estimated_total_cost_usd": 11.266663,
+  "total_candidate_grids": 1532,
+  "total_success_grids": 1532,
+  "success_ratio": 1.0,
+  "minute_metrics": [
+    {
+      "minute_id": "minute_00",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 11.161
+    },
+    {
+      "minute_id": "minute_01",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 12.595
+    },
+    {
+      "minute_id": "minute_02",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 8.377
+    },
+    {
+      "minute_id": "minute_03",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 18.284
+    },
+    {
+      "minute_id": "minute_04",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 18.973
+    },
+    {
+      "minute_id": "minute_05",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 13.213
+    },
+    {
+      "minute_id": "minute_06",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 12.109
+    },
+    {
+      "minute_id": "minute_07",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 11.101
+    },
+    {
+      "minute_id": "minute_08",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 10.477
+    },
+    {
+      "minute_id": "minute_09",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 9.527
+    },
+    {
+      "minute_id": "minute_10",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 13.526
+    },
+    {
+      "minute_id": "minute_11",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 26.0
+    },
+    {
+      "minute_id": "minute_12",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 23.324
+    },
+    {
+      "minute_id": "minute_13",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 12.477
+    },
+    {
+      "minute_id": "minute_14",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 12.432
+    },
+    {
+      "minute_id": "minute_15",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 11.433
+    },
+    {
+      "minute_id": "minute_16",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 11.405
+    },
+    {
+      "minute_id": "minute_17",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 10.95
+    },
+    {
+      "minute_id": "minute_18",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 10.451
+    },
+    {
+      "minute_id": "minute_19",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 9.979
+    },
+    {
+      "minute_id": "minute_20",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 11.522
+    },
+    {
+      "minute_id": "minute_21",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 13.62
+    },
+    {
+      "minute_id": "minute_22",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 20.794
+    },
+    {
+      "minute_id": "minute_23",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 14.234
+    },
+    {
+      "minute_id": "minute_24",
+      "candidate_grids": 16,
+      "successful_grids": 16,
+      "elapsed_sec": 6.099
+    },
+    {
+      "minute_id": "minute_25",
+      "candidate_grids": 20,
+      "successful_grids": 20,
+      "elapsed_sec": 13.968
+    },
+    {
+      "minute_id": "minute_26",
+      "candidate_grids": 17,
+      "successful_grids": 17,
+      "elapsed_sec": 15.108
+    },
+    {
+      "minute_id": "minute_27",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 19.808
+    },
+    {
+      "minute_id": "minute_28",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 8.836
+    },
+    {
+      "minute_id": "minute_29",
+      "candidate_grids": 11,
+      "successful_grids": 11,
+      "elapsed_sec": 12.53
+    },
+    {
+      "minute_id": "minute_30",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 7.614
+    },
+    {
+      "minute_id": "minute_31",
+      "candidate_grids": 9,
+      "successful_grids": 9,
+      "elapsed_sec": 6.589
+    },
+    {
+      "minute_id": "minute_32",
+      "candidate_grids": 11,
+      "successful_grids": 11,
+      "elapsed_sec": 8.154
+    },
+    {
+      "minute_id": "minute_33",
+      "candidate_grids": 11,
+      "successful_grids": 11,
+      "elapsed_sec": 6.702
+    },
+    {
+      "minute_id": "minute_34",
+      "candidate_grids": 11,
+      "successful_grids": 11,
+      "elapsed_sec": 7.711
+    },
+    {
+      "minute_id": "minute_35",
+      "candidate_grids": 11,
+      "successful_grids": 11,
+      "elapsed_sec": 17.641
+    },
+    {
+      "minute_id": "minute_36",
+      "candidate_grids": 11,
+      "successful_grids": 11,
+      "elapsed_sec": 11.165
+    },
+    {
+      "minute_id": "minute_37",
+      "candidate_grids": 17,
+      "successful_grids": 17,
+      "elapsed_sec": 8.088
+    },
+    {
+      "minute_id": "minute_38",
+      "candidate_grids": 16,
+      "successful_grids": 16,
+      "elapsed_sec": 10.541
+    },
+    {
+      "minute_id": "minute_39",
+      "candidate_grids": 16,
+      "successful_grids": 16,
+      "elapsed_sec": 10.377
+    },
+    {
+      "minute_id": "minute_40",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 10.526
+    },
+    {
+      "minute_id": "minute_41",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 18.288
+    },
+    {
+      "minute_id": "minute_42",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 11.878
+    },
+    {
+      "minute_id": "minute_43",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 8.033
+    },
+    {
+      "minute_id": "minute_44",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 9.264
+    },
+    {
+      "minute_id": "minute_45",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 18.171
+    },
+    {
+      "minute_id": "minute_46",
+      "candidate_grids": 22,
+      "successful_grids": 22,
+      "elapsed_sec": 8.421
+    },
+    {
+      "minute_id": "minute_47",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 6.638
+    },
+    {
+      "minute_id": "minute_48",
+      "candidate_grids": 24,
+      "successful_grids": 24,
+      "elapsed_sec": 7.45
+    },
+    {
+      "minute_id": "minute_49",
+      "candidate_grids": 24,
+      "successful_grids": 24,
+      "elapsed_sec": 17.84
+    },
+    {
+      "minute_id": "minute_50",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 9.73
+    },
+    {
+      "minute_id": "minute_51",
+      "candidate_grids": 24,
+      "successful_grids": 24,
+      "elapsed_sec": 16.684
+    },
+    {
+      "minute_id": "minute_52",
+      "candidate_grids": 24,
+      "successful_grids": 24,
+      "elapsed_sec": 10.08
+    },
+    {
+      "minute_id": "minute_53",
+      "candidate_grids": 24,
+      "successful_grids": 24,
+      "elapsed_sec": 8.474
+    },
+    {
+      "minute_id": "minute_54",
+      "candidate_grids": 24,
+      "successful_grids": 24,
+      "elapsed_sec": 8.541
+    },
+    {
+      "minute_id": "minute_55",
+      "candidate_grids": 24,
+      "successful_grids": 24,
+      "elapsed_sec": 11.593
+    },
+    {
+      "minute_id": "minute_56",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 13.744
+    },
+    {
+      "minute_id": "minute_57",
+      "candidate_grids": 21,
+      "successful_grids": 21,
+      "elapsed_sec": 11.299
+    },
+    {
+      "minute_id": "minute_58",
+      "candidate_grids": 7,
+      "successful_grids": 7,
+      "elapsed_sec": 10.0
+    },
+    {
+      "minute_id": "minute_59",
+      "candidate_grids": 7,
+      "successful_grids": 7,
+      "elapsed_sec": 5.312
+    },
+    {
+      "minute_id": "minute_60",
+      "candidate_grids": 15,
+      "successful_grids": 15,
+      "elapsed_sec": 28.149
+    },
+    {
+      "minute_id": "minute_61",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 6.793
+    },
+    {
+      "minute_id": "minute_62",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 10.167
+    },
+    {
+      "minute_id": "minute_63",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 7.45
+    },
+    {
+      "minute_id": "minute_64",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 7.148
+    },
+    {
+      "minute_id": "minute_65",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 9.029
+    },
+    {
+      "minute_id": "minute_66",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 18.946
+    },
+    {
+      "minute_id": "minute_67",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 7.86
+    },
+    {
+      "minute_id": "minute_68",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 6.874
+    },
+    {
+      "minute_id": "minute_69",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 7.911
+    },
+    {
+      "minute_id": "minute_70",
+      "candidate_grids": 23,
+      "successful_grids": 23,
+      "elapsed_sec": 9.34
+    },
+    {
+      "minute_id": "minute_71",
+      "candidate_grids": 24,
+      "successful_grids": 24,
+      "elapsed_sec": 9.955
+    },
+    {
+      "minute_id": "minute_72",
+      "candidate_grids": 25,
+      "successful_grids": 25,
+      "elapsed_sec": 9.964
+    }
+  ]
+}

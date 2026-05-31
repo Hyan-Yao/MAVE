@@ -1,0 +1,82 @@
+{
+  "inputs": {
+    "segments_json": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/icap_output/icap_split_free/knowledge_segments_global_free.json",
+    "writing_behavior_json": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/writing_behavior.json"
+  },
+  "outputs": {
+    "student_json": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/backbone_sensitivity/gpt-4o/stem/knowledge_segments_global_classification.json",
+    "teacher_json": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/backbone_sensitivity/gpt-4o/stem/teacher_current_ci_by_knowledge.json",
+    "expect_json": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/backbone_sensitivity/gpt-4o/stem/teacher_expected_ci_by_knowledge.json",
+    "suggestion_json": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/backbone_sensitivity/gpt-4o/stem/icap_suggestions.json"
+  },
+  "config": {
+    "class_size": 30,
+    "model_override": "openai/gpt-4o",
+    "max_workers_override": null,
+    "only_suggestion": false
+  },
+  "step_elapsed_sec": {
+    "icap_student_sec": 9.812,
+    "icap_teacher_sec": 14.048,
+    "icap_expect_sec": 3.859,
+    "icap_suggestion_sec": 7.676
+  },
+  "total_elapsed_sec": 35.396,
+  "efficiency_from_steps": {
+    "student": {
+      "elapsed_sec": 9.528,
+      "pricing_model_reference": "openai/gpt-4o",
+      "prompt_cost_per_1m": 3.0,
+      "completion_cost_per_1m": 15.0,
+      "prompt_tokens": 15989,
+      "completion_tokens": 2248,
+      "total_tokens": 18237,
+      "estimated_total_cost_usd": 0.081687
+    },
+    "teacher": {
+      "elapsed_sec": 14.043,
+      "request_count": 11,
+      "pricing_model_reference": "openai/gpt-4o",
+      "prompt_cost_per_1m": 3.0,
+      "completion_cost_per_1m": 15.0,
+      "prompt_tokens": 14577,
+      "completion_tokens": 2393,
+      "total_tokens": 16970,
+      "avg_prompt_tokens_per_req": 1325.182,
+      "avg_completion_tokens_per_req": 217.545,
+      "avg_total_tokens_per_req": 1542.727,
+      "throughput_tokens_per_sec": 1208.431,
+      "estimated_total_cost_usd": 0.079626
+    },
+    "expect": {
+      "elapsed_sec": 3.856,
+      "request_count": 11,
+      "pricing_model_reference": "openai/gpt-4o",
+      "prompt_cost_per_1m": 3.0,
+      "completion_cost_per_1m": 15.0,
+      "prompt_tokens": 11904,
+      "completion_tokens": 983,
+      "total_tokens": 12887,
+      "avg_prompt_tokens_per_req": 1082.182,
+      "avg_completion_tokens_per_req": 89.364,
+      "avg_total_tokens_per_req": 1171.545,
+      "throughput_tokens_per_sec": 3342.064,
+      "estimated_total_cost_usd": 0.050457
+    },
+    "suggestion": {
+      "total_elapsed_ms": 7672,
+      "total_elapsed_sec": 7.672,
+      "avg_kp_elapsed_ms": 6605,
+      "total_prompt_tokens": 15455,
+      "total_completion_tokens": 3308,
+      "total_tokens": 18763,
+      "estimated_total_cost_usd": 0.095985,
+      "throughput_kp_per_min": 86.027,
+      "pricing": {
+        "prompt_cost_per_1m": 3.0,
+        "completion_cost_per_1m": 15.0
+      },
+      "pricing_note": "Estimated cost based on token usage and configurable per-1M-token pricing."
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "inputs": {
+    "segments_json": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/icap_output/icap_split_free/knowledge_segments_global_free.json",
+    "writing_behavior_json": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/writing_behavior.json"
+  },
+  "outputs": {
+    "student_json": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/backbone_sensitivity/claude-4.5-sonnet/stem2/knowledge_segments_global_classification.json",
+    "teacher_json": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/backbone_sensitivity/claude-4.5-sonnet/stem2/teacher_current_ci_by_knowledge.json",
+    "expect_json": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/backbone_sensitivity/claude-4.5-sonnet/stem2/teacher_expected_ci_by_knowledge.json",
+    "suggestion_json": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/backbone_sensitivity/claude-4.5-sonnet/stem2/icap_suggestions.json"
+  },
+  "config": {
+    "class_size": 30,
+    "model_override": "anthropic/claude-4.5-sonnet",
+    "max_workers_override": null,
+    "only_suggestion": false
+  },
+  "step_elapsed_sec": {
+    "icap_student_sec": 23.784,
+    "icap_teacher_sec": 22.142,
+    "icap_expect_sec": 6.594,
+    "icap_suggestion_sec": 33.354
+  },
+  "total_elapsed_sec": 85.875,
+  "efficiency_from_steps": {
+    "student": {
+      "elapsed_sec": 23.488,
+      "pricing_model_reference": "anthropic/claude-4.5-sonnet",
+      "prompt_cost_per_1m": 3.0,
+      "completion_cost_per_1m": 15.0,
+      "prompt_tokens": 17952,
+      "completion_tokens": 3992,
+      "total_tokens": 21944,
+      "estimated_total_cost_usd": 0.113736
+    },
+    "teacher": {
+      "elapsed_sec": 22.136,
+      "request_count": 11,
+      "pricing_model_reference": "anthropic/claude-4.5-sonnet",
+      "prompt_cost_per_1m": 3.0,
+      "completion_cost_per_1m": 15.0,
+      "prompt_tokens": 16083,
+      "completion_tokens": 4809,
+      "total_tokens": 20892,
+      "avg_prompt_tokens_per_req": 1462.091,
+      "avg_completion_tokens_per_req": 437.182,
+      "avg_total_tokens_per_req": 1899.273,
+      "throughput_tokens_per_sec": 943.802,
+      "estimated_total_cost_usd": 0.120384
+    },
+    "expect": {
+      "elapsed_sec": 6.59,
+      "request_count": 11,
+      "pricing_model_reference": "anthropic/claude-4.5-sonnet",
+      "prompt_cost_per_1m": 3.0,
+      "completion_cost_per_1m": 15.0,
+      "prompt_tokens": 13233,
+      "completion_tokens": 1441,
+      "total_tokens": 14674,
+      "avg_prompt_tokens_per_req": 1203.0,
+      "avg_completion_tokens_per_req": 131.0,
+      "avg_total_tokens_per_req": 1334.0,
+      "throughput_tokens_per_sec": 2226.707,
+      "estimated_total_cost_usd": 0.061314
+    },
+    "suggestion": {
+      "total_elapsed_ms": 33350,
+      "total_elapsed_sec": 33.35,
+      "avg_kp_elapsed_ms": 25436,
+      "total_prompt_tokens": 18248,
+      "total_completion_tokens": 9683,
+      "total_tokens": 27931,
+      "estimated_total_cost_usd": 0.199989,
+      "throughput_kp_per_min": 19.79,
+      "pricing": {
+        "prompt_cost_per_1m": 3.0,
+        "completion_cost_per_1m": 15.0
+      },
+      "pricing_note": "Estimated cost based on token usage and configurable per-1M-token pricing."
+    }
+  }
+}

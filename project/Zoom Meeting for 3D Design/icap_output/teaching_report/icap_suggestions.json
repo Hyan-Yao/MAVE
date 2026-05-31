@@ -1,0 +1,307 @@
+{
+  "model": "gpt-4.1-mini",
+  "class_size": 30,
+  "efficiency_summary": {
+    "total_elapsed_ms": 15716,
+    "total_elapsed_sec": 15.716,
+    "avg_kp_elapsed_ms": 11870,
+    "total_prompt_tokens": 16567,
+    "total_completion_tokens": 5535,
+    "total_tokens": 22102,
+    "estimated_total_cost_usd": 0.16586,
+    "throughput_kp_per_min": 41.995,
+    "pricing": {
+      "prompt_cost_per_1m": 5.0,
+      "completion_cost_per_1m": 15.0
+    },
+    "pricing_note": "Estimated cost based on token usage and configurable per-1M-token pricing."
+  },
+  "results": [
+    {
+      "knowledge_point_id": 1,
+      "topic": "Project Overview",
+      "student_current_ci": "p/a",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 0,
+        "end_minute": 1,
+        "a_total_hits": 3,
+        "a_trend": "rising"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The highest cognitive level among currently speaking students does not reach the target constructive mode (C). The transcript shows the teacher asking questions expecting responses ('has anybody started the project yet', 'have you all turned in your assignment drawing'), but no students actively speak or produce visible outputs (Active Speakers = 0, Coverage = 0.0%). The behavior signals mostly indicate passive or minimal active engagement (total_hits=3, trend rising), but no evidence of individual cognitive construction such as student-generated explanations or produced artifacts. This bottleneck is due to the entire class remaining silent without any student-generated outputs, as demonstrated by the transcript snippet: 'okay so um has uh has anybody started the project yet...'. The teacher's talk dominates, and students have not yet individually constructed knowledge or work products.",
+      "proposed_rewrite": "Redesign the project overview segment to incorporate an individual cognitive construction task immediately after the initial briefing. For example, after explaining the project, prompt each student to independently sketch a detailed plan or step-by-step outline of how they will execute the foam board cutting and assembly. Have them write or draw this plan privately in their notebooks or on individual digital devices, emphasizing the importance of personal knowledge construction without collaboration. This shift ensures each student moves from passive listening to active cognitive construction autonomously.",
+      "scaffolding_strategy": "1. Introduce an individual reflection and planning phase: After explaining the project requirements, instruct students to independently draft a detailed plan or diagram of their project execution steps, without any peer interaction. Provide guiding prompts to scaffold their construction, such as 'List each step you will take to cut and assemble the foam board and explain why.' 2. Implement personalized teacher probing: Circulate to privately ask individual students targeted questions that require them to elaborate on their independent plans, reasoning, and anticipated challenges, thereby eliciting solitary cognitive outputs and deeper individual processing.",
+      "new_question": "Please independently describe, in writing or drawing, your step-by-step plan for completing the foam board cutting and assembly for this project. What are the key stages, and how will you ensure accuracy and efficiency in your work?",
+      "reference_answer": "My plan starts with measuring and marking the foam board according to the project dimensions. Next, I will carefully cut along the marked lines using the cutting tool, ensuring straight edges. Then, I will assemble the pieces by aligning edges and securing them with glue, allowing adequate drying time. Throughout, I will double-check measurements and angles to maintain accuracy and prevent mistakes that could affect the final structure.",
+      "efficiency": {
+        "elapsed_ms": 13871,
+        "prompt_tokens": 852,
+        "completion_tokens": 543,
+        "total_tokens": 1395,
+        "estimated_cost_usd": 0.012405
+      }
+    },
+    {
+      "knowledge_point_id": 2,
+      "topic": "Foam Board Cutting Tips",
+      "student_current_ci": "c",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 1,
+        "end_minute": 3,
+        "a_total_hits": 4,
+        "a_trend": "falling"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The highest cognitive level among currently speaking students is 'c' (Constructive). Although three students have actively spoken (about 10% coverage), this participation is limited to brief responses and recognition of common cutting issues without individual cognitive construction of knowledge. The transcript shows the teacher diagnosing typical problems and giving tips, but students have not yet independently generated knowledge or produced individual outputs, e.g., personal reflections or individual problem-solving: \"okay so have any of you had trouble cutting the foam board all right i see one i see two three\". This suggests that while some students are vocal, most remain silent and the class-wide cognitive engagement is bottlenecked by low active contributions and lack of individual knowledge construction.",
+      "proposed_rewrite": "Transform the activity by inviting each student to independently produce a personal diagnostic log of their foam board cutting attempts, identifying their unique challenges and strategies used. This could be facilitated through a written or drawn self-reflection task where students individually analyze their technique, blade condition, and pressure applied, without any peer interaction or discussion. This shift prioritizes solitary cognitive construction and authentic knowledge generation aligned with target Mode C.",
+      "scaffolding_strategy": "1) Individual Reflection Journaling: Prompt students to silently write a detailed reflection about their personal experience with foam board cutting, explicitly requiring them to identify the problem causes they encountered and propose tailored solutions based on the teacher's tips. 2) Solo Visual Mapping: Require each student to create an independent process map or diagram illustrating their step-by-step approach to cutting foam board and highlighting potential pitfalls, ensuring that this is done alone to foster individual cognitive construction.",
+      "new_question": "Can you independently describe your specific challenges when cutting foam board and outline a personalized step-by-step strategy you would use to improve your technique based on what you have learned so far?",
+      "reference_answer": "When I cut the foam board, I noticed that my blade was dull, which made it hard to get a clean cut. I also realized I was pressing down too hard, which caused jagged edges. To improve, I will first check that my blade is sharp before starting. Then, I will hold the blade at a slight angle and use two to three light passes instead of one hard cut. This method should allow me to cut smoothly and prevent tearing the foam.",
+      "efficiency": {
+        "elapsed_ms": 9775,
+        "prompt_tokens": 1113,
+        "completion_tokens": 507,
+        "total_tokens": 1620,
+        "estimated_cost_usd": 0.01317
+      }
+    },
+    {
+      "knowledge_point_id": 3,
+      "topic": "Design Composition Advice",
+      "student_current_ci": "p/a",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 3,
+        "end_minute": 7,
+        "a_total_hits": 5,
+        "a_trend": "stable"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The current student cognitive interaction level hovers between passive and active (p/a), without any student-generated outputs indicating constructive engagement. Active speakers count is zero, meaning no students are verbalizing their own reasoning or constructing knowledge independently. The transcript shows the instructor primarily delivering explanations and advice (e.g., '...you should probably just start cutting already...' and '...this is what I mean...'), but there is no evidence of students individually producing or verbalizing their own design compositions or reflections. This lack of student verbal or visible solo cognitive construction bottlenecks progression to Constructive mode.",
+      "proposed_rewrite": "Transform the lesson by embedding tasks that require each student to independently produce a design composition artifact or a reflective sketch applying the instructor’s principles of asymmetry, continuance, and avoiding static symmetry. Instead of solely lecturing, the teacher should prompt students to pause and individually draft or revise a design, explicitly articulating their reasoning in writing or drawing without any peer interaction. This shift from listening to solo cognitive output will scaffold the transition to Constructive mode.",
+      "scaffolding_strategy": "1. Individual Design Reflection Task: After the explanation of key concepts (e.g., static composition, continuance), prompt each student to create a quick individual sketch or diagram illustrating their understanding of how to avoid symmetry and incorporate movement, with a brief written rationale for their design choices. This must be done silently and independently.\n2. Teacher Probing of Solo Student Reasoning: Select individual students randomly and ask them to orally explain their design decisions and how they applied the principles, emphasizing solo, uninterrupted cognitive construction. Ensure no peer interaction is involved by focusing questions on the individual’s unique work and thought process.",
+      "new_question": "Can you individually describe and illustrate how you adjusted your design to avoid static symmetry and create a sense of movement, explaining your choices without referring to anyone else's work?",
+      "reference_answer": "In my revised design, I moved the main shape off-center towards the left to break symmetry and create visual interest. I also extended one form slightly beyond the frame edge to demonstrate continuance, making the composition feel like it extends beyond the boundary. I avoided placing identical elements on opposite sides to prevent it from appearing static. These choices create a dynamic flow and avoid the design feeling 'stuck' in the middle.",
+      "efficiency": {
+        "elapsed_ms": 9777,
+        "prompt_tokens": 1365,
+        "completion_tokens": 500,
+        "total_tokens": 1865,
+        "estimated_cost_usd": 0.014325
+      }
+    },
+    {
+      "knowledge_point_id": 4,
+      "topic": "Office Hours Announcement",
+      "student_current_ci": "p/a",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 7,
+        "end_minute": 8,
+        "a_total_hits": 4,
+        "a_trend": "falling"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The current cognitive level among all students remains at passive/active (p/a) with no active speakers (Active Speakers=0), indicating zero individual cognitive construction. The transcript shows the instructor mainly announcing the office hours and asking students to write down the information ('maybe you should write this down'), which is an A-level prompt at best, not requiring students to generate their own understanding or produce novel outputs. No student-generated outputs or reasoning are evident. The coverage is bottlenecked because none of the 30 students are verbally or cognitively contributing beyond listening or minimal note-taking, and the falling trend in 'Action A' behaviors suggests diminishing even low-level engagement.",
+      "proposed_rewrite": "Transform the office hours announcement into an individual cognitive construction task by asking each student to independently create a personalized office hour attendance plan based on their own schedules and course needs. This requires them to analyze the given information, synthesize how it fits their personal context, and produce an original written plan or schedule. For example, the teacher can prompt students to individually map out which office hour sessions they will attend and justify their choices in writing.",
+      "scaffolding_strategy": "1) Provide students with a blank weekly calendar template and instruct them to individually plot feasible office hour sessions, explicitly requiring written justification for each selected time slot to ensure cognitive construction. 2) Use individual reflection prompts such as 'After mapping your plan, write a short paragraph explaining how attending these office hours will help you with your specific learning goals or challenges.' Both strategies forbid any peer interaction, ensuring solo knowledge generation aligned with Mode C.",
+      "new_question": "Independently draft your personal office hours attendance plan by selecting which sessions you will attend from the options given and write a brief explanation for why you chose those specific times based on your learning needs.",
+      "reference_answer": "I plan to attend the Monday 6-8 pm and Wednesday 10 am-noon office hours because I have classes on Tuesday and Friday mornings, making those times most convenient. Attending these sessions will help me clarify questions from last week's lectures and prepare for the upcoming project, as I struggle with applying the concepts discussed in class.",
+      "efficiency": {
+        "elapsed_ms": 15206,
+        "prompt_tokens": 881,
+        "completion_tokens": 467,
+        "total_tokens": 1348,
+        "estimated_cost_usd": 0.01141
+      }
+    },
+    {
+      "knowledge_point_id": 5,
+      "topic": "Encouragement to Attend Office Hours",
+      "student_current_ci": "i",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "i",
+      "a_behavior": {
+        "start_minute": 8,
+        "end_minute": 12,
+        "a_total_hits": 5,
+        "a_trend": "stable"
+      },
+      "target_mode": "i",
+      "gap_diagnosis": "The cognitive level among the currently speaking students is at the Interactive (i) target mode, as reflected by the instructor's explicit encouragement for students to come to office hours where they can eavesdrop or join conversations with others, facilitating peer-to-peer interaction: 'you can eavesdrop and listen or join in to the conversation... when there's a bunch of brains together looking at the same thing and everybody has suggestions.' However, only 2 out of 30 students (6.7%) are actively speaking, indicating very limited participation. This bottleneck suggests that while the environment for interactive learning is set up, the majority of students remain silent and do not engage in the interactive behaviors intended. The transcript also shows low direct student outputs, mostly instructor monologue, so the behavior has not yet converted widely into peer-to-peer dialogue.",
+      "proposed_rewrite": "To transition fully into the Interactive mode across more students, the instructor should explicitly design structured interactive activities during office hours or class time that require verbal peer exchanges, such as real-time problem-solving rounds, debate prompts, or partnered case analyses, where students must actively communicate and respond to each other. Additionally, the instructor can use breakout rooms with rotating partners and assign roles to ensure all students participate in dialogue. Incentivizing attendance by tying participation to small credit or recognition may also increase uptake. Embedding technology tools (e.g., shared whiteboards, discussion boards) that facilitate visible student-to-student interaction can further support scaling interactive engagement beyond the current minimal speaker count.",
+      "scaffolding_strategy": "1. Implement a structured 'Interactive Office Hour Challenge' where students enter breakout sessions for 5-7 minutes with randomly assigned peers to collaboratively solve a problem posed by the instructor, then return to the main session to report findings. This guarantees mandatory verbal interaction and cognitive exchange consistent with Mode I.\n2. Create a rotating 'Peer Explainer' role each week where individual students prepare and lead a short explanation or demonstration of a concept to a partner via a one-on-one video call during office hours, encouraging dyadic dialogue and knowledge co-construction strictly between two peers, satisfying interactive mode criteria.",
+      "new_question": "Can you explain to your assigned peer how you approached solving the last project problem and then listen to their reasoning to identify any different strategies they used?",
+      "reference_answer": "I started by breaking down the project problem into smaller steps and then applying the formulas we learned in class. When I explained my approach to my peer, they suggested an alternative method using a different equation, which helped me see the problem from another angle and improved my understanding.",
+      "efficiency": {
+        "elapsed_ms": 11100,
+        "prompt_tokens": 1316,
+        "completion_tokens": 558,
+        "total_tokens": 1874,
+        "estimated_cost_usd": 0.01495
+      }
+    },
+    {
+      "knowledge_point_id": 6,
+      "topic": "Project Submission Guidelines",
+      "student_current_ci": "p/a",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 12,
+        "end_minute": 14,
+        "a_total_hits": 1,
+        "a_trend": "falling"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The current cognitive interaction remains at the Passive/Active (p/a) level with zero active speakers (coverage: 0.0%), indicating no student is individually constructing knowledge. The instructor is primarily lecturing and demonstrating how to submit projects, saying, for example, 'you click on that and um um okay when let's see...' but no student-generated outputs or individual reflections are observed. The single 'A' behavior hit is falling, showing minimal engagement that does not yet translate into cognitive construction. Hence, the level has not reached the Constructive mode because students are not independently producing knowledge or artifacts.",
+      "proposed_rewrite": "After explaining the submission process, assign each student an individual reflection task where they independently map the step-by-step submission workflow and create a personal checklist for their project photo angles and upload details, without any peer discussion. This reframes the task from passive listening to solo cognitive construction, ensuring each student actively generates their own understanding and artifact about the submission guidelines.",
+      "scaffolding_strategy": "1. Prompt students to individually create a detailed submission plan: ask them to draw or write their own stepwise flowchart illustrating how to submit their project with the required photo angles, ensuring no collaboration or discussion is involved.\n2. Use focused teacher questioning targeted at a single student at a time, asking them to verbally explain their personal submission plan and photo strategy, thereby eliciting individual construction and articulation of knowledge without peer input.",
+      "new_question": "Can you individually outline and describe the exact steps you will take to submit your project, including how you will capture and upload the required photos? Please explain your plan aloud without referencing others.",
+      "reference_answer": "First, I will log into the module and navigate to the Project One submission area. Then, I will click 'submit assignment' to upload files. For the photos, I will take four pictures of my project, each at approximately 45-degree intervals around it to show its volume clearly, not just from the top. Finally, I will upload these pictures as my project submission, ensuring all files are correctly attached before confirming.",
+      "efficiency": {
+        "elapsed_ms": 9397,
+        "prompt_tokens": 976,
+        "completion_tokens": 454,
+        "total_tokens": 1430,
+        "estimated_cost_usd": 0.01169
+      }
+    },
+    {
+      "knowledge_point_id": 7,
+      "topic": "Final Project Requirements",
+      "student_current_ci": "i",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "i",
+      "a_behavior": {
+        "start_minute": 14,
+        "end_minute": 18,
+        "a_total_hits": 1,
+        "a_trend": "stable"
+      },
+      "target_mode": "i",
+      "gap_diagnosis": "The target ICAP mode is Interactive (i), which requires explicit peer-to-peer interaction. Currently, only 2 out of 30 students (6.7%) are active speakers, indicating extremely low participation and hence limited peer interaction. The transcript shows the instructor delivering information and briefly responding to two student questions, but no evidence of student-to-student dialogue or collaborative exchange. Thus, while some A-level behaviors (asking questions) occur, the interactive mode is bottlenecked by the very low number of active participants and absence of peer interaction outputs.",
+      "proposed_rewrite": "To transition into mode I, redesign the final project session to include structured peer-to-peer exchanges such as paired debates on project approaches, small-group critique rounds (with teacher monitoring to ensure individual voice), or a jigsaw activity where students gather distinct information and then share it in rotating dyads. Explicitly prompt students to articulate their reasoning and respond to peers’ ideas. Incorporate digital breakout rooms or think-pair-share structures with strict teacher facilitation to build trust and model interactive dialogue norms.",
+      "scaffolding_strategy": "1) Implement a 'Peer Critique Carousel' where each student individually presents their project plan in a timed mini-dialogue with a rotating partner, focusing on constructive questioning and feedback, monitored by the teacher to ensure interaction quality and student accountability. 2) Use a 'Debate Duo' format where students independently prepare a stance on a project-related issue, then engage in a structured back-and-forth debate with a peer, emphasizing evidence-based argumentation and active listening, fostering authentic interactive discourse.",
+      "new_question": "\"Can you explain your approach to the final project and then ask your partner how they might improve or modify it, responding to their feedback?\"",
+      "reference_answer": "\"For my final project, I plan to create a mechanical origami model that folds automatically. I will videotape the opening and closing as required. What do you think could make the video documentation clearer?\" \"In your video, maybe you could add a close-up shot of the moving parts to highlight how they function. Also, consider stabilizing the camera to avoid blurriness.\" \"That's a great idea! I hadn't thought about close-ups, and I'll definitely use a tripod to keep the video steady.\"",
+      "efficiency": {
+        "elapsed_ms": 15692,
+        "prompt_tokens": 1317,
+        "completion_tokens": 495,
+        "total_tokens": 1812,
+        "estimated_cost_usd": 0.01401
+      }
+    },
+    {
+      "knowledge_point_id": 8,
+      "topic": "Material Recommendations",
+      "student_current_ci": "c",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 18,
+        "end_minute": 19,
+        "a_total_hits": 0,
+        "a_trend": "stable"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The cognitive level achieved by the single active speaker matches the target Mode C, as the instructor provides detailed procedural instructions and expects students to individually prepare materials and conduct exercises. However, coverage is severely bottlenecked since only 1 out of 30 students (3.3%) is actively speaking or producing cognitive output, while the rest remain silent and passive listeners. The transcript snippet shows the teacher delivering information: 'so what i would like you to get those materials as soon as you can ... you’ll have a few days to do drawings and stuff ... you’ll need the wire for it,' but there is no evidence of individual student-generated knowledge or outputs beyond the single speaker. This limited participation critically constrains the diffusion of Mode C engagement across the whole class.",
+      "proposed_rewrite": "To scale Mode C engagement beyond the single active speaker, integrate individual, accountable tasks during class where each student independently constructs knowledge artifacts such as personalized material lists or sketches of project components. Introduce structured silent reflection pauses prompting students to draft their own detailed preparation plans referencing the exact materials and project steps. Embed individual formative checkpoints where students submit solo drawings or written reflections on how they will acquire and use the materials, ensuring all students cognitively construct the knowledge themselves.",
+      "scaffolding_strategy": "1) Implement an individual silent sketching session immediately after the instructions, where each student independently draws their understanding of the material requirements and the wire exercise setup, without any peer interaction. Collect these sketches to assess individual cognitive construction.\n2) Require each student to write a brief, personalized action plan outlining how they will procure the materials and prepare for the project independently. The teacher then provides individualized written feedback to encourage deeper cognitive processing and ownership of the learning task.",
+      "new_question": "Can you individually describe and draw the exact materials you need to get from Home Depot and explain how you will use them in the upcoming wire exercise before starting the project?",
+      "reference_answer": "I need to get the specific wire sold at Home Depot that comes on a round coil, not the square tube type, because the round wire is easier to bend without kinking. I will use this wire to complete a preliminary exercise before the main project. I plan to buy it by Saturday, so I have a few days to practice bending and shaping the wire according to the project instructions. I have drawn the wire coil and noted the SKU number provided on the project page. This preparation will ensure I am ready to start the project on Monday.",
+      "efficiency": {
+        "elapsed_ms": 11243,
+        "prompt_tokens": 979,
+        "completion_tokens": 533,
+        "total_tokens": 1512,
+        "estimated_cost_usd": 0.01289
+      }
+    },
+    {
+      "knowledge_point_id": 9,
+      "topic": "Drawing Quality Feedback",
+      "student_current_ci": "p/a",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 19,
+        "end_minute": 21,
+        "a_total_hits": 1,
+        "a_trend": "stable"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The highest cognitive level among speaking students has not reached the target 'Constructive' mode, as no students are actively producing individual cognitive outputs; active speaker count is zero, coverage is 0.0%. The transcript is dominated by instructor monologue providing explanations and instructions without eliciting any individual student cognitive construction. For example, the instructor states, 'the answer is no you can't you have to use this wire because what we're trying to do is to emulate a pencil mark on a piece of paper,' but no student-generated knowledge or individual reflections were observed.",
+      "proposed_rewrite": "Transform the lesson from a lecture-style information delivery into an individual hands-on construction task where each student independently creates a visual or written artifact demonstrating their understanding of why specific wire types are required, e.g., an annotated drawing or diagram showing the properties of appropriate wire versus galvanized wire. This focuses students on individually processing and reconstructing the knowledge, rather than passively receiving it.",
+      "scaffolding_strategy": "1) Provide each student with materials and prompt them to independently sketch or diagram the project setup, labeling why the chosen wire type is essential, explicitly forbidding any peer discussion. 2) Incorporate an individual reflection prompt where students write a brief explanation in their own words about the wire choice rationale, with the teacher circulating to pose targeted, personalized probing questions to deepen each student's understanding without invoking peer input.",
+      "new_question": "Can you individually create a labeled diagram or written explanation that shows why galvanized wire cannot be used for this project and how the correct wire type helps emulate a pencil mark?",
+      "reference_answer": "The galvanized wire cannot be used because its surface and color do not replicate the pencil mark effect needed for the project’s aesthetic. The black wire is preferred as it is visible against a white background, inexpensive, and easy to bend, which are necessary to accurately simulate pencil lines. My diagram shows the wire types, properties, and the visual effect each produces.",
+      "efficiency": {
+        "elapsed_ms": 9122,
+        "prompt_tokens": 1112,
+        "completion_tokens": 426,
+        "total_tokens": 1538,
+        "estimated_cost_usd": 0.01195
+      }
+    },
+    {
+      "knowledge_point_id": 10,
+      "topic": "Design Process and Narrative",
+      "student_current_ci": "i",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "i",
+      "a_behavior": {
+        "start_minute": 21,
+        "end_minute": 51,
+        "a_total_hits": 33,
+        "a_trend": "rising"
+      },
+      "target_mode": "i",
+      "gap_diagnosis": "The current active speakers are only 2 out of 30 students, representing a mere 6.7% class coverage, indicating very limited peer interaction. While there is a rising trend in Action 'A' behaviors (total_hits=33), these are primarily individual questions and teacher-student exchanges rather than multi-student interactive dialogue. Transcript excerpts like 'do you have a tip or something for cutting like round shapes like circles?' followed by detailed teacher responses reflect individual constructive engagement but lack explicit student-to-student interaction or debate necessary for Interactive mode. The dialogue remains largely between teacher and individual students without fostering peer-to-peer cognitive co-construction.",
+      "proposed_rewrite": "Introduce structured peer dialogue routines around specific design challenges within the 'Design Process and Narrative' topic by implementing roles such as 'Devil’s Advocate' or 'Idea Expander' in paired or small-group settings. For example, after a student shares their approach to shaping or titling their design, another student is prompted to question or build upon that narrative aloud, facilitating real-time peer negotiation of ideas. Additionally, incorporate digital collaboration tools (discussion boards with mandatory peer reply threads or live breakout rooms) to sustain and record interactive exchanges, explicitly valuing critique and co-construction of meaning around design choices and narratives.",
+      "scaffolding_strategy": "1) Implement 'Interactive Idea Clinics' where two students are paired virtually or physically and take turns presenting their current design narrative and receive probing questions and alternative perspectives from each other, moderated by the teacher to ensure respectful, focused peer-to-peer cognitive engagement. 2) Use 'Debate Circles' where small groups rotate presenting conflicting design decisions or narrative interpretations, encouraging students to defend and revise their project rationale based on peer feedback, fostering rich interactive discourse and collective problem-solving.",
+      "new_question": "Can you explain your design narrative to a classmate and then listen to their interpretation, offering constructive feedback or suggesting an alternative perspective that might improve the story behind their project?",
+      "reference_answer": "Sure, my project narrative is inspired by the idea of transformation through layering shapes to create a sense of evolving language, almost like a new symbolic script. I think this reflects a personal story about communication without words. After hearing your narrative about using organic forms to represent growth, I suggest considering how your shapes might also embody tension or contrast to deepen the emotional impact.",
+      "efficiency": {
+        "elapsed_ms": 11755,
+        "prompt_tokens": 5571,
+        "completion_tokens": 508,
+        "total_tokens": 6079,
+        "estimated_cost_usd": 0.035475
+      }
+    },
+    {
+      "knowledge_point_id": 11,
+      "topic": "Cheating and Academic Integrity",
+      "student_current_ci": "c",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 51,
+        "end_minute": 53,
+        "a_total_hits": 3,
+        "a_trend": "falling"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The highest cognitive level among current speakers is Constructive (c), meeting the target mode. However, only 1 out of 30 students (3.3% coverage) is actively speaking, indicating that this cognitive engagement is highly bottlenecked in a very small subset of students. The transcript segment shows a student independently reflecting on their sketching process and project ideas without any peer interaction, for example: 'i have an idea of what i want my project to be... i was kind of just gonna kind of draw from there... i am drawing from like sketches.' This confirms individual cognitive construction, but the vast majority of students remain silent and unengaged in producing similar outputs.",
+      "proposed_rewrite": "Design a classroom routine where after an initial individual reflection or project ideation, each student independently creates a personal conceptual artifact such as a detailed sketch, mind map, or written reflection on their understanding of academic integrity and cheating. The teacher should then individually prompt silent students in turn to verbally articulate their constructed ideas to the teacher one-on-one, ensuring that all students produce original cognitive outputs before any sharing or group activities occur. This emphasizes scaling Constructive engagement across all students while maintaining individual cognitive construction.",
+      "scaffolding_strategy": "1) Implement an 'Independent Idea Articulation' protocol where each student is given 5-7 minutes to produce a unique knowledge artifact (drawing, written reflection, or problem solution) on academic integrity, followed by the teacher conducting brief individual verbal check-ins with silent students to elicit their reasoning and insights without any peer interaction. 2) Use a 'Cognitive Rotation' technique where the teacher systematically calls on different silent students in rapid succession to individually explain their thought process or project ideas, ensuring that each student constructs and verbalizes their understanding independently, thus expanding Constructive mode participation beyond the initial active speaker.",
+      "new_question": "Can you independently explain, step-by-step, how you would design your project to demonstrate your understanding of academic integrity without relying on any external help or collaboration?",
+      "reference_answer": "For my project on academic integrity, I would first identify key concepts such as honesty, responsibility, and the consequences of cheating. Then, I would create a detailed sketch that visually represents these ideas, including examples of cheating behaviors and their impact. I would use original wording and visuals that reflect my own understanding, ensuring no copied content. Finally, I would write an individual reflection explaining how each element of my project connects to the principles of academic integrity, demonstrating my personal cognitive construction of the topic.",
+      "efficiency": {
+        "elapsed_ms": 13634,
+        "prompt_tokens": 1085,
+        "completion_tokens": 544,
+        "total_tokens": 1629,
+        "estimated_cost_usd": 0.013585
+      }
+    }
+  ]
+}

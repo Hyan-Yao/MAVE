@@ -1,0 +1,208 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "class_size": 30,
+  "efficiency_summary": {
+    "total_elapsed_ms": 8947,
+    "total_elapsed_sec": 8.947,
+    "avg_kp_elapsed_ms": 5939,
+    "total_prompt_tokens": 15876,
+    "total_completion_tokens": 5306,
+    "total_tokens": 21182,
+    "estimated_total_cost_usd": 0.127218,
+    "throughput_kp_per_min": 73.768,
+    "pricing": {
+      "prompt_cost_per_1m": 3.0,
+      "completion_cost_per_1m": 15.0
+    },
+    "pricing_note": "Estimated cost based on token usage and configurable per-1M-token pricing."
+  },
+  "results": [
+    {
+      "knowledge_point_id": 1,
+      "topic": "Project Overview",
+      "target_mode": "c",
+      "gap_diagnosis": "The current cognitive mode is primarily Passive (P). The teacher is eliciting information with questions such as 'has anybody started the project yet' and 'have you guys started cutting the foam board,' but these are broad, general inquiries that do not require individual cognitive construction or generation of new knowledge. The students are not prompted to produce individual outputs or reflections, and participation appears limited to brief verbal acknowledgments at best. The statement 'you've all turned in your assignment drawing right' assumes compliance without requiring active mental engagement or output generation. The bottleneck is that the teacher's questions are aimed at status checking rather than requiring individual construction of understanding or problem-solving. The transcript shows no evidence of individual students producing distinct, cognitive artifacts or reflections, only surface-level compliance checks.",
+      "proposed_rewrite": "Transition the project overview discussion into a structured individual reflection activity where each student independently analyzes their current project status and plans next steps. Instead of general questions, the teacher can prompt each student to individually articulate their progress and challenges, encouraging them to generate a concrete, unique output such as a written plan, sketch, or problem identification related to their foam board cutting task.",
+      "scaffolding_strategy": "1. Implement an individual reflective journaling task where each student writes a brief progress report including specific challenges encountered and strategies to overcome them, turning passive listening into active knowledge construction. 2. Use a solo concept-mapping exercise where each student independently draws a project workflow or timeline based on their current progress, requiring them to mentally organize and externalize their understanding without any peer interaction.",
+      "new_question": "Can you individually describe your current project progress, specifying which parts you have completed and what challenges you anticipate, and then outline your next concrete steps to finish on time?",
+      "reference_answer": "So far, I have completed the preliminary sketches and started cutting the foam board for the base. However, I am having difficulty ensuring the cuts are precise to the measurements. My next step is to carefully measure again and use the ruler to guide the cuts to avoid mistakes. I plan to finish cutting all parts by Thursday and start assembling on Friday.",
+      "efficiency": {
+        "elapsed_ms": 5417,
+        "prompt_tokens": 789,
+        "completion_tokens": 460,
+        "total_tokens": 1249,
+        "estimated_cost_usd": 0.009267
+      }
+    },
+    {
+      "knowledge_point_id": 2,
+      "topic": "Foam Board Cutting Tips",
+      "target_mode": "c",
+      "gap_diagnosis": "The current interaction is primarily Passive with some low-level Active engagement, as the teacher asks if students have had trouble cutting foam board and acknowledges a few hands raised ('i see one i see two three'). However, there is no evidence of students individually constructing knowledge or producing original outputs. The teacher provides explanations and advice but no individual cognitive construction tasks are assigned. The participation breadth is limited, as only a small subset of students respond ('i see one i see two three'). The rest of the class likely remains unengaged or passive listeners. This bottleneck limits depth and breadth of learning and individual cognitive engagement.",
+      "proposed_rewrite": "Shift the session from a general Q&A and lecture format to one where each student individually reflects and produces a personalized troubleshooting plan or annotated diagram for cutting foam board. For instance, after explaining the common issues (blade sharpness, angle, pressure), the teacher prompts each student to independently analyze their own cutting technique, identify their most probable mistake, and write or sketch a corrective strategy. This requires students to construct new knowledge autonomously based on the teacher’s input without any peer interaction.",
+      "scaffolding_strategy": "1. Independent Diagnostic Reflection: After the teacher's explanation of cutting issues, prompt each student to silently write a brief reflection identifying which common mistake they believe they make when cutting foam board and how they plan to adjust their technique. 2. Solo Visual Construction: Have students individually create a detailed annotated sketch of the foam board cutting process, marking blade angle, pressure points, and number of passes needed, demonstrating their personalized understanding and plans for improvement—all done without discussion or collaboration.",
+      "new_question": "Based on the tips discussed about foam board cutting, can you individually identify your most frequent mistake and write a detailed plan or draw a diagram showing how you will correct it?",
+      "reference_answer": "I realize that I usually press too hard on the foam board because I get frustrated, which causes uneven cuts. To fix this, I will use a sharper blade and focus on making two or three lighter passes instead of one hard slice. In my drawing, I show the exacto knife held at a 45-degree angle, with light pressure points marked and arrows indicating multiple cutting passes.",
+      "efficiency": {
+        "elapsed_ms": 5499,
+        "prompt_tokens": 1050,
+        "completion_tokens": 480,
+        "total_tokens": 1530,
+        "estimated_cost_usd": 0.01035
+      }
+    },
+    {
+      "knowledge_point_id": 3,
+      "topic": "Design Composition Advice",
+      "target_mode": "c",
+      "gap_diagnosis": "The transcript primarily shows the instructor delivering explanations and advice about design composition, such as avoiding symmetry and encouraging continuance. There is no evidence of students actively producing independent cognitive outputs; the teacher speaks about common student errors but does not prompt individual student creation or reflection. For example, phrases like 'if you've turned in drawings and you're probably you know in good shape' and 'if you have problems cutting and you just can't get it to work then immediately make time with me' indicate passive reception rather than active cognitive construction. Therefore, the current mode is Passive (P), bottlenecked by lack of individual student generation of knowledge or solo artifacts.",
+      "proposed_rewrite": "To shift from passive reception to constructive individual cognition, redesign the activity so each student independently creates a revised design composition incorporating the principles discussed (e.g., asymmetry, continuance). The teacher should prompt students to individually sketch or digitally draft a composition that intentionally avoids static symmetry and employs continuance, without any peer interaction or collaboration. The teacher can then provide individualized feedback based on each student's unique artifact.",
+      "scaffolding_strategy": "1. Individual Reflective Sketching: After the mini-lecture, students are given time to independently draft a new composition applying the concepts of asymmetry and continuance, explicitly instructed to produce original design work without consulting others. 2. Solo Metacognitive Prompting: The teacher circulates and asks each student individually to explain their compositional choices and how they avoided static symmetry and incorporated movement, thereby eliciting individual cognitive construction through verbalization aligned with their solo drawing.",
+      "new_question": "Please independently create a new design sketch that avoids placing elements symmetrically and incorporates the principle of continuance by extending forms to the edge. Then, explain your choices in a brief written reflection without discussing with others.",
+      "reference_answer": "In my sketch, I positioned the main design elements off-center to avoid symmetry, creating a dynamic flow from left to right. I extended one shape beyond the right edge of the frame to demonstrate continuance, making the composition feel open and ongoing instead of confined. I avoided placing heavy forms in the center to prevent static balance, which matches the teacher's advice to create movement.",
+      "efficiency": {
+        "elapsed_ms": 6288,
+        "prompt_tokens": 1302,
+        "completion_tokens": 477,
+        "total_tokens": 1779,
+        "estimated_cost_usd": 0.011061
+      }
+    },
+    {
+      "knowledge_point_id": 4,
+      "topic": "Office Hours Announcement",
+      "target_mode": "c",
+      "gap_diagnosis": "The current transcript shows the instructor announcing new office hours and instructing students to 'write this down,' which indicates a Passive (P) mode at best, as students are expected to record information without active engagement or knowledge construction. There is no evidence of students generating outputs or reflecting individually, nor is there any interaction among students. The cognitive behavior is bottlenecked by the low engagement level and lack of individual construction of understanding or application of the office hours information.",
+      "proposed_rewrite": "To transition from Passive to Constructive mode, redesign the announcement as an individual cognitive task where each student independently creates a personalized weekly schedule integrating the new office hours with their own timetable. This requires students to actively process and reconstruct the information rather than just recording it.",
+      "scaffolding_strategy": "1. After announcing the office hours, prompt each student to independently draft a weekly plan that incorporates these new office hours alongside their classes and other commitments, ensuring they reason about possible time conflicts or best times to attend.\n2. Use a follow-up written reflection prompt asking students to articulate how the new office hours fit their individual needs, what challenges they anticipate, and any strategies they plan to use to make the most of these hours—ensuring solo cognitive engagement without any peer interaction.",
+      "new_question": "Individually, can you create a detailed weekly schedule that includes the updated office hours, explaining how you will use these times effectively alongside your classes and commitments?",
+      "reference_answer": "I have created my weekly schedule by marking my classes and other fixed commitments. I noticed the office hours are on Monday, Wednesday, and Friday from 8-10 AM and 6-8 PM. Since I have classes on Monday mornings, I will plan to attend office hours on Wednesday and Friday mornings. In the evenings, I have fewer commitments, so I can attend office hours on Monday and Wednesday evenings if needed. This schedule helps me maximize access to support without overlapping with class times.",
+      "efficiency": {
+        "elapsed_ms": 5130,
+        "prompt_tokens": 817,
+        "completion_tokens": 428,
+        "total_tokens": 1245,
+        "estimated_cost_usd": 0.008871
+      }
+    },
+    {
+      "knowledge_point_id": 5,
+      "topic": "Encouragement to Attend Office Hours",
+      "target_mode": "i",
+      "gap_diagnosis": "The instructor describes office hours as a time when students can 'come in if there's somebody there during the office hours just come in and you can eavesdrop and listen or join in to the conversation' and acknowledges that 'that's when it works the best when there's a bunch of brains together looking at the same thing and everybody has suggestions.' However, the actual participation appears very low: 'you guys haven't been on fire about um uh coming to office hours,' and 'nobody shows up and i'm just playing angry birds during office hours.' This indicates bottlenecked participation where only the instructor is active and students are mostly passive or absent, preventing the interactive peer-to-peer engagement needed for Mode I.",
+      "proposed_rewrite": "Restructure office hours into scheduled, small-group problem-solving sessions that require active student dialogue and debate via breakout rooms or designated discussion slots. Set explicit expectations that students must come prepared with questions and contribute solutions aloud to peers, fostering dynamic interactive discourse rather than silent attendance or passive listening.",
+      "scaffolding_strategy": "1. Implement a rotating 'case explainer' role where each student individually presents their problem or project difficulty to peers and the instructor, who then facilitates peer critique and alternative approaches, ensuring active verbal exchange.\n2. Use live collaborative digital tools (e.g., shared whiteboards or real-time coding platforms) during office hours to enable students to co-construct solutions interactively, with the teacher prompting debate and negotiation of different ideas.",
+      "new_question": "During office hours, can you explain your approach to solving this problem and respond to alternative methods suggested by your classmates, justifying your reasoning or reconsidering your steps?",
+      "reference_answer": "Sure, my approach was to first identify the key variables impacting the outcome, then I applied this formula because it seemed most relevant. However, I see that your method uses a different assumption which might simplify the calculation. I think both approaches have merit, but I chose mine because it aligns better with the problem constraints as I understood them.",
+      "efficiency": {
+        "elapsed_ms": 5834,
+        "prompt_tokens": 1254,
+        "completion_tokens": 438,
+        "total_tokens": 1692,
+        "estimated_cost_usd": 0.010332
+      }
+    },
+    {
+      "knowledge_point_id": 6,
+      "topic": "Project Submission Guidelines",
+      "target_mode": "c",
+      "gap_diagnosis": "The current transcript primarily shows the teacher explaining submission procedures and demonstrating from a student view, with no evidence of students individually constructing knowledge or producing independent outputs. The teacher says, 'okay so when you're ready to turn in the assignment...' and describes the process but does not prompt any individual student to actively generate or reflect on their understanding or submission process. This behavior is bottlenecked because it remains a one-way explanation without eliciting individual student cognitive construction, e.g., no solo reflections, no individual drawings or mappings, no probing of single students' understanding.",
+      "proposed_rewrite": "Transform the activity from a passive informational lecture into an individual active construction task where each student independently creates a detailed, personalized submission plan or visual mapping of the project's photo requirements and upload process. The teacher should prompt each student to individually outline or sketch their step-by-step approach to submitting the project with annotated photos showing multiple angles, ensuring they mentally organize and internalize the procedure rather than passively listening.",
+      "scaffolding_strategy": "1. Assign each student to independently draft a stepwise diagram or flowchart detailing how they will capture, choose, and upload the four photos from multiple angles, including annotations on photo angles and quality criteria. 2. Provide an individual reflection prompt where each student writes a brief explanation of why capturing multiple angles is important and how they plan to ensure their photos meet the volume and clarity requirements, reinforcing individual knowledge construction.",
+      "new_question": "Can you individually describe or sketch your plan for submitting the project, including how you will capture and upload photos from the required angles, and explain why this approach is important?",
+      "reference_answer": "I will take four photos of my project from approximately every 45 degrees to show all sides and volume clearly. First, I'll position my camera at each angle (front, right, back, left) and take pictures ensuring good lighting and focus. Then, I will upload these photos using the 'submit assignment' button under the Project 1 module. This approach is important because a single photo from the top doesn't show the volume or details, and multiple angles give a fuller view of my work.",
+      "efficiency": {
+        "elapsed_ms": 5452,
+        "prompt_tokens": 912,
+        "completion_tokens": 462,
+        "total_tokens": 1374,
+        "estimated_cost_usd": 0.009666
+      }
+    },
+    {
+      "knowledge_point_id": 7,
+      "topic": "Final Project Requirements",
+      "target_mode": "i",
+      "gap_diagnosis": "The transcript shows the instructor primarily delivering information and responding to a couple of student questions, e.g., 'let me open it up to you guys do you guys have questions or issues' and one student asks two questions. This indicates mostly passive listening and some active questioning, but no evidence of interactive peer-to-peer discourse or collaborative problem-solving among students. The instructor is speaking to the whole class, and students are not shown interacting with each other. Therefore, the cognitive mode is currently at A (Active) with some P (Passive), but not reaching Interactive. The coverage bottleneck is that only a few students engage verbally, and the rest likely remain silent listeners. The transcript excerpts: 'let me open it up to you guys do you guys have questions or issues' and 'yeah i have two questions sure' illustrate limited student participation and no peer interaction or debate.",
+      "proposed_rewrite": "To transition into Interactive mode, redesign the lesson segment to include structured peer interaction activities around the final project requirements. For example, after explaining the documentation expectations (photos and videos), have students pair up to critique hypothetical project documentation examples or jointly troubleshoot common issues in video/photo capture quality. These interactions should require students to verbally negotiate standards, explain reasoning, and co-construct understanding about how to best document their projects. This shifts the cognitive work from the teacher-student dyad to student-student collaborative meaning-making, essential for Interactive mode.",
+      "scaffolding_strategy": "1. Implement a 'Documentation Quality Debate': Provide pairs with samples of final project photos/videos of varying clarity and ask them to identify strengths and weaknesses, justifying their evaluations to each other, fostering peer dialogue and reasoning. 2. Use a 'Peer Coaching Round': Assign students in pairs to role-play as project inspectors, where one explains their planned documentation approach and the other offers constructive feedback, prompting elaboration and negotiation of ideas. Both strategies strictly require student-to-student interaction about the final project criteria, ensuring true Interactive engagement.",
+      "new_question": "Can you explain to your partner why certain types of photos or videos would better demonstrate your final project, and convince them by giving specific examples and reasoning?",
+      "reference_answer": "I think a close-up video showing how the moving parts operate is important because it demonstrates the project's functionality, not just its appearance. For example, if I only showed a blurry photo, it wouldn't capture the motion, so the project might look incomplete. My partner should use clear lighting and steady shots to highlight key features, and I would suggest they record the opening and closing motion slowly so viewers understand how it works.",
+      "efficiency": {
+        "elapsed_ms": 6395,
+        "prompt_tokens": 1255,
+        "completion_tokens": 557,
+        "total_tokens": 1812,
+        "estimated_cost_usd": 0.01212
+      }
+    },
+    {
+      "knowledge_point_id": 8,
+      "topic": "Material Recommendations",
+      "target_mode": "c",
+      "gap_diagnosis": "The current transcript shows predominantly passive listening and following instructions, e.g., 'so what i would like you to get those materials as soon as you can' and 'try to get it ahead of time'. There is no evidence students are individually generating knowledge or cognitive products; the teacher is directing action without eliciting student construction. The coverage bottleneck lies in the lack of active cognitive engagement by students—no individual interpretation, planning, or elaboration is demonstrated or prompted.",
+      "proposed_rewrite": "After providing the material list, assign each student to independently plan and sketch their initial design ideas for the project using the specified materials. Require each student to submit an individual drawing or written rationale explaining how their chosen material properties influence their design decisions. This shifts the activity from passive receipt of instructions to active individual knowledge construction.",
+      "scaffolding_strategy": "1) Individual Design Reflection: Prompt each student to create a detailed individual sketch or diagram involving the wire material, accompanied by a written explanation of how material characteristics affect their design choices, submitted independently.\n2) Solo Cognitive Mapping: Ask students to individually construct and submit a concept map linking material properties (like flexibility, shape) to project outcomes and challenges before starting the project work, fostering independent organization of knowledge.",
+      "new_question": "Can you individually explain how the specific wire material you plan to use will impact your project design, and show this in a drawing or diagram?",
+      "reference_answer": "I plan to use the round wire specified because it bends smoothly without kinking, which will help me create clean, straight lines in my design. In my sketch, I show how the wire curves gently around corners, making the structure more stable and visually appealing. Using the square wire would cause sharp kinks, which I want to avoid for a neater finish.",
+      "efficiency": {
+        "elapsed_ms": 4781,
+        "prompt_tokens": 917,
+        "completion_tokens": 396,
+        "total_tokens": 1313,
+        "estimated_cost_usd": 0.008691
+      }
+    },
+    {
+      "knowledge_point_id": 9,
+      "topic": "Drawing Quality Feedback",
+      "target_mode": "c",
+      "gap_diagnosis": "The current cognitive mode is Passive (P). The instructor provides detailed explanations and instructions about the materials (wire types, tools) and project setup, e.g., \"the thing that that people ask me all the time is like oh i have some like galvanized wire can i use that and the answer is no you can't you have to use this wire because what we're trying to do is to emulate a pencil mark...\" This is primarily teacher monologue with no evidence of student-generated output or individual construction. The coverage bottleneck is that the transcript focuses on the teacher's explanations for all students collectively, with no indication students are individually producing knowledge or outputs from their understanding. There is no data on individual student responses or tasks. Thus, cognitive engagement remains low and uniform rather than individualized and constructive.",
+      "proposed_rewrite": "Transform the instructional segment into an individual reflection and application task where each student independently evaluates their choice of materials and justifies it in writing or through a drawing. For example, after explaining the wire requirements, prompt each student to sketch their project wire setup or write a short rationale explaining why galvanized wire would or would not work for their specific design, ensuring they independently synthesize the given information rather than passively receiving it.",
+      "scaffolding_strategy": "1. Have students individually create a visual diagram or annotated sketch showing the wire type and tools they plan to use, accompanied by a written justification explaining their choice based strictly on the criteria the teacher outlined (visibility, cost, bendability). This ensures individual cognitive construction without peer interaction.\n2. Assign a silent, timed reflection where each student writes down their understanding of why galvanized wire is unsuitable and how the black wire emulates a pencil mark, requiring them to rephrase and reconstruct the knowledge autonomously before moving on.",
+      "new_question": "Independently, can you draw your project’s wire setup and write a short explanation of why you must use the black wire instead of galvanized wire, based solely on the criteria we've discussed?",
+      "reference_answer": "I drew my project using the black wire because it shows up clearly against a white background, which is important for photographing the project. Galvanized wire is not suitable because it is hard to see, which defeats the purpose of emulating a pencil mark. Also, the black wire is inexpensive and easy to bend, making it ideal for shaping the sculpture. I plan to use needle-nose pliers to bend the wire because they provide good control.",
+      "efficiency": {
+        "elapsed_ms": 6289,
+        "prompt_tokens": 1049,
+        "completion_tokens": 529,
+        "total_tokens": 1578,
+        "estimated_cost_usd": 0.011082
+      }
+    },
+    {
+      "knowledge_point_id": 10,
+      "topic": "Design Process and Narrative",
+      "target_mode": "c",
+      "gap_diagnosis": "The current classroom interaction primarily involves the instructor providing detailed explanations and answering individual student questions with some personalized feedback, e.g., 'if you want for like extra credit you can do another one and you can go as crazy as you want' and 'you don't have to cut the exact same shape you could just cut like little slivers that are the same angle right'. However, despite these individualized directions and reflective feedback, there is no evidence of individual students independently generating new knowledge or artifacts entirely on their own during the session. The interaction features a Q&A and teacher-led advice but does not show students performing cognitive construction individually without peer involvement or group discussion. The transcript shows some teacher-student one-on-one dialogue but no independent solo cognitive construction outputs by students during the class, and the instructor encourages posting and feedback on discussion boards outside class, which is interactive but not constructive individual work in-session. Hence, the gap is from mostly passive or active listening and teacher-guided responses to full individual constructive mode where students generate unique ideas or artifacts solo during class time.",
+      "proposed_rewrite": "Redesign the session to incorporate dedicated solo reflection and construction segments where each student independently creates a detailed design narrative and/or physical prototype elements during class. Introduce structured individual tasks with time limits where students must work silently on their own design element or narrative construct and then submit their work privately. The teacher can probe individual students with specific cognitive questions about their solo work, requiring them to explain their reasoning or design choices without peer input. This will shift cognitive engagement from teacher-led Q&A and group sharing to individual knowledge generation and deeper personal meaning construction.",
+      "scaffolding_strategy": "1) Implement a 'Solo Design Narrative Construction' phase where each student independently writes a short story or explanation behind their project title and design choices, without any peer discussion allowed. The teacher circulates and asks probing individual questions to deepen each student's personal connection and reasoning.\n2) Assign an 'Independent Prototype Refinement Task' during class time where students silently work alone on cutting and modifying their project shapes using the instructor's tips, with the teacher individually checking progress and prompting metacognitive reflection questions about their methods and decisions. No peer interaction is permitted during this phase.",
+      "new_question": "Can you individually describe your design narrative and explain how your recent modifications directly express that story in your physical model? Please reflect and write this explanation on your own before sharing it.",
+      "reference_answer": "My design narrative is inspired by the concept of organic growth and transformation. The title 'Pleasant Colony' came from a horse name I found, which made me think about community and nature. The layered shapes I added represent growth rings in a tree, showing development over time. I chose to add just two layers to create subtle volume without overcrowding the form. I refined the edges by cutting small slivers and sanding carefully to achieve smooth curves, which help convey the organic feel. This process required patience and attention to detail, and I am confident it reflects my narrative effectively.",
+      "efficiency": {
+        "elapsed_ms": 8926,
+        "prompt_tokens": 5509,
+        "completion_tokens": 639,
+        "total_tokens": 6148,
+        "estimated_cost_usd": 0.026112
+      }
+    },
+    {
+      "knowledge_point_id": 11,
+      "topic": "Cheating and Academic Integrity",
+      "target_mode": "c",
+      "gap_diagnosis": "The transcript reveals a largely individual cognitive process centered on personal reflection and project planning, e.g., 'i have an idea of what i want my project to be' and 'i am drawing from like sketches.' However, the student dialogue shows some passive engagement without explicit generation of original cognitive outputs such as independent sketches or reflective justifications during the interaction. The conversation is between student and professor without evidence of peer interaction, aligning with a Constructive individual mode but with limited cognitive output during the transcript segment. Bottleneck exists because only one or a few students verbalize ideas individually while others remain silent, limiting broad individual cognitive construction.",
+      "proposed_rewrite": "Design the lesson so each student independently produces a unique artifact (e.g., an original sketch or written reflection) in real-time while the teacher prompts them individually to explain their creative choices and reasoning aloud. Avoid any collaborative or peer discussion. Ensure the teacher directs probing questions to individual students sequentially, eliciting personal cognitive construction and articulation of knowledge without peer influence.",
+      "scaffolding_strategy": "1. ‘Solo Think-Aloud Task’: Prompt each student to complete an original sketch or concept map independently, then answer personalized teacher questions about their choices, reasoning, and connections to academic integrity, preventing any peer interaction.\n2. ‘Individual Reflective Journaling with Probing’: Assign students to write a detailed reflection on how academic integrity influences their own work, followed by one-on-one teacher questioning that requires students to elaborate and justify their ideas without reference to others' opinions.",
+      "new_question": "Can you individually explain how you plan to ensure your project reflects your own work and academic integrity principles, specifically describing the steps you will take without referencing others' approaches?",
+      "reference_answer": "I plan to create all parts of my project myself by first brainstorming ideas unique to my experience, then drafting original sketches without copying others. I will document my sources carefully and use my own words to explain concepts. If I use any references, I will cite them properly to maintain academic integrity.",
+      "efficiency": {
+        "elapsed_ms": 5326,
+        "prompt_tokens": 1022,
+        "completion_tokens": 440,
+        "total_tokens": 1462,
+        "estimated_cost_usd": 0.009666
+      }
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "mode": "prompt_llm_expected_ci",
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "knowledge_source": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/icap_output/icap_split_free/knowledge_segments_global_free.json",
+  "student_ci_source": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/backbone_sensitivity/llama/stem2/knowledge_segments_global_classification.json",
+  "segment_count": 11,
+  "class_size": 30,
+  "c_ratio_threshold": 0.5,
+  "summary": {
+    "expected_c_count": 10,
+    "expected_i_count": 1,
+    "note": "Rule-first expected CI: if I exists or C-ratio>=50%, expect I; otherwise expect C."
+  },
+  "efficiency": {
+    "elapsed_sec": 7.509,
+    "request_count": 11,
+    "pricing_model_reference": "meta-llama/llama-3.3-70b-instruct",
+    "prompt_cost_per_1m": 3.0,
+    "completion_cost_per_1m": 15.0,
+    "prompt_tokens": 12449,
+    "completion_tokens": 927,
+    "total_tokens": 13376,
+    "avg_prompt_tokens_per_req": 1131.727,
+    "avg_completion_tokens_per_req": 84.273,
+    "avg_total_tokens_per_req": 1216.0,
+    "throughput_tokens_per_sec": 1781.329,
+    "estimated_total_cost_usd": 0.051252
+  },
+  "results": [
+    {
+      "knowledge_point_id": 1,
+      "topic": "Project Overview",
+      "summary": "Introduction to the project and its deadline.",
+      "position_index_1based": 1,
+      "position_phase": "early",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "To encourage individual planning and time management for the project",
+      "suggested_question": "Create a detailed schedule for the next six days to ensure you complete the project on time, including specific tasks and deadlines for each day.",
+      "expected_confidence": 0.8,
+      "efficiency": {
+        "prompt_tokens": 523,
+        "completion_tokens": 75,
+        "total_tokens": 598,
+        "estimated_cost_usd": 0.002694
+      }
+    },
+    {
+      "knowledge_point_id": 2,
+      "topic": "Foam Board Cutting Tips",
+      "summary": "Advice on cutting foam board effectively.",
+      "position_index_1based": 2,
+      "position_phase": "early",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "To effectively apply foam board cutting tips, learners need to generate their own solutions to common cutting problems.",
+      "suggested_question": "What steps would you take to troubleshoot and improve your foam board cutting technique if you were experiencing difficulty with the cuts?",
+      "expected_confidence": 0.8,
+      "efficiency": {
+        "prompt_tokens": 798,
+        "completion_tokens": 81,
+        "total_tokens": 879,
+        "estimated_cost_usd": 0.003609
+      }
+    },
+    {
+      "knowledge_point_id": 3,
+      "topic": "Design Composition Advice",
+      "summary": "Guidance on avoiding symmetry in design to create dynamic projects.",
+      "position_index_1based": 3,
+      "position_phase": "early",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "To apply the design composition advice, students need to generate individual outputs that demonstrate their understanding of avoiding symmetry and creating dynamic projects.",
+      "suggested_question": "Create a sketch of a design project that incorporates the concept of continuance and avoids symmetry, and explain how your design choices achieve a dynamic composition.",
+      "expected_confidence": 0.8,
+      "efficiency": {
+        "prompt_tokens": 1092,
+        "completion_tokens": 88,
+        "total_tokens": 1180,
+        "estimated_cost_usd": 0.004596
+      }
+    },
+    {
+      "knowledge_point_id": 4,
+      "topic": "Office Hours Announcement",
+      "summary": "Changes to office hours and their availability for students.",
+      "position_index_1based": 4,
+      "position_phase": "middle",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "To ensure students understand and can apply the new office hours schedule, individual constructive output is necessary to reinforce their personal calendars.",
+      "suggested_question": "Create a personal calendar entry that reflects the updated office hours schedule, including the days and times when office hours are available.",
+      "expected_confidence": 0.8,
+      "efficiency": {
+        "prompt_tokens": 574,
+        "completion_tokens": 82,
+        "total_tokens": 656,
+        "estimated_cost_usd": 0.002952
+      }
+    },
+    {
+      "knowledge_point_id": 5,
+      "topic": "Encouragement to Attend Office Hours",
+      "summary": "Encouragement for students to utilize office hours for assistance.",
+      "position_index_1based": 5,
+      "position_phase": "middle",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 1,
+      "current_c_ratio": 0.033,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.033 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "To encourage students to utilize office hours, individual constructive output is necessary to help students reflect on their own needs and questions.",
+      "suggested_question": "What specific questions or topics would you like to discuss during office hours to help you better understand the course material?",
+      "expected_confidence": 0.8,
+      "efficiency": {
+        "prompt_tokens": 1020,
+        "completion_tokens": 83,
+        "total_tokens": 1103,
+        "estimated_cost_usd": 0.004305
+      }
+    },
+    {
+      "knowledge_point_id": 6,
+      "topic": "Project Submission Guidelines",
+      "summary": "Instructions on how to submit projects and required formats.",
+      "position_index_1based": 6,
+      "position_phase": "middle",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "To ensure students understand the project submission guidelines, they should generate their own example of a properly formatted project submission with required pictures from multiple angles.",
+      "suggested_question": "Create a step-by-step guide with illustrations on how to submit a project, including the required number and angles of pictures for a 3D object.",
+      "expected_confidence": 0.8,
+      "efficiency": {
+        "prompt_tokens": 672,
+        "completion_tokens": 92,
+        "total_tokens": 764,
+        "estimated_cost_usd": 0.003396
+      }
+    },
+    {
+      "knowledge_point_id": 7,
+      "topic": "Final Project Requirements",
+      "summary": "Details on the requirements for the final project submission.",
+      "position_index_1based": 7,
+      "position_phase": "middle",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 1,
+      "current_c_ratio": 0.033,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.033 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "To ensure students understand and can apply the final project requirements, individual constructive output is necessary to generate their own project plans.",
+      "suggested_question": "What are the key components you will include in your final project submission to meet the requirements, and how will you document your work?",
+      "expected_confidence": 0.8,
+      "efficiency": {
+        "prompt_tokens": 1036,
+        "completion_tokens": 87,
+        "total_tokens": 1123,
+        "estimated_cost_usd": 0.004413
+      }
+    },
+    {
+      "knowledge_point_id": 8,
+      "topic": "Material Recommendations",
+      "summary": "Recommendations for materials needed for the projects.",
+      "position_index_1based": 8,
+      "position_phase": "late",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "To ensure students can identify and list the necessary materials for the project independently",
+      "suggested_question": "What are the specific materials needed for the project that can be found at Home Depot, and what are their exact specifications?",
+      "expected_confidence": 0.8,
+      "efficiency": {
+        "prompt_tokens": 648,
+        "completion_tokens": 76,
+        "total_tokens": 724,
+        "estimated_cost_usd": 0.003084
+      }
+    },
+    {
+      "knowledge_point_id": 9,
+      "topic": "Drawing Quality Feedback",
+      "summary": "Feedback on the quality of drawings submitted by students.",
+      "position_index_1based": 9,
+      "position_phase": "late",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "To ensure students understand the specific requirements for the wire and tools needed for the project, individual constructive output is necessary to confirm their comprehension.",
+      "suggested_question": "What are the key characteristics of the wire that must be used for this project and why are they important?",
+      "expected_confidence": 0.8,
+      "efficiency": {
+        "prompt_tokens": 801,
+        "completion_tokens": 85,
+        "total_tokens": 886,
+        "estimated_cost_usd": 0.003678
+      }
+    },
+    {
+      "knowledge_point_id": 10,
+      "topic": "Design Process and Narrative",
+      "summary": "Importance of narrative in design and how to approach titling projects.",
+      "position_index_1based": 10,
+      "position_phase": "late",
+      "current_student_ci": "i",
+      "current_student_speaker_count": 2,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": true,
+      "rule_reason": "Expected level upgraded to I because either I behavior already exists or C ratio reached at least 50%.",
+      "expected_ci_level": "i",
+      "expected_reason": "To facilitate peer-to-peer discussion and feedback on project narratives and designs, promoting interactive learning and constructive criticism.",
+      "suggested_question": "How can you incorporate narrative elements into your design project, and what story do you want your project to tell, considering the constraints of a 1x1 foot space?",
+      "expected_confidence": 0.8,
+      "efficiency": {
+        "prompt_tokens": 4516,
+        "completion_tokens": 93,
+        "total_tokens": 4609,
+        "estimated_cost_usd": 0.014943
+      }
+    },
+    {
+      "knowledge_point_id": 11,
+      "topic": "Cheating and Academic Integrity",
+      "summary": "Discussion on academic integrity and the consequences of cheating.",
+      "position_index_1based": 11,
+      "position_phase": "late",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 1,
+      "current_c_ratio": 0.033,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.033 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "To encourage individual students to generate and produce their own project ideas and sketches, aligning with the constructive level.",
+      "suggested_question": "Design a project that incorporates elements from your previous sketches, and describe how you plan to make it more dynamic and 3D.",
+      "expected_confidence": 0.8,
+      "efficiency": {
+        "prompt_tokens": 769,
+        "completion_tokens": 85,
+        "total_tokens": 854,
+        "estimated_cost_usd": 0.003582
+      }
+    }
+  ]
+}

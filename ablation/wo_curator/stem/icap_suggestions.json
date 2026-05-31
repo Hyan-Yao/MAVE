@@ -1,0 +1,97 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "class_size": 30,
+  "efficiency_summary": {
+    "total_elapsed_ms": 16492,
+    "total_elapsed_sec": 16.492,
+    "avg_kp_elapsed_ms": 16472,
+    "total_prompt_tokens": 22899,
+    "total_completion_tokens": 1407,
+    "total_tokens": 24306,
+    "estimated_total_cost_usd": 0.089802,
+    "throughput_kp_per_min": 3.638,
+    "pricing": {
+      "prompt_cost_per_1m": 3.0,
+      "completion_cost_per_1m": 15.0
+    },
+    "pricing_note": "Estimated cost based on token usage and configurable per-1M-token pricing."
+  },
+  "results": [
+    {
+      "knowledge_point_id": 1,
+      "topic": "full_class_transcript",
+      "a_behavior": {
+        "start_minute": 0,
+        "end_minute": 53,
+        "a_total_hits": 49,
+        "a_trend": "stable"
+      },
+      "student_ci_overview": {
+        "source_path": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/icap_output/icap_student/knowledge_segments_global_classification.json",
+        "total_segments": 11,
+        "dominant_ci": "i",
+        "avg_student_speaker_count": 1.0,
+        "ci_distribution": {
+          "p": {
+            "count": 0,
+            "ratio": 0.0
+          },
+          "a": {
+            "count": 0,
+            "ratio": 0.0
+          },
+          "c": {
+            "count": 2,
+            "ratio": 0.1818
+          },
+          "i": {
+            "count": 4,
+            "ratio": 0.3636
+          }
+        }
+      },
+      "global_diagnosis": "The classroom interaction demonstrates dominance of Interactive (I) mode with some segments of Constructive (C) mode engagement. The highest cognitive mode (Interactive) is achieved for a portion of the class but only by a minority of students speaking. Most students remain silent or passive, and there is low evidence of individual cognitive construction (Constructive) for the majority. This indicates a cognitive participation gap in breadth, where a few active voices dominate the interaction while most students are not visibly engaged at higher cognitive levels.",
+      "suggestions": [
+        {
+          "priority": 1,
+          "gap_diagnosis": "The highest cognitive mode achieved is Interactive (I) by a minority of students (only 4 out of 11 segments). Most students are silent or exhibit no higher level constructive or active engagement (0 segments in Passive or Active, only 2 in Constructive), highlighting that the majority of students are not cognitively engaged at the target Constructive level. Transcript evidence includes the teacher addressing the whole class, answering questions, and giving advice, but student verbal contributions are minimal and limited to a few individuals. For example, at 46:43 a single student asks for feedback on their project, while most students do not speak.",
+          "proposed_rewrite": "Introduce structured individual reflection and solo cognitive construction tasks embedded into the lesson, requiring each student to independently create, analyze, or map out their learning artifacts without peer interaction. For example, after the project instruction, assign a timed solo sketching or design-mapping task where students individually visualize their project concepts and submit these before group discussion begins.",
+          "scaffolding_strategy": "Implement an individual cognitive construction activity such as independent project concept journaling or solo digital sketch mapping, where students must generate and refine their own ideas based strictly on teacher prompts. The teacher can then probe individual students one at a time to explain their thinking, ensuring no peer collaboration or sharing occurs during this phase, fully aligning with Constructive mode constraints.",
+          "new_question": "Can you individually describe your project’s design narrative and how you decided to structure the volume and shape elements without referring to your classmates’ work?",
+          "reference_answer": "My project’s design narrative is inspired by the concept of asymmetry to create dynamic movement. I decided to maximize the 1.5 inch volume limit by layering smaller shapes on one side to create shadow and depth, while leaving the opposite side more open to avoid symmetry. This approach reflects my personal aesthetic goals and was developed solely from my own sketches and ideas."
+        },
+        {
+          "priority": 2,
+          "gap_diagnosis": "While some students engage verbally at the Interactive and Constructive levels, the average student speaker count is only 1.0, indicating very limited breadth of participation. This suggests the cognitive engagement is concentrated in a small visible subset of students with the majority remaining silent and unengaged at higher levels. Transcript sections show long teacher monologues and only occasional student questions or comments, often from different individuals rather than sustained multiple speakers.",
+          "proposed_rewrite": "Design lesson segments that systematically rotate speaking opportunities among all students individually, with each student required to respond to a unique prompt about their work independently. Include digital platforms for solo submission of reflections or designs to ensure broad participation beyond the vocal few.",
+          "scaffolding_strategy": "Use an individual student spotlight protocol where the teacher calls on different students sequentially to explain their project progress or design choices without peer interruption, ensuring each student cognitively constructs and verbalizes their understanding alone. Combine this with private written reflections submitted digitally to engage silent students at the Constructive level.",
+          "new_question": "Please explain your current project challenges and solutions you have tried on your own so far, without referring to or comparing with any classmates' approaches.",
+          "reference_answer": "I found cutting round shapes challenging because the foam board tends to tear. To solve this, I followed the teacher’s advice to cut rough shapes first and then sand them down gradually using 80 to 120 grit sandpaper, which improved the smoothness and accuracy of my circles."
+        },
+        {
+          "priority": 3,
+          "gap_diagnosis": "The current discourse heavily features teacher talk with few student contributions at the higher ICAP levels, limiting the cognitive construction opportunities for individual students. The teacher’s encouragement for students to post work and give feedback on discussion boards implies Interactive mode but risks violating Constructive mode if scaled as a class-wide norm. Transcript shows the teacher prompting general sharing rather than structured individual cognitive tasks.",
+          "proposed_rewrite": "Shift from open-ended group feedback norms toward structured, scaffolded individual cognitive construction assignments that require students to produce original artifacts and personal reflections, then individually report their reasoning to the teacher.",
+          "scaffolding_strategy": "Integrate individual self-explanation exercises following project milestones where students must articulate their design decisions, challenges, and learning in writing or video logs submitted personally to the teacher. Avoid peer feedback in these phases to maintain strict Constructive mode adherence.",
+          "new_question": "What are the key steps you took independently to develop the volume and shape in your project, and how do these steps reflect your personal design intentions?",
+          "reference_answer": "First, I sketched several asymmetrical shapes on paper to avoid static symmetry. Then, I selected the most dynamic shapes and layered foam board cutouts to reach the maximum allowed thickness. I focused on clean cuts and smooth sanding to ensure quality, all planned and executed solely by me."
+        },
+        {
+          "priority": 4,
+          "gap_diagnosis": "The transcript evidences some interactive scaffolding (office hours open to multiple schools with multiple students), but this inclusivity can dilute individual cognitive construction if not carefully managed. Students are encouraged to 'eavesdrop' or join conversations, which aligns with Interactive mode but contradicts Constructive mode requirements forbidding peer interaction.",
+          "proposed_rewrite": "Clarify and structure office hour interactions by scheduling individual one-on-one student-teacher conferences or asynchronous individual feedback sessions to maintain Constructive mode when the cognitive goal is individual knowledge generation.",
+          "scaffolding_strategy": "Offer personalized teacher probing sessions during office hours, with each student given a dedicated slot to individually explain their project progress and reasoning, followed by teacher feedback. Avoid multi-student simultaneous interactions to preserve Constructive learning conditions.",
+          "new_question": "Can you walk me through your design choices and how you overcame any difficulties you faced, explaining only your own thought process?",
+          "reference_answer": "I initially struggled with cutting clean edges on the foam board, so I replaced my old blade and practiced cutting at the correct angle with light pressure. This improved my cuts significantly, allowing me to focus on shaping and layering without damaging the material."
+        }
+      ],
+      "efficiency": {
+        "elapsed_ms": 16472,
+        "prompt_tokens": 22899,
+        "completion_tokens": 1407,
+        "total_tokens": 24306,
+        "estimated_cost_usd": 0.089802
+      }
+    }
+  ]
+}

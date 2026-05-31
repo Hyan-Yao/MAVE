@@ -1,0 +1,367 @@
+{
+  "model": "gpt-4o-mini",
+  "input_dir": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/EDL 710 ZOOM Meeting Recording 52318/preprocessor_output_now",
+  "total_hits": 60,
+  "hits": [
+    {
+      "minute": 1,
+      "grid": "grid_06",
+      "reasoning": "The individual is holding a writing instrument, indicating potential writing behavior.",
+      "file": "minute_01.json"
+    },
+    {
+      "minute": 2,
+      "grid": "grid_07",
+      "reasoning": "A writing instrument is visible in their right hand, indicating engagement in a writing action.",
+      "file": "minute_02.json"
+    },
+    {
+      "minute": 3,
+      "grid": "grid_19",
+      "reasoning": "The individual is holding an object that appears to be a writing instrument and there is a notepad present, indicating potential writing activity.",
+      "file": "minute_03.json"
+    },
+    {
+      "minute": 4,
+      "grid": "grid_00",
+      "reasoning": "The individual is seen holding an object that may be a writing instrument, indicating potential note-taking or writing activity.",
+      "file": "minute_04.json"
+    },
+    {
+      "minute": 7,
+      "grid": "grid_18",
+      "reasoning": "The presence of a writing instrument and the individual's hand positioning suggest potential engagement in writing activity.",
+      "file": "minute_07.json"
+    },
+    {
+      "minute": 8,
+      "grid": "grid_09",
+      "reasoning": "The individual is holding a writing instrument, indicating potential engagement in writing activity.",
+      "file": "minute_08.json"
+    },
+    {
+      "minute": 8,
+      "grid": "grid_18",
+      "reasoning": "The individual is actively holding a writing instrument and appears to be engaged in writing tasks.",
+      "file": "minute_08.json"
+    },
+    {
+      "minute": 9,
+      "grid": "grid_00",
+      "reasoning": "The individual is actively using a pen or stylus, indicating writing behavior.",
+      "file": "minute_09.json"
+    },
+    {
+      "minute": 9,
+      "grid": "grid_10",
+      "reasoning": "The individual briefly engages in a writing action, indicating active participation.",
+      "file": "minute_09.json"
+    },
+    {
+      "minute": 9,
+      "grid": "grid_11",
+      "reasoning": "The individual appears to be holding a writing instrument, indicating active engagement in writing or note-taking.",
+      "file": "minute_09.json"
+    },
+    {
+      "minute": 9,
+      "grid": "grid_19",
+      "reasoning": "The presence of a writing instrument in the second frame suggests a potential writing action occurring during this minute.",
+      "file": "minute_09.json"
+    },
+    {
+      "minute": 10,
+      "grid": "grid_00",
+      "reasoning": "The individual is observed holding a writing instrument and appears to be engaged in note-taking or writing.",
+      "file": "minute_10.json"
+    },
+    {
+      "minute": 11,
+      "grid": "grid_00",
+      "reasoning": "The individual is observed holding a writing instrument, indicating potential writing action.",
+      "file": "minute_11.json"
+    },
+    {
+      "minute": 14,
+      "grid": "grid_19",
+      "reasoning": "The individual is seen holding a writing instrument and actively engaging in writing, indicating positive evidence of writing behavior.",
+      "file": "minute_14.json"
+    },
+    {
+      "minute": 15,
+      "grid": "grid_11",
+      "reasoning": "The individual is holding a writing instrument and appears to be contemplating or preparing to write.",
+      "file": "minute_15.json"
+    },
+    {
+      "minute": 16,
+      "grid": "grid_19",
+      "reasoning": "The individual's hand positioning and gaze direction suggest active engagement in writing or note-taking.",
+      "file": "minute_16.json"
+    },
+    {
+      "minute": 17,
+      "grid": "grid_03",
+      "reasoning": "The individual is holding a writing instrument, suggesting a potential writing action.",
+      "file": "minute_17.json"
+    },
+    {
+      "minute": 18,
+      "grid": "grid_06",
+      "reasoning": "The individual is observed in the act of writing with a visible writing instrument in hand.",
+      "file": "minute_18.json"
+    },
+    {
+      "minute": 20,
+      "grid": "grid_04",
+      "reasoning": "The individual is observed holding a writing instrument, indicating potential writing activity.",
+      "file": "minute_20.json"
+    },
+    {
+      "minute": 20,
+      "grid": "grid_19",
+      "reasoning": "The individual is actively holding a writing instrument and appears engaged in writing or note-taking.",
+      "file": "minute_20.json"
+    },
+    {
+      "minute": 21,
+      "grid": "grid_04",
+      "reasoning": "The individual is seen holding a writing instrument and actively moving their hand across the writing surface, indicating engagement in writing behavior.",
+      "file": "minute_21.json"
+    },
+    {
+      "minute": 21,
+      "grid": "grid_10",
+      "reasoning": "The individual is seen holding a pen, indicating active engagement in writing.",
+      "file": "minute_21.json"
+    },
+    {
+      "minute": 22,
+      "grid": "grid_00",
+      "reasoning": "The individual is observed holding a pen, indicating engagement in writing or note-taking.",
+      "file": "minute_22.json"
+    },
+    {
+      "minute": 22,
+      "grid": "grid_19",
+      "reasoning": "The individual is manipulating an object that is possibly a writing instrument, indicating active engagement in a task.",
+      "file": "minute_22.json"
+    },
+    {
+      "minute": 24,
+      "grid": "grid_08",
+      "reasoning": "The individual is seen holding a writing instrument, indicating active engagement in writing or note-taking.",
+      "file": "minute_24.json"
+    },
+    {
+      "minute": 24,
+      "grid": "grid_18",
+      "reasoning": "The individual is engaged with writing materials and shows signs of concentration, suggesting active note-taking or writing behavior.",
+      "file": "minute_24.json"
+    },
+    {
+      "minute": 25,
+      "grid": "grid_04",
+      "reasoning": "The description indicates a shift in posture and suggests engagement in writing or another hands-on activity.",
+      "file": "minute_25.json"
+    },
+    {
+      "minute": 25,
+      "grid": "grid_18",
+      "reasoning": "The individual is holding a writing instrument and appears to be focused on writing or reading, indicating active engagement with a task.",
+      "file": "minute_25.json"
+    },
+    {
+      "minute": 26,
+      "grid": "grid_19",
+      "reasoning": "The individual is holding a writing instrument, indicating potential writing or note-taking activity.",
+      "file": "minute_26.json"
+    },
+    {
+      "minute": 29,
+      "grid": "grid_00",
+      "reasoning": "The individual is positioned near a writing instrument and appears to be engaged in a task that may involve note-taking or drawing.",
+      "file": "minute_29.json"
+    },
+    {
+      "minute": 29,
+      "grid": "grid_06",
+      "reasoning": "The individual is seen holding a writing instrument, indicating active engagement in writing or note-taking.",
+      "file": "minute_29.json"
+    },
+    {
+      "minute": 29,
+      "grid": "grid_07",
+      "reasoning": "The individual raises their hands and holds a writing instrument, indicating preparation for writing.",
+      "file": "minute_29.json"
+    },
+    {
+      "minute": 29,
+      "grid": "grid_20",
+      "reasoning": "The individual is holding a writing instrument, suggesting a potential writing action.",
+      "file": "minute_29.json"
+    },
+    {
+      "minute": 30,
+      "grid": "grid_17",
+      "reasoning": "The individual is observed holding a writing instrument, suggesting potential writing action.",
+      "file": "minute_30.json"
+    },
+    {
+      "minute": 31,
+      "grid": "grid_14",
+      "reasoning": "The description indicates the individual may be engaged in writing or handling a writing instrument, supported by their downward gaze and hand positioning.",
+      "file": "minute_31.json"
+    },
+    {
+      "minute": 31,
+      "grid": "grid_17",
+      "reasoning": "The individual is seen holding a writing instrument and actively engaged in writing, indicating positive evidence of writing behavior.",
+      "file": "minute_31.json"
+    },
+    {
+      "minute": 31,
+      "grid": "grid_19",
+      "reasoning": "The description indicates moments where the individual appears to be writing, inferred from hand positioning and movement, suggesting active engagement in a writing task.",
+      "file": "minute_31.json"
+    },
+    {
+      "minute": 32,
+      "grid": "grid_06",
+      "reasoning": "The description indicates that the woman is manipulating an object that may be a writing instrument, suggesting engagement in writing behavior.",
+      "file": "minute_32.json"
+    },
+    {
+      "minute": 32,
+      "grid": "grid_17",
+      "reasoning": "The description indicates the presence of a writing instrument and suggests active engagement with a writing task.",
+      "file": "minute_32.json"
+    },
+    {
+      "minute": 34,
+      "grid": "grid_14",
+      "reasoning": "A writing instrument is visible in their hand, indicating potential writing activity.",
+      "file": "minute_34.json"
+    },
+    {
+      "minute": 35,
+      "grid": "grid_03",
+      "reasoning": "The individual is seen holding a writing instrument and appears to be engaged in note-taking or writing.",
+      "file": "minute_35.json"
+    },
+    {
+      "minute": 35,
+      "grid": "grid_22",
+      "reasoning": "The individual is observed holding a writing instrument, indicating active writing behavior.",
+      "file": "minute_35.json"
+    },
+    {
+      "minute": 37,
+      "grid": "grid_04",
+      "reasoning": "The individual's hand positioning and focus suggest they are likely engaged in writing or note-taking.",
+      "file": "minute_37.json"
+    },
+    {
+      "minute": 39,
+      "grid": "grid_04",
+      "reasoning": "The description indicates potential writing actions through the presence of writing instruments and a focused posture suggesting engagement with a writing task.",
+      "file": "minute_39.json"
+    },
+    {
+      "minute": 39,
+      "grid": "grid_08",
+      "reasoning": "The description indicates that the individual is engaged in writing, as evidenced by the presence of a writing instrument and the positioning of their hand.",
+      "file": "minute_39.json"
+    },
+    {
+      "minute": 40,
+      "grid": "grid_01",
+      "reasoning": "The individual is holding a writing instrument and appears to be looking at a surface, suggesting active writing behavior.",
+      "file": "minute_40.json"
+    },
+    {
+      "minute": 40,
+      "grid": "grid_04",
+      "reasoning": "The individual appears to be engaged in a writing action, with hands positioned as if manipulating a writing instrument and a consistent downward gaze indicating concentration.",
+      "file": "minute_40.json"
+    },
+    {
+      "minute": 41,
+      "grid": "grid_06",
+      "reasoning": "One individual is seen holding a writing instrument, indicating active writing behavior.",
+      "file": "minute_41.json"
+    },
+    {
+      "minute": 41,
+      "grid": "grid_07",
+      "reasoning": "The female participant is actively manipulating a writing instrument, indicating writing behavior.",
+      "file": "minute_41.json"
+    },
+    {
+      "minute": 42,
+      "grid": "grid_21",
+      "reasoning": "The individual is seen holding a writing instrument and leaning forward, indicating active engagement in writing.",
+      "file": "minute_42.json"
+    },
+    {
+      "minute": 43,
+      "grid": "grid_04",
+      "reasoning": "The individual is holding a writing instrument and appears to be preparing to write, indicating active engagement in writing behavior.",
+      "file": "minute_43.json"
+    },
+    {
+      "minute": 43,
+      "grid": "grid_12",
+      "reasoning": "The individual is actively engaged in writing or drawing, as indicated by the visible hand holding a writing instrument and its movement.",
+      "file": "minute_43.json"
+    },
+    {
+      "minute": 45,
+      "grid": "grid_04",
+      "reasoning": "The individual is seen holding a writing instrument, indicating active engagement in writing or note-taking.",
+      "file": "minute_45.json"
+    },
+    {
+      "minute": 46,
+      "grid": "grid_16",
+      "reasoning": "The individual is holding a writing instrument and shows signs of active engagement in writing.",
+      "file": "minute_46.json"
+    },
+    {
+      "minute": 47,
+      "grid": "grid_10",
+      "reasoning": "The presence of a writing instrument in the person's hand suggests engagement in writing or note-taking.",
+      "file": "minute_47.json"
+    },
+    {
+      "minute": 47,
+      "grid": "grid_11",
+      "reasoning": "The individual is confirmed to be holding a pen, indicating potential writing activity.",
+      "file": "minute_47.json"
+    },
+    {
+      "minute": 48,
+      "grid": "grid_02",
+      "reasoning": "The individual is holding a writing instrument, indicating potential writing activity.",
+      "file": "minute_48.json"
+    },
+    {
+      "minute": 48,
+      "grid": "grid_03",
+      "reasoning": "The individual is holding a writing instrument and may be using it to jot down notes or thoughts.",
+      "file": "minute_48.json"
+    },
+    {
+      "minute": 51,
+      "grid": "grid_00",
+      "reasoning": "The individual is holding a writing instrument and is actively engaged in note-taking or writing.",
+      "file": "minute_51.json"
+    },
+    {
+      "minute": 51,
+      "grid": "grid_16",
+      "reasoning": "The individual is holding a writing instrument, indicating active engagement in note-taking or writing.",
+      "file": "minute_51.json"
+    }
+  ]
+}

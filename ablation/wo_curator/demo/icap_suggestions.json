@@ -1,0 +1,81 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "class_size": 30,
+  "efficiency_summary": {
+    "total_elapsed_ms": 35182,
+    "total_elapsed_sec": 35.182,
+    "avg_kp_elapsed_ms": 35155,
+    "total_prompt_tokens": 12443,
+    "total_completion_tokens": 1385,
+    "total_tokens": 13828,
+    "estimated_total_cost_usd": 0.058104,
+    "throughput_kp_per_min": 1.705,
+    "pricing": {
+      "prompt_cost_per_1m": 3.0,
+      "completion_cost_per_1m": 15.0
+    },
+    "pricing_note": "Estimated cost based on token usage and configurable per-1M-token pricing."
+  },
+  "results": [
+    {
+      "knowledge_point_id": 1,
+      "topic": "full_class_transcript",
+      "a_behavior": {
+        "start_minute": 0,
+        "end_minute": 59,
+        "a_total_hits": 142,
+        "a_trend": "falling"
+      },
+      "global_diagnosis": "The highest cognitive mode exhibited by speaking students in this full-class transcript is Constructive (C). Students individually generate nuanced insights, make connections between scientific concepts and social implications, and reflect deeply about the material (e.g., the complexities of mycology stigma, ecological interdependencies, and socio-political influences on scientific adoption). However, only a small subset of students are verbally contributing, while the majority remain silent, indicating limited breadth of active cognitive engagement across the whole class.",
+      "suggestions": [
+        {
+          "priority": 1,
+          "gap_diagnosis": "The bottleneck is breadth: although some students reach the Constructive mode individually, most students are silent and not visibly engaged at this high cognitive level. For example, the transcript shows rich individual reflections but from a limited number of speakers ('Thanks, Riley', 'I think that was a good point'), indicating narrow participation.",
+          "proposed_rewrite": "Scale Constructive cognitive engagement by incorporating structured individual reflective writing or drawing tasks immediately after teacher prompts, ensuring every student independently processes and constructs knowledge from the complex content discussed.",
+          "scaffolding_strategy": "After discussing key scientific and sociological intersections (e.g., mycelium applications, biodiversity importance), prompt all students to write a one-page personal reflection or create a concept map connecting at least three ideas from the lecture to local or personal contexts. Provide guiding questions such as: 'How does what you learned impact your understanding of environmental solutions?' or 'What unique idea from the lecture surprised you and why?'. Collect these individually to ensure authentic solo cognitive construction with no peer interaction.",
+          "new_question": "Individually, what is one novel way you could apply the knowledge about mushrooms' environmental benefits to a problem you see in your own community or life?",
+          "reference_answer": "One way I could apply this knowledge is by inoculating local garden soil with mycorrhizal fungi to improve plant health and reduce chemical fertilizer use, which aligns with the lecture's emphasis on sustainable soil restoration."
+        },
+        {
+          "priority": 2,
+          "gap_diagnosis": "While the cognitive level is Constructive, the teacher has not explicitly ensured that all students participate in generating original outputs. The transcript shows some teacher prompts for reflection and idea sharing but lacks individual accountability mechanisms for silent students.",
+          "proposed_rewrite": "Integrate individual cold-calling combined with written solo tasks to broaden active Constructive engagement, ensuring silent students produce evidence of their independent thinking without peer input.",
+          "scaffolding_strategy": "Implement a think-write-share cycle with solo writing phases where students answer higher-order questions targeting analysis and synthesis of content (e.g., 'Explain the ecological cascade effect of bee die-off and propose an individual action to mitigate it'). After solo writing, randomly select individuals to verbally share their insights, reinforcing accountability without peer discussion.",
+          "new_question": "Can you explain, based on your understanding, how pesticide use connects to bee population decline and what independent action you could take to positively impact this issue?",
+          "reference_answer": "Pesticides like neonicotinoids harm bees by disrupting their nervous systems, leading to colony collapse. Independently, I could avoid using chemical pesticides in my garden and educate my family about safer alternatives like vinegar solutions."
+        },
+        {
+          "priority": 3,
+          "gap_diagnosis": "The content is rich and complex but could overwhelm some students, possibly limiting their solo cognitive construction, especially those less verbally active.",
+          "proposed_rewrite": "Chunk the lecture content into smaller thematic segments followed by guided individual reflective prompts to scaffold independent construction and deepen understanding incrementally.",
+          "scaffolding_strategy": "Divide the topics (e.g., mycelium applications, biodiversity and pollinators, pesticide impacts) into discrete mini-sessions. After each, provide an individual reflection prompt or concept mapping task that requires students to independently integrate and personalize the knowledge before moving on. This paced approach supports solo meaning-making and prevents cognitive overload.",
+          "new_question": "After learning about mycelium’s role in detoxifying soil, describe in your own words how this could change traditional farming practices and what challenges might need to be overcome.",
+          "reference_answer": "Mycelium can break down toxins and improve soil health, potentially reducing the need for chemical pesticides and fertilizers. Challenges include overcoming industry resistance and ensuring farmers understand and trust these methods."
+        },
+        {
+          "priority": 4,
+          "gap_diagnosis": "The teacher’s prompts sometimes invite open-ended discussion but do not impose strict boundaries to prevent peer interaction, risking some off-task or social sharing rather than pure individual cognitive construction.",
+          "proposed_rewrite": "Refine questioning language and classroom routines to explicitly prohibit any form of peer discussion or sharing during Constructive mode activities, reinforcing independent knowledge construction.",
+          "scaffolding_strategy": "Clearly instruct students that during Constructive tasks, all reflections and responses must be done silently, individually, and without consulting others. Use quiet writing or drawing tasks, monitored by the teacher. Follow with individual oral probes to assess personal understanding without allowing any group dialogue.",
+          "new_question": "Reflect on the stigma around mushrooms presented in the lecture. How does this affect scientific progress, and what is your personal viewpoint on overcoming such stigmas?",
+          "reference_answer": "The stigma causes hesitation and limits funding for research, slowing progress. Personally, I think education and presenting rigorous scientific data can help overcome these biases."
+        },
+        {
+          "priority": 5,
+          "gap_diagnosis": "The transcript shows deep conceptual explorations by few students, but no strategies are evident to rotate participation or diffuse high-level tasks to all students, limiting scaling of Constructive engagement.",
+          "proposed_rewrite": "Develop a rotation system for individual presentation or reflection sharing so that over time all students engage in Constructive tasks, ensuring equitable cognitive engagement opportunities.",
+          "scaffolding_strategy": "Create a schedule where each class session a subset of students prepares a short individual reflection or application of the lecture content (e.g., a mini essay or drawing) to present to the teacher alone. The teacher privately discusses these with each student to reinforce individual reasoning and monitor understanding, thus spreading high-level cognitive tasks beyond the vocal few.",
+          "new_question": "Based on your individual reflection, what is one environmental challenge that could be addressed by fungi applications, and how would you implement this solution in your own life?",
+          "reference_answer": "One challenge is soil pollution from pesticides. I would start a small mushroom inoculation project in my backyard to help detoxify the soil and improve plant health."
+        }
+      ],
+      "efficiency": {
+        "elapsed_ms": 35155,
+        "prompt_tokens": 12443,
+        "completion_tokens": 1385,
+        "total_tokens": 13828,
+        "estimated_cost_usd": 0.058104
+      }
+    }
+  ]
+}

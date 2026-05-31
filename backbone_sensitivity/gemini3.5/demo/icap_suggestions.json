@@ -1,0 +1,281 @@
+{
+  "model": "google/gemini-3.5-flash",
+  "class_size": 30,
+  "efficiency_summary": {
+    "total_elapsed_ms": 12645,
+    "total_elapsed_sec": 12.645,
+    "avg_kp_elapsed_ms": 11489,
+    "total_prompt_tokens": 20450,
+    "total_completion_tokens": 18117,
+    "total_tokens": 38567,
+    "estimated_total_cost_usd": 0.333105,
+    "throughput_kp_per_min": 47.45,
+    "pricing": {
+      "prompt_cost_per_1m": 3.0,
+      "completion_cost_per_1m": 15.0
+    },
+    "pricing_note": "Estimated cost based on token usage and configurable per-1M-token pricing."
+  },
+  "results": [
+    {
+      "knowledge_point_id": 1,
+      "topic": "Mushroom Solutions",
+      "student_current_ci": "c",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 0,
+        "end_minute": 1,
+        "a_total_hits": 3,
+        "a_trend": "falling"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "Step 1: The speaking student successfully achieves the Constructive level ('c') by self-directing their analytical focus, asking 'you just want us to write an essay on any one of them in depth, right?' and synthesizing the diverse mycelium options. Step 2: However, breadth is severely limited. Only 1 out of 30 students (3.3% coverage) has actively engaged in this constructive planning, leaving the other 29 students silent and without any visible, individualized cognitive output to demonstrate their own conceptual selection or understanding.",
+      "proposed_rewrite": "Shift the instructional focus from a single-student confirmation dialogue to an all-class individual cognitive production. Instruct every student to independently construct a rapid, single-page conceptual map of their chosen mushroom solution, detailing its biological mechanism and environmental application prior to writing.",
+      "scaffolding_strategy": "First, implement an Individual Solution Matrix template where each student must independently document their selected mushroom species, the targeted ecological issue, and the biological mechanism. Second, use a systematic cold-call rotation to have individual students read their self-constructed thesis statements aloud to the class, ensuring multiple distinct individual perspectives are voiced and validated.",
+      "new_question": "Before we begin writing, I want everyone to take exactly two minutes of silent, independent drafting. On your own paper, write down the specific mushroom or mycelium solution you are selecting, and draft a single sentence explaining the exact biological mechanism it uses to solve that specific problem.",
+      "reference_answer": "I am selecting the Pestalotiopsis microspora fungus. Its unique biological mechanism is its ability to produce polyurethane-degrading enzymes, which allows it to break down and consume synthetic plastics even in anaerobic landfill environments.",
+      "efficiency": {
+        "elapsed_ms": 10096,
+        "prompt_tokens": 1002,
+        "completion_tokens": 1622,
+        "total_tokens": 2624,
+        "estimated_cost_usd": 0.027336
+      }
+    },
+    {
+      "knowledge_point_id": 2,
+      "topic": "Scientific Jargon and Passion",
+      "student_current_ci": "c",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 1,
+        "end_minute": 2,
+        "a_total_hits": 2,
+        "a_trend": "stable"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "Step 1 (Level): The active student successfully achieved the target Constructive (C) level by independently synthesizing the relationship between scientific jargon, credibility barriers, and passion (\"that scientific jargon... might be a way for him to try to explain to people that, hey, he is really serious\"). Step 2 (Breadth): However, cognitive coverage is extremely low (3.3%), with only 1 out of 30 students actively constructing this knowledge while the remaining 29 students are passively listening to the exchange.",
+      "proposed_rewrite": "Transition from validating a single student's insight to requiring every individual student in the room to independently construct their own conceptual framework analyzing the tension between scientific jargon and speaker credibility.",
+      "scaffolding_strategy": "First, direct every student to work individually at their desks to sketch a single-variable matrix mapping 'Level of Jargon' against 'Audience Trust' based on the video. Second, have each student independently write down one personal hypothesis explaining how a scientist can balance raw passion with academic rigor without losing their audience.",
+      "new_question": "On your own worksheet, construct a brief, two-sentence theory explaining how a communicator's use of intense technical jargon can either build up or tear down their personal credibility when speaking to a skeptical public.",
+      "reference_answer": "I believe technical jargon builds credibility because it proves deep academic backing, but it can simultaneously tear down trust if the general public feels alienated or suspects the speaker is using complex words to hide unconventional or unproven theories.",
+      "efficiency": {
+        "elapsed_ms": 9845,
+        "prompt_tokens": 934,
+        "completion_tokens": 1522,
+        "total_tokens": 2456,
+        "estimated_cost_usd": 0.025632
+      }
+    },
+    {
+      "knowledge_point_id": 3,
+      "topic": "Mycophobia in Academia",
+      "student_current_ci": "p/a",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 2,
+        "end_minute": 5,
+        "a_total_hits": 4,
+        "a_trend": "falling"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "Step 1 (Level): The target constructive mode ('c') is not achieved. The student cognitive level remains passive/active (p/a) with zero active student output. The teacher dominates the transcript with an extensive monologue ('And he did address the notion of mycophobia...') and closes with a vague, low-cognitive-demand prompt ('What else stands out to you about this?'). Step 2 (Breadth): Active speaker coverage is 0.0% (0 out of 30 students). There is a complete bottleneck where no individual student is generating, mapping, or constructing their own understanding of the systemic causes of mycophobia.",
+      "proposed_rewrite": "Shift from a teacher-led narrative to an active, individual construction task. Instead of asking a broad conversational question, the teacher will instruct each student to independently model the systemic relationship between academic stigma, funding, and scientific credibility using a solo mapping exercise.",
+      "scaffolding_strategy": "Implement an individual 'Stigma-Credibility Loop' mapping task. Instruct each student to work completely on their own to sketch a three-part causal loop on their notepad showing how academic funding, scientific credibility, and mycophobia influence one another. Follow this with a silent writing prompt where students independently write a single-sentence theory explaining how scientists navigate this tension.",
+      "new_question": "On your own notepad, sketch a simple causal diagram showing how academic funding, scientific credibility, and mycophobia interact. Below your diagram, write a one-sentence explanation of how a scientist can strategically overcome this academic stigma.",
+      "reference_answer": "My diagram shows a feedback loop: academic institutions prioritize safe, non-stigmatized research to secure funding, which reinforces mycophobia by leaving psychedelic science unexamined. A scientist can overcome this by framing their research strictly around measurable, highly technical clinical variables—like viral resistance or statistical reliability—to establish credibility before introducing the stigmatized elements.",
+      "efficiency": {
+        "elapsed_ms": 11707,
+        "prompt_tokens": 1346,
+        "completion_tokens": 1729,
+        "total_tokens": 3075,
+        "estimated_cost_usd": 0.029973
+      }
+    },
+    {
+      "knowledge_point_id": 4,
+      "topic": "Credibility and Passion",
+      "student_current_ci": "c",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 5,
+        "end_minute": 8,
+        "a_total_hits": 6,
+        "a_trend": "rising"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "Step 1 (Level): The target Constructive mode is successfully reached by the active speakers. As seen in the transcript, a student independently synthesizes a comparison between Paul Stamets and Mike Reynolds ('similarity between Paul and Mike Reynolds and how they have to like build their credibility and is so fragile'), generating new conceptual links between passion, presentation, and scientific credibility. Step 2 (Breadth): However, class participation is highly bottlenecked. Only 2 out of 30 students (6.7% coverage) are contributing to this constructive dialogue, leaving 28 students silent. The cognitive construction is localized to these two speakers rather than distributed across the entire classroom.",
+      "proposed_rewrite": "Transition the open-floor verbal dialogue into an individual, structured analytical task. Instead of allowing a few vocal students to dominate the discussion, require every student to independently construct a 'Credibility-to-Passion Matrix' on their own workspace, forcing each student to generate their own conceptual links and evidence-based explanations.",
+      "scaffolding_strategy": "First, introduce an 'Individual Paradox Mapping' task where each student independently selects a non-traditional figure and creates a written profile analyzing the tension between their scientific rigor and their non-conforming delivery. Second, provide a structured 'Solo Synthesis Matrix' worksheet with prompt questions that guide students to individually contrast how traditional institutions versus the general public evaluate credibility based on appearance and passion.",
+      "new_question": "On your own, select either Paul Stamets or Michael Reynolds and construct a dual-axis diagram on your worksheet: label the y-axis 'Perceived Scientific Credibility' and the x-axis 'Level of Expressed Passion.' Plot at least three key moments or traits from their career on this grid, and write a brief explanation of how their non-conformity shifted their position on this grid.",
+      "reference_answer": "I selected Michael Reynolds. On my grid, I plotted his early Earthship experiments with beer bottles at high passion but extremely low perceived scientific credibility because the local board viewed him as a renegade rather than an architect. However, when he built the sustainable disaster-relief housing in the Andaman Islands after the tsunami, his credibility score spiked upward because his non-conforming, rapid-build methods achieved immediate, undeniable utility. This shows that passion-driven non-conformity is initially penalized as unscientific, but is validated when it solves a crisis that traditional systems cannot.",
+      "efficiency": {
+        "elapsed_ms": 11419,
+        "prompt_tokens": 1416,
+        "completion_tokens": 1751,
+        "total_tokens": 3167,
+        "estimated_cost_usd": 0.030513
+      }
+    },
+    {
+      "knowledge_point_id": 5,
+      "topic": "Environmental Impact of Fungi",
+      "student_current_ci": "c",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 8,
+        "end_minute": 10,
+        "a_total_hits": 10,
+        "a_trend": "rising"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "Step 1 (Level): The active speakers successfully reached the constructive level (Mode C) by autonomously synthesizing the relationship between fungal colonization and soil formation, noting how fungi 'transform wood and straw and grass... and turn it into soil.' Step 2 (Breadth): However, cognitive engagement is heavily bottlenecked. Only 2 out of 30 students (6.7% coverage) are actively constructing these insights, while the remaining 93.3% of the class remains passive. The high-level cognitive behavior of the few active speakers has not been scaled to the rest of the classroom.",
+      "proposed_rewrite": "To scale this constructive cognitive processing to all 30 students, the teacher will transition from an open class discussion to an individual, universal writing and modeling task. Every student will independently construct a visual causal chain mapping the ecological impact of fungi on soil creation and pesticide disruption, ensuring 100% individual cognitive output.",
+      "scaffolding_strategy": "First, provide each student with an individual 'Soil-Fungi Causal Template' to fill out solo. Students must independently trace the pathway from raw organic matter decomposition by fungi to usable soil formation. Second, require each student to write a solo reflective analysis explaining the long-term ecological consequences of soil biodiversity loss without consulting anyone else, ensuring every silent student produces a unique constructive artifact.",
+      "new_question": "On your own worksheet, construct a step-by-step causal flow chart showing how fungi transform raw organic wood and straw into usable soil, and draw a clear intervention point showing how pesticide use breaks this specific biological cycle.",
+      "reference_answer": "My flow chart shows: 1. Fungi secrete enzymes onto wood/straw -> 2. Complex organic polymers break down into simple nutrients -> 3. Fungal mycelium binds microparticles to form stable soil aggregates (humus). The pesticide intervention point is placed at step 1, where chemical runoff kills the fungal mycelium, halting decomposition, which leads to soil erosion and loss of crop sustainability.",
+      "efficiency": {
+        "elapsed_ms": 10536,
+        "prompt_tokens": 1318,
+        "completion_tokens": 1598,
+        "total_tokens": 2916,
+        "estimated_cost_usd": 0.027924
+      }
+    },
+    {
+      "knowledge_point_id": 6,
+      "topic": "Terraforming and Space Travel",
+      "student_current_ci": "i",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "i",
+      "a_behavior": {
+        "start_minute": 10,
+        "end_minute": 12,
+        "a_total_hits": 9,
+        "a_trend": "falling"
+      },
+      "target_mode": "i",
+      "gap_diagnosis": "Step 1 (Level): The active speakers successfully achieve the Interactive (i) level. They are actively co-constructing and building upon each other's ideas about space travel and the movie 'Aliens' (e.g., 'Or he was watching aliens, right? Because the second movie...' and 'I mean, at one point here, he's talking about cosmic consciousness...'). Step 2 (Breadth): However, the breadth is extremely low, with only 2 out of 30 students (6.7% coverage) participating. The interactive cognitive engagement is restricted to a small dialogue loop, leaving 28 students silent and passive.",
+      "proposed_rewrite": "To scale this high-level interactive engagement to the entire class, the instructor must pivot from an open-floor dialogue dominated by two students to a structured, pair-negotiation task. This transitions the interactive dynamic from a localized speaker-pair to 15 concurrent peer-to-peer dyads, ensuring 100% active participation while maintaining the interactive cognitive depth of linking biological mycelium networks to space colonization.",
+      "scaffolding_strategy": "Implement a 'Reciprocal Design-and-Defend' protocol. Have students pair up. Each partner must pitch one specific application of mycelium networks to terraforming (e.g., soil creation vs. structural communication). The partners must then collaboratively synthesize their two ideas into a single 'Hybrid Colonization Plan,' resolving any conflicting constraints. To ensure accountability, pairs will swap their written plans with an adjacent pair for a collaborative peer-review and joint refinement phase.",
+      "new_question": "With your partner, look at how the author overlays mycelium networks with brain nodes. Work together to design a mock Martian colony network where mycelium serves a dual purpose. You must negotiate and agree on: 1) how it supports human survival, and 2) how you will overcome one environmental constraint your partner raises.",
+      "reference_answer": "Student A: 'I propose we use the mycelium network as a biological communication grid connecting our dome structures, like brain nodes.' Student B: 'I like that, but Martian soil is sterile and cold. If we use it as a grid, we should also use it to break down rock into organic soil.' Student A: 'Great point! So we can feed the mycelium organic waste at the nodes, allowing it to grow outward, bind the soil, and act as a living bio-sensor network between the domes.'",
+      "efficiency": {
+        "elapsed_ms": 12613,
+        "prompt_tokens": 1259,
+        "completion_tokens": 1861,
+        "total_tokens": 3120,
+        "estimated_cost_usd": 0.031692
+      }
+    },
+    {
+      "knowledge_point_id": 7,
+      "topic": "Stigma and Scientific Solutions",
+      "student_current_ci": "i",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "i",
+      "a_behavior": {
+        "start_minute": 12,
+        "end_minute": 16,
+        "a_total_hits": 12,
+        "a_trend": "rising"
+      },
+      "target_mode": "i",
+      "gap_diagnosis": "Step 1 (Level): The target interactive level (i) is successfully reached by the active speakers. Students are co-constructing and questioning complex socio-scientific dynamics, as seen when one student asks, 'why if this seems like such a simple solution... why we haven't done it yet?' and another builds on it with, 'But when you can apply one thing to so many solutions, it feels like there's not enough traction...'. Step 2 (Breadth): Despite high-quality interaction, coverage is highly restricted. Only 2 out of 30 students (6.7%) are actively speaking. The remaining 93.3% of the class remains passive, listening to a localized conversation instead of engaging in peer-to-peer co-construction.",
+      "proposed_rewrite": "To scale this high-quality interactive mode to the entire class, the teacher should transition from a centralized teacher-student dialogue to a structured, decentralized peer-to-peer interaction. The teacher will prompt all 30 students to work in pairs, requiring each partner to actively challenge or extend the other's ideas regarding the barriers to scientific solutions (stigma vs. institutional resistance).",
+      "scaffolding_strategy": "Interactive Scaling - 'Build and Challenge' Dyads: Direct all students to turn to a neighbor. Partner A must pitch one primary reason why they think mushroom-based scientific solutions face a lack of traction (e.g., cultural stigma, corporate lobbying, or scaling complexity). Partner B cannot simply agree; they must actively build on Partner A's point by adding an intersecting factor, or challenge it with a counter-argument. Each pair must co-write a single synthesized thesis on a shared digital board to ensure 100% active, interactive participation.",
+      "new_question": "In your pairs, negotiate the primary reason why highly effective biological solutions (like mycoremediation) face resistance. Partner A, pitch your primary reason. Partner B, you must build on or challenge Partner A's rationale with an alternative institutional or cultural barrier. What synthesized consensus can your pair co-construct?",
+      "reference_answer": "Partner A: I think the biggest barrier is cultural stigma; because people associate mushrooms with poison or psychedelics, they distrust scientific applications. Partner B: I understand that point, but I want to challenge it by looking at the economics. Even if we overcome the stigma, big corporations can't easily patent a natural fungus, so there's no massive lobby pushing for its regulatory approval. Together, we think it's a combination of public distrust and a lack of corporate financial incentives that stalls adoption.",
+      "efficiency": {
+        "elapsed_ms": 12196,
+        "prompt_tokens": 1752,
+        "completion_tokens": 1926,
+        "total_tokens": 3678,
+        "estimated_cost_usd": 0.034146
+      }
+    },
+    {
+      "knowledge_point_id": 8,
+      "topic": "Micro Filtration Techniques",
+      "student_current_ci": "c",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 16,
+        "end_minute": 20,
+        "a_total_hits": 19,
+        "a_trend": "stable"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "Step 1 (Level): The active speakers successfully reached the constructive mode ('c') by explaining the underlying biological and physical mechanisms of myco-filtration (e.g., Parker explaining how 'inoculating wood chips... pulls heavy metals' and another explaining the application to oil spills). Step 2 (Breadth): However, participation is extremely bottlenecked. Only 2 out of 30 students (6.7% coverage) are active. The current open-ended whole-class dialogue relies on a few vocal students to construct meaning while the other 28 students remain passive listeners.",
+      "proposed_rewrite": "Shift from a whole-class verbal recall discussion to an individual constructive modeling task. The teacher will instruct every student to individually construct a conceptual visual map of a microfiltration system, forcing all 30 students to independently synthesize and apply the biological mechanisms discussed in the transcript.",
+      "scaffolding_strategy": "First, implement an Individual Myco-System Blueprint task where each student independently selects one real-world contaminant (e.g., oil spill or heavy metals) and draws a flow diagram illustrating how mycelium physically blocks and chemically breaks down the pollutant. Second, use a silent digital gallery tool where every student uploads their individual diagram to a shared screen, allowing the teacher to call on previously silent students to explain their unique model without any peer-to-peer discussion.",
+      "new_question": "On your own, select one specific environmental pollutant (such as heavy metals, oil, or agricultural runoff) and sketch a step-by-step diagram showing exactly how a mushroom-inoculated microfiltration barrier intercepts, processes, and detoxifies that pollutant. Label the physical and biological mechanisms at play.",
+      "reference_answer": "My diagram shows agricultural runoff containing pesticides flowing toward a stream. I have drawn a barrier of wood chips inoculated with mycelium. In step one, the dense fungal network physically traps suspended solids. In step two, the mycelium secretes extracellular enzymes that chemically break down the complex pesticide molecules into non-toxic components. In step three, the clean water flows out while the heavy metals are bioaccumulated inside the mushroom fruiting bodies.",
+      "efficiency": {
+        "elapsed_ms": 12552,
+        "prompt_tokens": 1596,
+        "completion_tokens": 2063,
+        "total_tokens": 3659,
+        "estimated_cost_usd": 0.035733
+      }
+    },
+    {
+      "knowledge_point_id": 9,
+      "topic": "Cancer and Mycology",
+      "student_current_ci": "c",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 20,
+        "end_minute": 33,
+        "a_total_hits": 41,
+        "a_trend": "falling"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "Step 1 (Level): The active speaking students have successfully reached the Constructive ('c') level. They are independently synthesizing complex ecological and biological concepts, as evidenced when a student explains: 'they put in these mushrooms and basically these mushrooms were able to like grow mycelium... and when it decomposed, it brought in things like larva and maggots, which were then able to start kind of its own little ecosystem going.' Step 2 (Breadth): However, cognitive construction is heavily bottlenecked. Only 5 out of 30 students (16.7% coverage) are actively participating in this synthesis. The remaining 25 students are passive listeners, absorbing the verbal explanations of their peers rather than active cognitive generators of their own knowledge structures.",
+      "proposed_rewrite": "To scale this achieved Constructive ('c') mode to the silent 83.3% of the class, the teacher must transition from a whole-class verbal dialogue (which naturally favors a few vocal students) to an obligatory, individual generative output. Every student will independently construct a personalized cognitive mapping of a specific mycoremediation mechanism, ensuring that the cognitive construction is replicated and executed by all 30 individuals separately.",
+      "scaffolding_strategy": "1. Individual Cause-and-Effect Mapping: Instruct each student to work completely independently on their own device or paper to draft a 'Myco-Remediation Pathway'. They must choose one toxin (e.g., radiation, oil, or pesticides) and map out the exact sequence of biological events that lead to remediation. No talking or peer interaction is permitted to ensure pure individual cognitive generation.\n2. Solo Analogy Construction: Have each student independently write down a novel analogy comparing mycorrhizal networks to a human-made infrastructure system (e.g., communication grids or supply chains), explaining how the mycelial network distributes nutrients and reduces transplant shock.",
+      "new_question": "On your own paper, select one of the environmental toxins we discussed—such as heavy metals, oil, or chemical pesticides—and independently sketch a step-by-step diagram showing how mycelium physically and chemically neutralizes it, labeling the specific biological mechanisms involved.",
+      "reference_answer": "I chose oil spills. Step 1: Hydrocarbon molecules coat the soil. Step 2: Mycelium is introduced and secretes extracellular enzymes (like laccases) that break down the complex carbon chains of the oil into simpler, non-toxic organic compounds. Step 3: The decomposed matter fertilizes the soil, encouraging fungal fruiting bodies which attract insects like gnats and larvae, introducing a new trophic layer that transforms a toxic zone into a thriving local ecosystem.",
+      "efficiency": {
+        "elapsed_ms": 11699,
+        "prompt_tokens": 3585,
+        "completion_tokens": 1959,
+        "total_tokens": 5544,
+        "estimated_cost_usd": 0.04014
+      }
+    },
+    {
+      "knowledge_point_id": 10,
+      "topic": "Biodiversity and Ecosystem Health",
+      "student_current_ci": "c",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "a_behavior": {
+        "start_minute": 33,
+        "end_minute": 59,
+        "a_total_hits": 56,
+        "a_trend": "falling"
+      },
+      "target_mode": "c",
+      "gap_diagnosis": "The target cognitive mode (Constructive) has been successfully reached by a few vocal students (e.g., Lauren mentioning 'ecological cascades' and another student bringing up 'no fruits or juices' and 'coffee too') and via asynchronous Top Hat responses. However, verbal participation is heavily bottlenecked with only 10% speaker coverage (3 out of 30 students) due to the teacher's extended monologues about their personal farm and sunglasses. The falling trend in active behavior signals (total_hits=56, falling) indicates that student engagement is waning as they slip back into passive listening. The gap is not the cognitive level itself, but the breadth of active, individual cognitive construction across the entire class.",
+      "proposed_rewrite": "Transition the lecture into an active, individual cognitive synthesis task. Instead of the teacher reading out broad student inputs from Top Hat, each student will individually construct a 'Biodiversity Cascade Map' for a specific product they use daily (e.g., coffee, cotton, almonds). They will independently map out the biological dependencies, chemical threats (such as neonicotinoids), and the cascading economic costs of its loss, forcing every silent student to construct their own mental model of ecosystem services.",
+      "scaffolding_strategy": "First, implement a 'Silent Generative Mapping' activity: give students 4 minutes of absolute silence to create a 'Personal Dependency Matrix' on a sheet of paper. They must link three of their daily habits to specific pollinator or soil biodiversity services and calculate the hypothetical 'hand-pollination cost' if those services vanished. Second, use 'Cold-Calling Rotational Probing' to widen the 10% speaking coverage. The teacher will systematically invite previously silent students to explain one unique link in their individual matrix, building a class-wide constructive picture on the board without any student-to-student interaction.",
+      "new_question": "Select one item from your breakfast or daily routine. Independently trace its ecological supply chain back to a specific soil microbe or pollinator, and explain the exact biological cascade that would occur if that single organism went extinct.",
+      "reference_answer": "I drink orange juice every morning. The citrus trees rely on honeybee pollination. If honeybees go extinct, orange yields would plummet because hand-pollination is financially unfeasible for massive orchards. This loss would trigger an ecological cascade where herbivorous insects feeding on citrus leaves lose their food source, subsequently starving local bird populations that rely on those insects, ultimately destabilizing the local food web.",
+      "efficiency": {
+        "elapsed_ms": 12227,
+        "prompt_tokens": 6242,
+        "completion_tokens": 2086,
+        "total_tokens": 8328,
+        "estimated_cost_usd": 0.050016
+      }
+    }
+  ]
+}

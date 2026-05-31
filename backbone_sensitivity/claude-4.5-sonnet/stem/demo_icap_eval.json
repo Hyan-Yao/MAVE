@@ -1,0 +1,653 @@
+{
+  "model": "openai/gpt-5.1",
+  "evaluation_dimensions": [
+    "Accuracy",
+    "Alignment & Grounding",
+    "Actionability"
+  ],
+  "aggregate": {
+    "count": 11,
+    "avg_accuracy": 4.545,
+    "avg_alignment_grounding": 4.636,
+    "avg_actionability": 4.545,
+    "avg_overall_score_5": 4.576,
+    "pass_rate": 0.909,
+    "borderline_rate": 0.0,
+    "fail_rate": 0.091
+  },
+  "efficiency": {
+    "elapsed_sec": 17.06,
+    "request_count": 11,
+    "pricing_model_reference": "openai/gpt-5.1",
+    "prompt_cost_per_1m": 3.0,
+    "completion_cost_per_1m": 15.0,
+    "prompt_tokens": 36536,
+    "completion_tokens": 10555,
+    "total_tokens": 47091,
+    "llm_elapsed_ms_sum": 133475,
+    "estimated_total_cost_usd": 0.267933
+  },
+  "results": [
+    {
+      "knowledge_point_id": 1,
+      "topic": "Project Overview",
+      "rederived_ci_level": "p|a",
+      "scores": {
+        "accuracy": 5,
+        "alignment_grounding": 5,
+        "actionability": 5
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 5,
+          "comment": "Correctly identifies student level as p/a with 0 speakers and accurately characterizes teacher questions as closed, low-cognitive-demand yes/no checks. Diagnosis of bottleneck (no elicitation of individual reasoning; discourse structure blocks construction) is fully consistent with ICAP and the transcript."
+        },
+        "proposed_rewrite": {
+          "score": 5,
+          "comment": "Clearly shifts from progress-check monologue to individual cognitive construction. Emphasizes personal reasoning, predictions, and workflow mapping, which is exactly constructive. Coherent with early project phase goal of planning and self-assessment."
+        },
+        "scaffolding_strategy": {
+          "score": 5,
+          "comment": "Two concrete, targeted strategies with clear actors (teacher/students), actions (think‑aloud, journaling, probing), and timing (during the status check). Granularity is appropriate and tightly tied to this project context and constructive mode."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "Prompt is specific, grounded in the actual foam‑board project drawing, and requires individual analysis and strategy generation—hallmark of constructive engagement. Fits topic and phase well."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "Technically plausible and content-specific answer that models identifying a difficult joint, explaining why, and articulating a procedure to address it. Strong exemplar of constructive reasoning without contradicting any transcript facts."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "p/a",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [],
+      "dimension_rationales": {
+        "accuracy": "The suggestion’s reading of the transcript is precise: no student utterances, only teacher monologue about progress and deadlines with yes/no checks. This aligns with p/a on ICAP. The move toward C via individual construction (reasoning about design choices, anticipating challenges) is pedagogically correct and consistent with the policy note that early phase should focus on individual planning and self-assessment.",
+        "alignment_grounding": "All referenced classroom facts—0% student speakers, yes/no questions about starting the project, cutting foam board, and turning in assignment drawings—match the provided transcript and classification summary. The design elements (think‑alouds, prediction cards, specific question) are forward-looking but well aligned with the foam-board project context and the expected policy for this knowledge point. No contradictions or fabricated metrics appear.",
+        "actionability": "Strategies specify who does what and when (during the initial status check segment), including number of students, example prompts, and constraints (solo explanations, no peer discussion) to preserve constructive mode. They are practical for a ~30-student class, focus tightly on this project overview moment, and avoid over-scripted timing beyond useful cues (e.g., ~45 seconds, 60 seconds). This strikes the intended middle granularity and is readily implementable."
+      },
+      "overall_score_5": 5.0,
+      "verdict": "pass",
+      "efficiency": {
+        "prompt_tokens": 2591,
+        "completion_tokens": 772,
+        "total_tokens": 3363,
+        "estimated_cost_usd": 0.019353,
+        "elapsed_ms": 10124
+      }
+    },
+    {
+      "knowledge_point_id": 2,
+      "topic": "Foam Board Cutting Tips",
+      "rederived_ci_level": "p/a",
+      "scores": {
+        "accuracy": 1,
+        "alignment_grounding": 1,
+        "actionability": 1
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 1,
+          "comment": "No actual ICAP gap diagnosis is present; the record only shows an LLM error string and confidence=0. There is no explanation of why coverage is bottlenecked or how behavior maps to ICAP, and no transcript quotation."
+        },
+        "proposed_rewrite": {
+          "score": 1,
+          "comment": "Completely missing. There is no concept-level pedagogical modification described to move students from passive/active toward constructive."
+        },
+        "scaffolding_strategy": {
+          "score": 1,
+          "comment": "No strategies are proposed. There are no actor/action/timing descriptions or ICAP-targeted moves tied to this specific foam board cutting topic."
+        },
+        "new_question": {
+          "score": 1,
+          "comment": "No new prompt or question is provided in the evaluated suggestion payload. The only question in context (about creating a checklist) comes from the separate expected_policy_for_this_kp, not from the failed LLM output."
+        },
+        "reference_answer": {
+          "score": 1,
+          "comment": "No reference answer is provided corresponding to a new question, so this field cannot support constructive learning design."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "p/a",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": false
+      },
+      "hallucination_flags": [],
+      "major_issues": [
+        "The teaching improvement suggestion did not generate due to an LLM parsing error; all core ICAP fields are effectively absent.",
+        "No explicit linkage is made between the transcript evidence (purely teacher monologue) and the diagnosed ICAP gap.",
+        "No actionable moves are specified to shift students from passive/active toward constructive for this knowledge point."
+      ],
+      "improvement_suggestions": [
+        "Add a concrete gap_diagnosis that explicitly cites the absence of student speech and explains that students are currently only listening to teacher explanations about blade sharpness, angle, and pressure, thus remaining at passive/active rather than constructive.",
+        "Propose a rewrite in which the teacher briefly summarizes the three cutting variables, then explicitly asks students to generate their own troubleshooting steps or cutting protocol before revealing an expert version.",
+        "Design 2–3 specific scaffolding strategies, such as (1) teacher giving a short failure scenario and asking students to write or sketch a two-pass cutting plan individually, then share; (2) students in pairs identifying which of the three problems is most likely in a described case and justifying their reasoning in 1–2 sentences.",
+        "Create a new, clearly constructive question tightly aligned to this topic, for example: 'Given a foam board that is fraying along the edge after three passes, list the most likely cause among blade sharpness, angle, and pressure, and propose one precise adjustment to fix it next time.'",
+        "Provide a concise reference answer that models an appropriate troubleshooting rationale, explicitly referencing blade condition, cutting angle, and pressure, and showing how a student might reason through the scenario."
+      ],
+      "dimension_rationales": {
+        "accuracy": "The system correctly identifies student_current_ci as p/a and the expected target as C in the external policy, but the evaluated 'suggestions' object contains only an error message. There is no articulated diagnosis, no evolution path from p/a to C, and no use of ICAP terminology or logic, so accuracy of the non-existent fields must be scored at the minimum.",
+        "alignment_grounding": "There is no content to align with the target constructive mode. While the trusted context about 3 common cutting problems and a constructive target is coherent, the failed suggestion contributes nothing: no grounded references to the transcript, no counts, and no questions or strategies that could be checked for consistency. Hence grounding and goal alignment are effectively absent.",
+        "actionability": "Because the suggestion payload is an error stub with no concrete pedagogical actions, there are no identifiable actors, action verbs, or timing cues. Nothing is directly executable in a classroom; therefore actionability is at the lowest level."
+      },
+      "overall_score_5": 1.0,
+      "verdict": "fail",
+      "efficiency": {
+        "prompt_tokens": 2189,
+        "completion_tokens": 981,
+        "total_tokens": 3170,
+        "estimated_cost_usd": 0.021282,
+        "elapsed_ms": 11955
+      }
+    },
+    {
+      "knowledge_point_id": 3,
+      "topic": "Design Composition Advice",
+      "rederived_ci_level": "p",
+      "scores": {
+        "accuracy": 5,
+        "alignment_grounding": 5,
+        "actionability": 5
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 5,
+          "comment": "Correctly identifies students as passive/active with zero constructive output and no student speech. Accurately cites teacher monologue and connects it to lack of student-generated explanations. Level and breadth gaps are clearly articulated and fully consistent with ICAP and the transcript."
+        },
+        "proposed_rewrite": {
+          "score": 5,
+          "comment": "Precisely shifts from teacher explanation of symmetry/continuance to student self-critique and plan generation, which is quintessentially Constructive. Tightly aligned with the topic (composition advice) and the expected CI policy for this KP."
+        },
+        "scaffolding_strategy": {
+          "score": 5,
+          "comment": "Two concrete, feasible strategies with clear steps, roles, and timing. Strongly tied to the specific content (no dead center, continuance, symmetry) and designed for individual constructive work. Level of detail is practical without over-choreographing."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "Directs each student to analyze their own draft, identify a violated principle, propose and explain a correction. This clearly elicits self-generated explanations (C) and is well grounded in the composition concepts actually taught."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "Disciplinarily sound and clearly models constructive reasoning: identifies a specific compositional flaw, names the violated principle, describes a concrete change, and explains how continuance/asymmetry improve visual movement. Fully aligned with course logic."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "p/a",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [],
+      "dimension_rationales": {
+        "accuracy": "The diagnosis correctly re-derives the current CI level as Passive/low Active: no student utterances appear in the transcript, and all cognitive work is teacher-driven. The explanation that Constructive requires students to generate analyses or explanations is aligned with standard ICAP. The proposed evolution (from p/a to C via individual self-critique and revision planning) is pedagogically appropriate for this early-phase design content and is coherent with the global config that expects C when C-ratio is 0 but no I behavior is present. No misinterpretations of the transcript or ICAP hierarchy are evident.",
+        "alignment_grounding": "The suggestion stays tightly aligned to the target mode C and to the specific knowledge point: avoiding static symmetry, using continuance, managing negative space. The gap_diagnosis quotes and paraphrases the transcript accurately (e.g., 'so when i say hey you should go off the border this is what i mean right here ... this is called continuance'), matches the classification summary (0 student speakers, monologic teacher talk), and respects the class size assumptions. The future-oriented rewrite, task designs, and model answer are all plausible and discipline-consistent; they extend but do not contradict any grounded classroom facts. There are no fabricated metrics or misused context values.",
+        "actionability": "The recommendations specify who does what and when: after the teacher’s explanation, students individually annotate their own work, identify rule violations, and sketch and justify revisions; the teacher circulates and asks probing questions. Each strategy has clear verbs (mark, write, sketch, explain) and directly references the concrete design principles in the lesson. The granularity is appropriate: detailed enough for immediate classroom adoption without prescribing minute-by-minute scripting. The designs are realistic for a studio-style art class and do not rely on special resources beyond common drawing materials."
+      },
+      "overall_score_5": 5.0,
+      "verdict": "pass",
+      "efficiency": {
+        "prompt_tokens": 3298,
+        "completion_tokens": 900,
+        "total_tokens": 4198,
+        "estimated_cost_usd": 0.023394,
+        "elapsed_ms": 12617
+      }
+    },
+    {
+      "knowledge_point_id": 4,
+      "topic": "Office Hours Announcement",
+      "rederived_ci_level": "p/a",
+      "scores": {
+        "accuracy": 5,
+        "alignment_grounding": 5,
+        "actionability": 4
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 5,
+          "comment": "Correctly identifies this segment as passive/at most active note-taking, with no student-generated output or transformation. Uses accurate ICAP terminology and is fully consistent with transcript (pure teacher monologue, no student speech, and logistical content only). The explanation of why target C is not reached is precise and well reasoned."
+        },
+        "proposed_rewrite": {
+          "score": 5,
+          "comment": "Strong concept-level shift: turns a logistical announcement into a constructive planning task where students must synthesize schedule info with their own constraints and generate a personalized plan. This is exactly aligned with ICAP-C and with the policy’s expectation that students create a personalized plan for office hours."
+        },
+        "scaffolding_strategy": {
+          "score": 4,
+          "comment": "Both strategies are specific, with clear actors (students, teacher), timing (immediately after announcement, after mapping task), and concrete actions (mapping weekly calendar, individual writing, cold-calling with probing). They are somewhat detailed (templates, exact sentence counts, fixed number of students) but still realistic. Could be slightly streamlined to avoid over-structuring while retaining clarity."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "Directly elicits constructive behavior: students must map the schedule, overlay commitments, choose slots, and justify in relation to a learning challenge. Clearly tied to the topic and to the target C level. Lengthy but pedagogically coherent and implementable as a prompt."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "Provides a high-quality exemplar of the requested construction: it integrates schedule reasoning, personal constraints, and a clearly articulated learning priority. Content is plausible for a CS-like course but remains generic enough to serve as a model. Fully aligned with the new question and ICAP-C (decision + justification)."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "p/a",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [
+        "Slightly simplify the scaffolding details (e.g., allow flexible number of sentences or students called) so it feels less scripted while keeping the core constructive tasks.",
+        "Shorten and tighten the new question wording in practice to ensure students can quickly grasp the multi-step task without cognitive overload on instructions."
+      ],
+      "dimension_rationales": {
+        "accuracy": "The diagnosis applies ICAP correctly, distinguishing passive/active note-taking from constructive generation, and matches observed data: no student speech, 0 C-ratio, and content that is purely logistical. The proposed evolution from P/A to C via personalized planning is pedagogically sound and consistent with the expected policy description for this knowledge point.",
+        "alignment_grounding": "All references to the existing class (teacher monologue, no student participation, schedule content: Monday–Wednesday, 10–12 and 6–8) align with the transcript and pipeline context. The future-oriented rewrite, strategies, and questions remain within the topic of office hours usage and match the expected CI level (C) defined in the policy. No invented factual classroom details or contradictions are present.",
+        "actionability": "The suggestions specify who does what and when: after the announcement, students complete individual mapping and reflection; the teacher circulates and later cold-calls for brief shares. These moves are teachable and targeted to this specific segment. Some elements verge on being slightly over-scripted (exact sentence counts, fixed numbers of students), which lowers flexibility a bit, but not enough to impede real-world use."
+      },
+      "overall_score_5": 4.67,
+      "verdict": "pass",
+      "efficiency": {
+        "prompt_tokens": 2798,
+        "completion_tokens": 902,
+        "total_tokens": 3700,
+        "estimated_cost_usd": 0.021924,
+        "elapsed_ms": 12102
+      }
+    },
+    {
+      "knowledge_point_id": 5,
+      "topic": "Encouragement to Attend Office Hours",
+      "rederived_ci_level": "c",
+      "scores": {
+        "accuracy": 5,
+        "alignment_grounding": 5,
+        "actionability": 5
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 5,
+          "comment": "Correctly identifies that the focal student is already operating at C by asking self-generated, goal-directed questions, and that the main issue is extremely low breadth (1 of ~30 students). Uses accurate ICAP logic (no need to shift level, but to scale constructive engagement). Grounding is consistent with transcript and policy context."
+        },
+        "proposed_rewrite": {
+          "score": 5,
+          "comment": "Concept-level shift—from broadcast information about office hours to required individual metacognitive planning—is well aligned with target C mode and topic (office hours usage). It is logically derived from the diagnosis that breadth, not level, is the bottleneck."
+        },
+        "scaffolding_strategy": {
+          "score": 5,
+          "comment": "Two strategies are concrete, specify actors (students, teacher), actions (write, list, select, respond), and timing (immediately during this segment, before ending class). They remain at constructive-individual level (no peer talk), fit the office-hours theme, and are not over-scripted."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "Directly elicits individual construction of a personal plan tied to office hours and related supports. It is specific, on-topic, and clearly prompts C-level thinking (self-generated confusion + self-devised resolution strategy)."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "Exemplifies an appropriate constructive response: articulates a precise logistical confusion and a concrete, time-bound self-help plus office-hours plan. Content is realistic for this course context and aligns with the new question’s intent."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "c",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [],
+      "dimension_rationales": {
+        "accuracy": "The suggestion correctly re-derives the classroom as C-level: a single student generates procedural questions, while most remain silent. It accurately interprets ICAP hierarchy and focuses on scaling C rather than aiming for I. The explanation that the teacher’s office-hour pitch is largely monologic and that only one student is externalizing constructive thinking matches the transcript and the classification summary. No ICAP misapplications are evident.",
+        "alignment_grounding": "The analysis aligns tightly with the trusted context: class size ~30, C ratio 0.033, one student speaker, no I behavior, and an expected level of C. Quotations used in the gap_diagnosis (student questions; teacher comment about office hours) are faithful to the transcript. Future-oriented elements (rewrite, strategies, question, answer) respect the topic (office hours encouragement), keep the focus on individual reflection/planning, and do not contradict any known facts.",
+        "actionability": "Both the rewrite and strategies offer mid-granularity, actionable moves. They clearly state when to intervene (during the office-hours segment, before class ends), who acts (all students writing; teacher circulating and cold-calling other students), and what outputs are expected (two-column plan, oral articulation of planned office-hours use). They are tightly coupled to the specific knowledge point (logistics and use of office hours), not generic interaction slogans, and they preserve feasibility for a typical class size without micromanaging every minute."
+      },
+      "overall_score_5": 5.0,
+      "verdict": "pass",
+      "efficiency": {
+        "prompt_tokens": 3131,
+        "completion_tokens": 850,
+        "total_tokens": 3981,
+        "estimated_cost_usd": 0.022143,
+        "elapsed_ms": 14130
+      }
+    },
+    {
+      "knowledge_point_id": 6,
+      "topic": "Project Submission Guidelines",
+      "rederived_ci_level": "c",
+      "scores": {
+        "accuracy": 5,
+        "alignment_grounding": 5,
+        "actionability": 5
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 5,
+          "comment": "Correctly identifies that students are largely passive while the teacher demonstrates procedural steps, and that even the single student utterance ('got it') is not constructive. Accurately notes low coverage (1 of 30) and aligns with ICAP distinctions between following procedures (A) and constructing artifacts (C). The dual bottleneck (procedural focus + single-student engagement) is well articulated and consistent with transcript and metadata."
+        },
+        "proposed_rewrite": {
+          "score": 5,
+          "comment": "Logically shifts from teacher-led demonstration to individual artifact creation that requires synthesis and re-expression of submission guidelines, which is squarely in Constructive territory. The suggested artifacts (checklists, flowcharts, rubrics) match the topic and the expected policy’s emphasis on students generating their own multi-angle documentation plan."
+        },
+        "scaffolding_strategy": {
+          "score": 5,
+          "comment": "Provides two clearly structured, feasible strategies focused on individual written/drawn products and metacognitive prompts, all without introducing peer interaction (thus maintaining C, not I). Specifies actors (students construct; teacher circulates and questions), actions (draw, annotate, list, write explanations), and timing (after brief core guideline presentation), with good middle-level granularity and strong topic relevance."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "Directly targets constructive processing: students must draw and label their own camera-angle plan and explain what each angle evidences. Fits the content (multi-angle photos, volume assessment) and is consistent with the expected-policy suggested question. Instructions are precise yet flexible, and they maintain individual (not interactive) work."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "Describes a plausible high-quality student product tightly aligned with the question and the lesson aims: four labeled views, each tied to specific aspects of volume, dimensions, texture, and completeness. The metacognitive link to assessment criteria is appropriate for C-level elaboration and leverages the teacher’s original emphasis on 90°/45° angles and volume visibility."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "c",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [],
+      "dimension_rationales": {
+        "accuracy": "The diagnosis correctly classifies current student behavior as non-constructive despite minimal A-signal and a single acknowledgment utterance, and it accurately frames the improvement from mostly passive/active following to constructive artifact creation, in line with ICAP (C without peer co-construction). The proposed tasks match the expected CI policy description for this knowledge point.",
+        "alignment_grounding": "All references to class size, speaker count, and behavior (1/30 students speaking, teacher giving detailed upload and angle instructions, student saying 'got it') are consistent with the trusted context and transcript. Future-oriented design elements (checklists, diagrams, rubrics) are appropriate extrapolations, not contradictions, and are aligned with the target Constructive mode.",
+        "actionability": "The suggestions clearly delineate who does what and when: after a short teacher explanation, students individually construct diagrams/checklists, while the teacher circulates asking specific probing questions. The level of detail is implementable without being rigid, and activities are explicitly tied to this knowledge point (project photo angles, submission steps, grading criteria), providing strong, targeted, and practical guidance."
+      },
+      "overall_score_5": 5.0,
+      "verdict": "pass",
+      "efficiency": {
+        "prompt_tokens": 2876,
+        "completion_tokens": 875,
+        "total_tokens": 3751,
+        "estimated_cost_usd": 0.021753,
+        "elapsed_ms": 10884
+      }
+    },
+    {
+      "knowledge_point_id": 7,
+      "topic": "Final Project Requirements",
+      "rederived_ci_level": "c",
+      "scores": {
+        "accuracy": 5,
+        "alignment_grounding": 5,
+        "actionability": 5
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 5,
+          "comment": "Correctly interprets the single student's question as constructive (C) per ICAP (asking a clarifying question that reorganizes task requirements) and accurately diagnoses the bottleneck as breadth of participation, not depth. The cited teacher and student quotes align with the transcript. Distinguishes well between one student's constructive engagement and the rest of the class remaining largely passive despite an open invitation for questions."
+        },
+        "proposed_rewrite": {
+          "score": 5,
+          "comment": "Sound pedagogical shift from teacher monologue and generic 'any questions?' to requiring each student to construct a personalized documentation checklist. This is aligned with ICAP's constructive level (students generating their own representations/plans) and fits the specific content (final project documentation requirements). The evolution direction (maintaining C but broadening to more students) is logical and consistent with the context."
+        },
+        "scaffolding_strategy": {
+          "score": 5,
+          "comment": "Strategies are concrete, targeted, and clearly framed at the constructive level: individual translation of requirements into project-specific examples and a self-audit template. Dominant actor (students constructing; teacher prompting and circulating), actions (write, map, generate, probe), and timing (immediately after explaining each rule, during this requirement segment) are explicit. They are detailed enough to execute but not over-scripted, and they map tightly to this knowledge point (photo/video documentation and quality control)."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "Question directly prompts each student to generate a personalized documentation plan (video moment, photographic features, quality control step), which is exactly constructive processing. It is clearly scoped to this topic (final project documentation) and adds the 'no discussion' constraint to keep it at individual construction rather than interaction, matching the target mode C. Time-bound and operational (3 minutes, write now)."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "Reference answer is content-appropriate (kinetic sculpture, closed/open states, angles, lighting, craftsmanship, base details) and faithfully applies the teacher's stated concerns about image quality and cheating (clear, well-lit, not obscuring flaws). It models the level of specificity and planning that a constructive response should show, without contradicting any transcript facts. Pedagogically strong exemplar for students."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "c",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [],
+      "dimension_rationales": {
+        "accuracy": "The analysis correctly applies ICAP: the observed student behavior (asking requirement-clarification questions) is constructive, not merely active or interactive, and the teacher behavior is mostly expository. The diagnosis that breadth (only 1 of 30 students speaking) is the limiting factor is fully consistent with the provided speaker count and C-ratio (0.033). The proposed shift focuses on having more students independently construct documentation plans, which aligns with the global policy description that the expected C-level behavior is 'individually generate a documentation plan'. No misinterpretation of CI levels or direction of change is evident.",
+        "alignment_grounding": "All references to classroom facts (teacher lines about 'try to remember this', 'short video like a 10 second video', example of cheating with dark/blurry photos and Instagram origami, invitation 'do you guys have questions or issues', one student asking 'i have two questions') are correctly grounded in the transcript and the classification summary. The future-oriented designs (checklist, self-audit template, new prompt) stay on-topic for final project documentation and match the expected-policy description. Suggestions are aimed at strengthening constructive engagement rather than shifting to interaction, which is appropriate given the target_mode is C and class C-ratio is low.",
+        "actionability": "The suggested moves specify who does what and when: after each requirement explanation, students individually write project-specific applications; later they complete a personal self-audit template; concurrently the teacher circulates and asks probing questions. These are realistic classroom actions for a 30-student group and focus tightly on this knowledge point (photo and video requirements, quality control, honor system). There is no vague advice like 'increase participation' without method, nor overly granular scripting. The new question is ready-to-use in class, and the overall design is immediately implementable with minor adaptation."
+      },
+      "overall_score_5": 5.0,
+      "verdict": "pass",
+      "efficiency": {
+        "prompt_tokens": 3171,
+        "completion_tokens": 1072,
+        "total_tokens": 4243,
+        "estimated_cost_usd": 0.025593,
+        "elapsed_ms": 17039
+      }
+    },
+    {
+      "knowledge_point_id": 8,
+      "topic": "Material Recommendations",
+      "rederived_ci_level": "c",
+      "scores": {
+        "accuracy": 4,
+        "alignment_grounding": 5,
+        "actionability": 5
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 4,
+          "comment": "Correctly identifies the main bottleneck as extremely narrow participation (1/30 student speaking) and notes that most students are cognitively invisible. It also correctly quotes and uses transcript evidence to show the dyadic nature of interaction. However, it slightly overstates the speaking student's level as clearly 'Constructive'; the provided student utterance ('yes you can') is confirmatory/active rather than generative-constructive. The conclusion about breadth is strong; the micro-level CI classification is somewhat optimistic."
+        },
+        "proposed_rewrite": {
+          "score": 5,
+          "comment": "Well aligned with target mode C and the late-phase expectation that each student individually synthesizes material information into a concrete plan. It proposes a clear shift from one-on-one verbal Q&A to whole-class individual generative work products, which is pedagogically appropriate and coherent with ICAP. The focus on individual artifacts without peer consultation suits Constructive (not Interactive) mode."
+        },
+        "scaffolding_strategy": {
+          "score": 5,
+          "comment": "Highly actionable and tightly tied to this specific topic (wire type, Home Depot, square-tube vs round spool). Clearly specifies actor (teacher vs students), concrete actions (distribute templates, sketch, label, justify, random cold-calls), and timing (immediately, after 3–4 minutes). Granularity is appropriate for real classrooms and scales C behavior to more students, matching the class-size and C-ratio context."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "Directly elicits individual constructive processing (sketching, labeling differences, explaining functional implications for straight lines). It fits the transcript’s material (round vs square-tube wire) and is clearly oriented to target mode C. Timing and expectations are explicit ('right now', 'in 3 minutes') and aligned with the late-phase knowledge point goals."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "Content is logically consistent with the teacher’s explanation that the square-tube wire introduces kinks that must be bent out, while the recommended wire avoids that problem. The justification links material properties to project requirements (clean straight lines/curves), demonstrating constructive synthesis. It is technically and pedagogically sound for this context."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "c",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [
+        "In the gap_diagnosis, slightly temper the claim that the speaking student is clearly operating at Constructive mode; based on the transcript ('yes you can'), classify this as at most low C or even A, while still keeping the main focus on broadening participation.",
+        "Optionally, connect the proposed individual artifacts even more explicitly to the expected procurement checklist (e.g., include SKU number or quality checkpoints) to better mirror the policy’s late-phase expectations."
+      ],
+      "dimension_rationales": {
+        "accuracy": "The diagnosis accurately captures the extreme participation bottleneck and uses faithful transcript quotes. The evolution direction (scaling from one student at C to whole-class C) is pedagogically appropriate. A minor accuracy issue is the generous labeling of the single student utterance as clearly Constructive despite classification summary evidence that it is merely confirmatory.",
+        "alignment_grounding": "All backward-looking references (1 student speaking, teacher’s focus on Home Depot, SKU, and square-tube wire pitfalls) match the trusted context and transcript. Forward-looking elements (rewrite, strategies, question, answer) remain on-topic for material recommendations and wire selection and are appropriately oriented to Constructive mode, honored by the late-phase expectation that students generate their own procurement reasoning.",
+        "actionability": "Suggestions specify who does what and when (e.g., immediately distribute templates; students independently sketch/justify; after 3–4 minutes the teacher randomly probes several students). They are concrete, not slogans, but not over-scripted, and they directly manipulate this knowledge point’s content (wire type, kinks, procurement location) rather than being generic engagement advice. They are readily implementable in a real 30-student class."
+      },
+      "overall_score_5": 4.67,
+      "verdict": "pass",
+      "efficiency": {
+        "prompt_tokens": 2725,
+        "completion_tokens": 1020,
+        "total_tokens": 3745,
+        "estimated_cost_usd": 0.023475,
+        "elapsed_ms": 13129
+      }
+    },
+    {
+      "knowledge_point_id": 9,
+      "topic": "Drawing Quality Feedback",
+      "rederived_ci_level": "p/a",
+      "scores": {
+        "accuracy": 5,
+        "alignment_grounding": 5,
+        "actionability": 5
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 5,
+          "comment": "Correctly identifies pure teacher monologue, 0 student speakers, and nearly absent A behavior, and accurately labels current student mode as p/a against the ICAP framework. The diagnosis is grounded in transcript quotes (material specs, tool guidance, photo instructions) and clearly distinguishes procedural content (what wire/tools/background) from missing constructive behaviors (students generating criteria, self-assessment). The level/breadth reasoning is coherent and aligned with the policy expectation that this late-phase KP should be at C."
+        },
+        "proposed_rewrite": {
+          "score": 5,
+          "comment": "The shift from teacher-delivered specifications to student-generated quality rubrics is fully consistent with the topic 'Drawing Quality Feedback' and the expected CI level of C. It retains the same content domain (wire, contrast, background, quality), but repositions students as producers of evaluative criteria, which is quintessential constructive behavior. The pedagogical direction (p/a → C) is logical and tightly aligned with the extra context's suggested question about checklists. No hallucinated facts about the original class are introduced; all new elements are future-oriented design."
+        },
+        "scaffolding_strategy": {
+          "score": 5,
+          "comment": "Both strategies are concrete, targeted, and realistic. They clearly specify actors (students draft rubrics/annotate; teacher circulates/probes/selects speakers), actions (fill 3-column template, annotate strengths/weaknesses, justify, brief oral sharing), and timing (immediately replacing the monologue segment and followed by selective sharing). They focus on individual constructive work before any interaction, matching target mode C and avoiding over-engineered sequencing. The use of rubrics and annotated exemplars is directly relevant to 'Drawing Quality Feedback'; nothing here is generic filler."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "The question is tightly aligned with the knowledge point: students analyze example wire drawings on white backgrounds and articulate three success qualities plus rationale, individually and silently—this squarely elicits constructive processing. It coherently builds on the transcript’s emphasis on black wire and white background and matches the policy expectation that students synthesize material constraints into quality understanding. As a forward-looking prompt, it is appropriately innovative and not constrained to verbatim transcript phrasing."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "The answer is content-accurate and well aligned with the lesson’s logic: it emphasizes contrast (directly grounded in black wire/white background rationale), consistent line thickness/wire gauge, and clean bends/craftsmanship—plausible quality criteria for wire drawings. The justifications correctly explain why each quality matters for communicating design ideas, aligning with a feedback focus. No contradictions with transcript or context; details like galvanized wire making lines less visible are consistent with the teacher’s statement that galvanized 'doesn't work' and 'you can't see it.'"
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "p/a",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [],
+      "dimension_rationales": {
+        "accuracy": "The evaluation of current student behavior as passive/active is fully supported by the data: student_speaker_count=0, C ratio=0.0, and transcript showing only teacher talk about materials/tools and photographing projects. The diagnosis correctly leverages ICAP (no evidence of students generating new inferences, so not C or I) and identifies the desired trajectory as moving toward individual constructive reasoning. No misinterpretation of the transcript or misapplication of ICAP is evident.",
+        "alignment_grounding": "All factual references (wire type, galvanized wire rejection, black wire on white background, tools, photo instructions, 0/30 speakers) are consistent with the provided transcript and classification summary. The suggestions and new designs are clearly oriented toward achieving Mode C, as also recommended in the expected_policy_for_this_kp (students creating checklists/guides based on material requirements). The future-oriented tasks stay within the topic 'Drawing Quality Feedback'—how to judge and articulate drawing quality in this wire project—without adding invented historical classroom details.",
+        "actionability": "The improvement plan is directly implementable at a realistic grain size: the teacher can immediately replace part of the monologue with a 4-minute silent rubric-drafting activity, followed by teacher circulation and probing, then an annotation task with subsequent brief sharing. Roles and sequence are explicit, but not scripted at a minute-by-minute or utterance level. Each strategy tightly couples to this knowledge point’s content (wire drawings, contrast, quality criteria) and to Mode C by demanding individual written/annotated products that embody students’ own criteria and explanations."
+      },
+      "overall_score_5": 5.0,
+      "verdict": "pass",
+      "efficiency": {
+        "prompt_tokens": 2996,
+        "completion_tokens": 1138,
+        "total_tokens": 4134,
+        "estimated_cost_usd": 0.026058,
+        "elapsed_ms": 11182
+      }
+    },
+    {
+      "knowledge_point_id": 10,
+      "topic": "Design Process and Narrative",
+      "rederived_ci_level": "c",
+      "scores": {
+        "accuracy": 5,
+        "alignment_grounding": 5,
+        "actionability": 5
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 5,
+          "comment": "Correctly identifies that some students are already operating at C (constructive) through individualized articulation of process and narrative, and that the main bottleneck is coverage (3 of ~30 speaking). While the quoted examples are paraphrased rather than verbatim, they faithfully reflect real patterns in the transcript (e.g., L-shaped forms resembling kanji/new language; individual questions about design decisions and titling strategies). The ICAP interpretation and the diagnosis of narrow breadth but adequate depth are both sound and consistent with the policy context."
+        },
+        "proposed_rewrite": {
+          "score": 5,
+          "comment": "The shift from one-on-one consultation to a required individual 'Design Origin Map' directly promotes constructive, solo meaning-making in line with Mode C expectations. It generalizes existing practices (students explaining narrative/title origins, teacher offering titling strategies) into a whole-class structure without invoking peer interaction, matching the no-I constraint. Conceptual focus on origin, rejected ideas, and embedded meaning is tightly aligned with the stated topic (design narrative and titling)."
+        },
+        "scaffolding_strategy": {
+          "score": 5,
+          "comment": "Both strategies clearly specify actors (students, teacher), actions (complete worksheet; sketch; justify titles; teacher randomly calls students), and timing (before next class; each session). They are concrete yet flexible, and explicitly targeted at getting all students to individually construct narratives around their own projects. The rotational individual spotlight fits the existing critique culture the instructor mentions, adapted to online. The take-home worksheet is realistic and closely tied to this knowledge point rather than generic reflection."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "The prompt directly elicits individual construction of a design narrative by requiring students to map specific personal experiences or emotions to their visual decisions. It mirrors the teacher's explanation of narrative (personal story, small story within 1x1 foot, sources like music, etc.) and is fully consistent with Mode C (no peer collaboration required, focus on self-generated explanation). It is well-posed, specific, and instructional-use ready."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "Provides a rich, plausible example of a design narrative that connects form (L-shapes, busy vs. empty areas, interrupting organic shape) to personal memory and emotion, and ends in a considered title. This matches the teacher's emphasis on how titles arise from narrative, and on reading narrative into non-figurative compositions. It is content-appropriate, models the expected depth of reflection, and stays within the design-titling domain established in the transcript."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "c",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [],
+      "dimension_rationales": {
+        "accuracy": "The suggestion correctly re-derives the current level as Constructive (C), matching both the policy engine and transcript: students are individually generating ideas about their own projects and engaging in extended teacher-student dialogue, with no student-student discussion. The gap_diagnosis accurately distinguishes depth from breadth: only ~3 students are vocal and constructive while the majority are silent, consistent with the documented speaker count and C-ratio (0.1). The proposed pedagogical evolution retains Mode C (rather than pushing to I), in line with the configuration that late-stage expectations emphasize individual synthesis and narrative generation. No conceptual errors about ICAP hierarchy or misread of teacher-student dynamics are evident.",
+        "alignment_grounding": "The narrative about current practice (teacher deeply engaged with individual titling, students explaining decisions and form, L-shaped arrangements likened to kanji/new language) is firmly grounded in the transcript. The count of 3 speakers and ~30 students, and the interpretation that others are silent, align with both the multi-source context and observed dialogue distribution. The goal of the interventions—to expand constructive narrative work to the whole group while avoiding peer interaction—is tightly aligned with the target_mode C and the knowledge point on design process and narrative. Future-oriented elements (Design Origin Map, Narrative Archaeology Worksheet, new prompt) are appropriate extrapolations from the existing instructional content and not inconsistent with any classroom facts.",
+        "actionability": "The plan is at an optimal level of granularity. It clearly delineates: (1) pre-class/at-home individual written-visual work artifacts and what they contain; (2) in-class rotational oral narrative sharing, including approximate duration and how selection works. The dominant actors (students doing solo reflection and explanation; teacher assigning, collecting, and calling) and the timing within the course flow (before next class; each session over several sessions) are explicit. The strategies are not overly scripted (no minute-by-minute script) but are specific enough that another instructor could readily implement them with minimal adaptation. They focus on this particular knowledge point (narrative, titling, conceptual genesis of projects) rather than generic participation boosters, ensuring high practical relevance."
+      },
+      "overall_score_5": 5.0,
+      "verdict": "pass",
+      "efficiency": {
+        "prompt_tokens": 7712,
+        "completion_tokens": 1199,
+        "total_tokens": 8911,
+        "estimated_cost_usd": 0.041121,
+        "elapsed_ms": 11954
+      }
+    },
+    {
+      "knowledge_point_id": 11,
+      "topic": "Cheating and Academic Integrity",
+      "rederived_ci_level": "c",
+      "scores": {
+        "accuracy": 5,
+        "alignment_grounding": 5,
+        "actionability": 5
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 5,
+          "comment": "Correctly identifies that the speaking students are at Constructive level (they generate new reasoning about design transitions and project ideas) and that the main issue is very low participation breadth (2 of 30). This matches the CI summary and transcript; no mismatch with ICAP logic or context."
+        },
+        "proposed_rewrite": {
+          "score": 5,
+          "comment": "Logically shifts from selective one-on-one review to whole-class individual construction, keeping the target at C and focusing on scaling cognitive visibility. Coherent with the late-phase need for broad individual practice noted in the policy context."
+        },
+        "scaffolding_strategy": {
+          "score": 5,
+          "comment": "Two strategies are concrete, role-specific, and timed: (1) name-based rotation of constructive prompts every 8–10 minutes; (2) simultaneous individual artifacts plus brief teacher conferences. Both are feasible in this classroom format and tightly tied to constructive thinking about this design/ethics topic."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "Directly targets constructive cognition by requiring students to identify a risk area and generate an original strategy tied to their own project. Strong topical fit with academic integrity and AI use; no grounding conflicts since it is future-oriented by design."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "Models high-quality constructive reasoning: specifies context (typography project), articulates how AI could compromise integrity, and details an original workflow maintaining authentic intellectual work. Aligns with the topic and the intended C-level cognitive demand."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "c",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [],
+      "dimension_rationales": {
+        "accuracy": "The ICAP interpretation is sound: students currently speaking exhibit Constructive behaviors (generating and explaining their own design ideas), with no student-student interaction, matching the classification summary. The diagnosis that the bottleneck lies in low constructive coverage (2/30, 0.067 ratio) rather than incorrect level is consistent with the provided metrics and definitions. The proposed evolution keeps the class at C, which aligns with the expected_ci_level and the lack of I behavior in the context.",
+        "alignment_grounding": "The suggestion explicitly uses the correct class size (30), the actual number of speaking students (2), and accurately paraphrases their contributions from the transcript. There are no fabricated events or metrics. All future-oriented elements (rewrites, strategies, question, answer) are pedagogically plausible extensions tied to the topic of academic integrity and design work, and they serve the goal of expanding constructive engagement rather than shifting to interactive mode.",
+        "actionability": "Both main strategies specify who acts (teacher calls on students; students construct explanations and artifacts), what they do (answer targeted prompts; produce annotated sketches, concept maps, or paragraphs), and approximately when (every 8–10 minutes; during a concurrent work period with rapid check-ins). They are specific to this design/academic integrity context (e.g., ethical risk of AI in projects, synthesizing design principles), not generic slogans, and are not so detailed as to be impractical. A teacher could reasonably implement or adapt them in a typical session."
+      },
+      "overall_score_5": 5.0,
+      "verdict": "pass",
+      "efficiency": {
+        "prompt_tokens": 3049,
+        "completion_tokens": 846,
+        "total_tokens": 3895,
+        "estimated_cost_usd": 0.021837,
+        "elapsed_ms": 8359
+      }
+    }
+  ]
+}

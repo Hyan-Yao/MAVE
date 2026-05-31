@@ -1,0 +1,218 @@
+{
+  "grid_00": {
+    "engagement": 0,
+    "confidence": {
+      "0": 0.7313313317377101,
+      "1": 0.08955622275409664,
+      "2": 0.08955622275409664,
+      "3": 0.08955622275409664
+    },
+    "anchor": 0,
+    "acceptable_deviation": {
+      "-1": false,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The evidence consists solely of static digital interfaces without any human presence or observable behaviors. Therefore, the engagement level is assessed as 0, as there is no engagement to evaluate. No higher levels are plausible due to the complete absence of human interaction.",
+    "num_segments": 3
+  },
+  "grid_01": {
+    "engagement": 0,
+    "confidence": {
+      "0": 0.7313313317377101,
+      "1": 0.08955622275409664,
+      "2": 0.08955622275409664,
+      "3": 0.08955622275409664
+    },
+    "anchor": 0,
+    "acceptable_deviation": {
+      "-1": false,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The evidence across all three minutes shows no observable human behavior or engagement, as the focus is entirely on a static digital interface without any interaction or movement. Therefore, the engagement level is assessed as 0, with no plausible deviations to higher levels.",
+    "num_segments": 3
+  },
+  "grid_02": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The first two minutes show no observable human behavior, indicating a lack of engagement (Level 0). The third minute shows a participant with a neutral posture, suggesting some level of engagement (Level 1). However, the overall behavior across all segments leans towards barely engaged due to the inactivity in the first two minutes.",
+    "num_segments": 3
+  },
+  "grid_03": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.28514833670947665,
+      "2": 0.5742182350794116,
+      "3": 0.07031671410555589
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays stable posture and a generally forward orientation, indicating engagement. However, there are minor distractions such as adjusting glasses, which prevent a higher score. The consistent calm demeanor supports an engaged level, but the lack of strong forward focus or sustained attention suggests that a barely engaged level is also plausible.",
+    "num_segments": 3
+  },
+  "grid_04": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.07031671410555589,
+      "2": 0.28514833670947665,
+      "3": 0.5742182350794116
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "Danny displays stable forward orientation and posture throughout the three minutes, with active gestures indicating high engagement. The woman also maintains attentiveness, despite minor variations in posture. There are no significant distractions or sustained inattentiveness, supporting a judgment of highly engaged (3). A lower score (2) is plausible due to slight variations, but the overall evidence strongly supports the anchor level of 3.",
+    "num_segments": 3
+  },
+  "grid_06": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The first two minutes show no observable human behavior, indicating a lack of engagement, while the third minute shows some engagement with stable posture but lacks dynamic interaction, leading to an overall assessment of barely engaged.",
+    "num_segments": 3
+  },
+  "grid_07": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.07031671410555589,
+      "2": 0.28514833670947665,
+      "3": 0.5742182350794116
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays stable forward orientation and posture throughout the observed minutes, with no significant distractions or lapses in attention. The consistent engagement with the screen and calm demeanor indicates a high level of focus, justifying the anchor level of 3. A drop to level 2 could be considered due to minimal hand gestures and neutral facial expressions, but overall engagement remains strong. Higher levels of distraction are not evident, ruling out the plausibility of levels 1 and 0.",
+    "num_segments": 3
+  },
+  "grid_08": {
+    "engagement": 0,
+    "confidence": {
+      "0": 0.7313313317377101,
+      "1": 0.08955622275409664,
+      "2": 0.08955622275409664,
+      "3": 0.08955622275409664
+    },
+    "anchor": 0,
+    "acceptable_deviation": {
+      "-1": false,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The evidence across all three minutes consistently describes a static digital interface with no observable human behavior or engagement. There are no signs of attention, interaction, or movement, which firmly supports a level of 'Not Engaged' (0). No higher engagement levels are plausible given the complete absence of any human presence or activity.",
+    "num_segments": 3
+  },
+  "grid_09": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.07031671410555589,
+      "2": 0.28514833670947665,
+      "3": 0.5742182350794116
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "Kamesha Brown displays stable forward orientation and posture throughout all segments, with no significant distractions or lapses in attention. Although her engagement is primarily passive, the overall consistency and focus observed warrant a high engagement level. A one-level lower interpretation is plausible due to the lack of active gestures or expressions, but higher levels are not supported by the evidence.",
+    "num_segments": 3
+  },
+  "grid_10": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.07031671410555589,
+      "2": 0.28514833670947665,
+      "3": 0.5742182350794116
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays stable forward orientation and posture throughout the observed minutes, particularly in the first and third segments. There are no signs of distraction or sustained inattentiveness, indicating a high level of engagement. The second minute lacks evidence but does not detract from the overall assessment of engagement in the other segments.",
+    "num_segments": 3
+  },
+  "grid_12": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.08955622275409664,
+      "1": 0.08955622275409664,
+      "2": 0.08955622275409664,
+      "3": 0.7313313317377101
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": false,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays a stable forward orientation and posture throughout the observed minute, with no signs of distraction or disengagement. Their consistent engagement and attentiveness to the content suggest a high level of engagement, justifying the anchor level of 3. There is no evidence to support lower engagement levels, as the behavior does not indicate any instability or lack of focus.",
+    "num_segments": 3
+  },
+  "grid_23": {
+    "engagement": 0,
+    "confidence": {
+      "0": 0.7313313317377101,
+      "1": 0.08955622275409664,
+      "2": 0.08955622275409664,
+      "3": 0.08955622275409664
+    },
+    "anchor": 0,
+    "acceptable_deviation": {
+      "-1": false,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The evidence across all three minutes shows a complete absence of human presence or behavior, indicating no engagement. The scenes are static, focusing solely on the computer screen without any observable actions or interactions from a person.",
+    "num_segments": 3
+  }
+}

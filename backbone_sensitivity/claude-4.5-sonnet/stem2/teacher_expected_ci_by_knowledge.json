@@ -1,0 +1,273 @@
+{
+  "mode": "prompt_llm_expected_ci",
+  "model": "anthropic/claude-4.5-sonnet",
+  "knowledge_source": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/icap_output/icap_split_free/knowledge_segments_global_free.json",
+  "student_ci_source": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/backbone_sensitivity/claude-4.5-sonnet/stem2/knowledge_segments_global_classification.json",
+  "segment_count": 11,
+  "class_size": 30,
+  "c_ratio_threshold": 0.5,
+  "summary": {
+    "expected_c_count": 11,
+    "expected_i_count": 0,
+    "note": "Rule-first expected CI: if I exists or C-ratio>=50%, expect I; otherwise expect C."
+  },
+  "efficiency": {
+    "elapsed_sec": 6.59,
+    "request_count": 11,
+    "pricing_model_reference": "anthropic/claude-4.5-sonnet",
+    "prompt_cost_per_1m": 3.0,
+    "completion_cost_per_1m": 15.0,
+    "prompt_tokens": 13233,
+    "completion_tokens": 1441,
+    "total_tokens": 14674,
+    "avg_prompt_tokens_per_req": 1203.0,
+    "avg_completion_tokens_per_req": 131.0,
+    "avg_total_tokens_per_req": 1334.0,
+    "throughput_tokens_per_sec": 2226.707,
+    "estimated_total_cost_usd": 0.061314
+  },
+  "results": [
+    {
+      "knowledge_point_id": 1,
+      "topic": "Project Overview",
+      "summary": "Introduction to the project and its deadline.",
+      "position_index_1based": 1,
+      "position_phase": "early",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "Early project phase with large class (30 students) requires individual accountability and planning; students need to construct personal project timelines and identify specific next steps based on their current progress status.",
+      "suggested_question": "Based on where you are right now in the project, create a day-by-day work plan for the next six days that lists specific tasks you need to complete each day to meet the Sunday deadline.",
+      "expected_confidence": 0.92,
+      "efficiency": {
+        "prompt_tokens": 590,
+        "completion_tokens": 126,
+        "total_tokens": 716,
+        "estimated_cost_usd": 0.00366
+      }
+    },
+    {
+      "knowledge_point_id": 2,
+      "topic": "Foam Board Cutting Tips",
+      "summary": "Advice on cutting foam board effectively.",
+      "position_index_1based": 2,
+      "position_phase": "early",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "Students should generate their own troubleshooting framework by synthesizing the three main cutting problems (blade sharpness, angle, pressure) and connecting them to observable outcomes, producing new understanding beyond the lecture content.",
+      "suggested_question": "Based on the three common foam board cutting problems discussed, create a simple diagnostic checklist that you could use to identify which problem you're experiencing when your cuts aren't working well.",
+      "expected_confidence": 0.88,
+      "efficiency": {
+        "prompt_tokens": 872,
+        "completion_tokens": 127,
+        "total_tokens": 999,
+        "estimated_cost_usd": 0.004521
+      }
+    },
+    {
+      "knowledge_point_id": 3,
+      "topic": "Design Composition Advice",
+      "summary": "Guidance on avoiding symmetry in design to create dynamic projects.",
+      "position_index_1based": 3,
+      "position_phase": "early",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "At this early phase (3/11), students need to individually generate their own understanding of symmetry vs. dynamic composition by creating original examples or redesigns, building foundational skills before collaborative critique.",
+      "suggested_question": "Sketch two versions of a simple composition: one that is static and symmetrical, and one that uses asymmetry and continuance to create visual movement, then label which design principles you applied in each.",
+      "expected_confidence": 0.88,
+      "efficiency": {
+        "prompt_tokens": 1146,
+        "completion_tokens": 130,
+        "total_tokens": 1276,
+        "estimated_cost_usd": 0.005388
+      }
+    },
+    {
+      "knowledge_point_id": 4,
+      "topic": "Office Hours Announcement",
+      "summary": "Changes to office hours and their availability for students.",
+      "position_index_1based": 4,
+      "position_phase": "middle",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "Students should individually generate a personalized plan or synthesis of how the new office hours schedule fits their needs, creating output beyond the provided information about timing and availability.",
+      "suggested_question": "Based on the new office hours schedule (Monday, Tuesday, Wednesday, 10am-noon and 6-8pm), create a weekly plan showing which office hour slots would work best for you and explain why those times fit your schedule.",
+      "expected_confidence": 0.85,
+      "efficiency": {
+        "prompt_tokens": 612,
+        "completion_tokens": 129,
+        "total_tokens": 741,
+        "estimated_cost_usd": 0.003771
+      }
+    },
+    {
+      "knowledge_point_id": 5,
+      "topic": "Encouragement to Attend Office Hours",
+      "summary": "Encouragement for students to utilize office hours for assistance.",
+      "position_index_1based": 5,
+      "position_phase": "middle",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 1,
+      "current_c_ratio": 0.033,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.033 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "This knowledge point about office hours encouragement requires students to individually reflect on their own barriers and generate personal strategies for utilizing office hours, which is a constructive individual task rather than requiring peer dialogue.",
+      "suggested_question": "Based on the common barriers mentioned (feeling like a botheration, uncertainty about format), create a personal action plan listing three specific situations when you would attend office hours this semester and what you would prepare beforehand for each visit.",
+      "expected_confidence": 0.88,
+      "efficiency": {
+        "prompt_tokens": 1097,
+        "completion_tokens": 132,
+        "total_tokens": 1229,
+        "estimated_cost_usd": 0.005271
+      }
+    },
+    {
+      "knowledge_point_id": 6,
+      "topic": "Project Submission Guidelines",
+      "summary": "Instructions on how to submit projects and required formats.",
+      "position_index_1based": 6,
+      "position_phase": "middle",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 1,
+      "current_c_ratio": 0.033,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.033 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "Students must generate their own photo documentation plan by applying the multi-angle photography guidelines (four 90-degree views at 45-degree angles) to their specific project, creating an original submission strategy beyond what was directly provided.",
+      "suggested_question": "Create a labeled diagram or written plan showing exactly where you will position your camera for each of the four required photos of your project, explaining why each angle will effectively demonstrate the volume and dimensions of your work.",
+      "expected_confidence": 0.92,
+      "efficiency": {
+        "prompt_tokens": 720,
+        "completion_tokens": 135,
+        "total_tokens": 855,
+        "estimated_cost_usd": 0.004185
+      }
+    },
+    {
+      "knowledge_point_id": 7,
+      "topic": "Final Project Requirements",
+      "summary": "Details on the requirements for the final project submission.",
+      "position_index_1based": 7,
+      "position_phase": "middle",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 1,
+      "current_c_ratio": 0.033,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.033 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "Students need to individually generate a documentation plan for their final project that goes beyond simply following instructions, requiring them to create their own strategy for capturing photos and video that authentically represents their work quality.",
+      "suggested_question": "Create a brief documentation checklist for your final project that includes: (1) what specific angles or details you will photograph, (2) how you will ensure photo quality demonstrates your actual work, and (3) your plan for the 10-second open/close video sequence.",
+      "expected_confidence": 0.92,
+      "efficiency": {
+        "prompt_tokens": 1108,
+        "completion_tokens": 144,
+        "total_tokens": 1252,
+        "estimated_cost_usd": 0.005484
+      }
+    },
+    {
+      "knowledge_point_id": 8,
+      "topic": "Material Recommendations",
+      "summary": "Recommendations for materials needed for the projects.",
+      "position_index_1based": 8,
+      "position_phase": "late",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 1,
+      "current_c_ratio": 0.033,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.033 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "At this late phase (8/11), students should individually synthesize material specifications and project requirements into a concrete procurement plan, generating their own organized checklist beyond the provided information.",
+      "suggested_question": "Create a detailed shopping list for your Home Depot visit that includes the specific wire SKU number, quantities needed, and at least two quality checkpoints to verify you're selecting the correct materials before purchase.",
+      "expected_confidence": 0.88,
+      "efficiency": {
+        "prompt_tokens": 721,
+        "completion_tokens": 125,
+        "total_tokens": 846,
+        "estimated_cost_usd": 0.004038
+      }
+    },
+    {
+      "knowledge_point_id": 9,
+      "topic": "Drawing Quality Feedback",
+      "summary": "Feedback on the quality of drawings submitted by students.",
+      "position_index_1based": 9,
+      "position_phase": "late",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "At this late stage (9/11), students should synthesize material specifications and project requirements by generating their own understanding of why specific materials create desired visual effects, going beyond the instructor's explanation.",
+      "suggested_question": "Create a brief visual diagram or written explanation showing why black wire on a white background successfully emulates a pencil mark on paper, and what would happen if you used galvanized wire instead.",
+      "expected_confidence": 0.88,
+      "efficiency": {
+        "prompt_tokens": 872,
+        "completion_tokens": 126,
+        "total_tokens": 998,
+        "estimated_cost_usd": 0.004506
+      }
+    },
+    {
+      "knowledge_point_id": 10,
+      "topic": "Design Process and Narrative",
+      "summary": "Importance of narrative in design and how to approach titling projects.",
+      "position_index_1based": 10,
+      "position_phase": "late",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 3,
+      "current_c_ratio": 0.1,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.100 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "At this late stage (10/11), students need to individually synthesize narrative concepts into their own design work, generating personal titles and stories that connect to their projects without requiring peer dialogue.",
+      "suggested_question": "Create a title for your current project and write a 3-4 sentence narrative explaining how your personal story or inspiration connects to the visual choices you made in your design.",
+      "expected_confidence": 0.92,
+      "efficiency": {
+        "prompt_tokens": 4651,
+        "completion_tokens": 121,
+        "total_tokens": 4772,
+        "estimated_cost_usd": 0.015768
+      }
+    },
+    {
+      "knowledge_point_id": 11,
+      "topic": "Cheating and Academic Integrity",
+      "summary": "Discussion on academic integrity and the consequences of cheating.",
+      "position_index_1based": 11,
+      "position_phase": "late",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 2,
+      "current_c_ratio": 0.067,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.067 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "At this late stage with low constructive ratio (0.067) and minimal student speakers (2), students need individual practice generating their own connections between academic integrity principles and their design work, particularly around originality versus drawing from prior work.",
+      "suggested_question": "Based on this conversation about using previous sketches, create a written guideline (3-5 sentences) that explains when reusing your own past work is academically honest versus when it crosses into self-plagiarism in a design course.",
+      "expected_confidence": 0.85,
+      "efficiency": {
+        "prompt_tokens": 844,
+        "completion_tokens": 146,
+        "total_tokens": 990,
+        "estimated_cost_usd": 0.004722
+      }
+    }
+  ]
+}

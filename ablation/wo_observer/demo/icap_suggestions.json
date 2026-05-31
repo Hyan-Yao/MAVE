@@ -1,0 +1,211 @@
+{
+  "model": "openai/gpt-4.1-mini",
+  "class_size": 30,
+  "efficiency_summary": {
+    "total_elapsed_ms": 28379,
+    "total_elapsed_sec": 28.379,
+    "avg_kp_elapsed_ms": 11474,
+    "total_prompt_tokens": 18849,
+    "total_completion_tokens": 5103,
+    "total_tokens": 23952,
+    "estimated_total_cost_usd": 0.133092,
+    "throughput_kp_per_min": 21.142,
+    "pricing": {
+      "prompt_cost_per_1m": 3.0,
+      "completion_cost_per_1m": 15.0
+    },
+    "pricing_note": "Estimated cost based on token usage and configurable per-1M-token pricing."
+  },
+  "results": [
+    {
+      "knowledge_point_id": 1,
+      "topic": "Mushroom Solutions",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "target_mode": "c",
+      "gap_diagnosis": "The current cognitive mode is constructive (c), as evidenced by the teacher prompting students to write an essay focusing in depth on one specific solution related to mushrooms/mycelium. The teacher emphasizes specificity and individual knowledge construction: 'it's a solution paper in this class, so that's only one page, right? And you've got to be as specific as possible.' However, the transcript suggests that participation might be limited to a few students engaging verbally while the majority remain silent, as there is no explicit evidence of widespread individual output or engagement from the entire class. The teacher thanks one student for reminding about recording, indicating some individual contributions but not broad coverage.",
+      "proposed_rewrite": "To scale the constructive cognitive mode across the entire class, implement a structured individual writing workshop within class time where every student independently drafts their focused essay outline or a concept map capturing their chosen mushroom solution. This should be done silently to ensure individual cognitive construction. Follow this with a private written reflection prompt asking each student to articulate why they selected that specific solution and how it connects to the lecture content, reinforcing personal meaning-making.",
+      "scaffolding_strategy": "1. Implement silent written think-alouds where each student individually writes a brief rationale for their chosen solution before essay drafting, ensuring cognitive construction happens internally and individually.\n2. Use an individual concept mapping activity on paper or digital tools where each student independently organizes the mushroom solutions and selects one to elaborate on in depth, thus promoting personal knowledge generation without peer interaction.",
+      "new_question": "Can you independently outline the specific mushroom solution you find most compelling and explain, in writing, what makes it stand out based solely on your understanding from the lecture and readings?",
+      "reference_answer": "I chose the mycelium-based packaging solution because it offers an eco-friendly alternative to plastic that decomposes naturally and can be produced with low energy inputs. From the lecture, I understand that mycelium's ability to bind into solid forms makes it ideal for sustainable packaging. This specificity connects directly to the environmental benefits and the technical feasibility Paul described.",
+      "efficiency": {
+        "elapsed_ms": 6781,
+        "prompt_tokens": 905,
+        "completion_tokens": 444,
+        "total_tokens": 1349,
+        "estimated_cost_usd": 0.009375
+      }
+    },
+    {
+      "knowledge_point_id": 2,
+      "topic": "Scientific Jargon and Passion",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "target_mode": "c",
+      "gap_diagnosis": "The observed cognitive mode has reached the target mode C, as the participant independently reflects and constructs understanding of the scientific jargon and passion behind the topic without any indication of peer interaction. The excerpt shows an individual cognitive construction: 'I feel like ... sort of the parts that were a little harder to understand to me' and 'I think that may have been attributed to... he's really visibly very passionate about the science...'. However, the participation appears limited to a small subset of visible participants since the class size is 30 and only one student's individual reflective comment is recorded, suggesting that many remain silent or passive.",
+      "proposed_rewrite": "To scale and amplify individual constructive cognitive engagement across the whole class, introduce a structured independent reflection routine where each student individually writes a short explanatory paragraph connecting scientific jargon to the speaker's passion and scientific credibility. This can be done via a digital platform or written journal entries to ensure silent participants generate their own constructions without any peer influence.",
+      "scaffolding_strategy": "1) Implement a 'Solo Science Jargon Reflection' where every student independently maps out a concept web connecting key scientific terms to the speaker’s passion and credibility, ensuring individual cognitive construction. 2) Use a teacher-led 'Targeted Cognitive Probing' method where the teacher calls on randomly selected individual students to verbalize their personal understanding of specific jargon terms and the speaker's intent, reinforcing individual knowledge generation without peer interaction.",
+      "new_question": "Can you individually explain how the scientific jargon used by the speaker reflects their passion and credibility in the scientific field? Please describe this in your own words.",
+      "reference_answer": "The scientific jargon shows that the speaker is deeply passionate about the topic because it demonstrates their detailed knowledge of new developments in mycelium science. By using precise terms, the speaker tries to prove the seriousness and scientific backing of their work, which helps establish credibility despite some skepticism from others.",
+      "efficiency": {
+        "elapsed_ms": 6440,
+        "prompt_tokens": 857,
+        "completion_tokens": 414,
+        "total_tokens": 1271,
+        "estimated_cost_usd": 0.008781
+      }
+    },
+    {
+      "knowledge_point_id": 3,
+      "topic": "Mycophobia in Academia",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "target_mode": "c",
+      "gap_diagnosis": "The current cognitive mode aligns with constructive mode (c) as the instructor focuses on individual cognitive construction by providing detailed scientific insights and prompting personal reflection on the stigma and scientific rigor surrounding mycology. The transcript shows the teacher elaborating on complex ideas ('...very, very, very into the science of it...tens of thousands of dollars to test these things...'), encouraging learners to internalize and critically think independently. However, participation breadth appears limited: the transcript primarily features the instructor's monologue without evidence of widespread student-generated outputs or individual elaborations, indicating that only a small subset of participants may be cognitively engaged while most remain passive listeners.",
+      "proposed_rewrite": "Incorporate structured individual reflection and solitary knowledge construction tasks that require every student to create unique outputs stemming from the complex scientific and cultural nuances discussed. For example, ask each student to independently produce a detailed written analysis or conceptual map linking the scientific and socio-cultural facets of mycophobia in academia, thus fostering individual meaning-making and deeper cognitive engagement beyond passive listening.",
+      "scaffolding_strategy": "1) Implement an individual written synthesis task where each student independently drafts a reflective essay analyzing how scientific rigor and stigma interplay in mycological research, grounded in the lecture content. 2) Assign a solo concept-mapping activity requiring students to diagram the relationships among scientific inquiry, stigma, and cultural narratives about mushrooms, thereby reinforcing individual cognitive elaboration without any peer interaction.",
+      "new_question": "Based on the lecture, independently analyze and explain how scientific rigor and societal stigma have influenced the study of psychedelic mushrooms in academia. Provide evidence from the discussion to support your reasoning.",
+      "reference_answer": "Scientific rigor in mycological research prioritizes measurable, statistically significant findings, often sidelining cultural or psychedelic aspects due to stigma. This is evident where the lecturer notes heavy investments in testing mushrooms for antiviral properties, while shying away from discussing their psychedelic uses to maintain scientific credibility ('...very, very, very into the science of it...'). The stigma surrounding psychedelics has historically suppressed open academic discourse, contributing to 'mycophobia' in higher education. Hence, scientific focus and social stigma have jointly shaped cautious, highly empirical approaches, limiting broader acknowledgment of mushrooms' cultural and shamanistic significance.",
+      "efficiency": {
+        "elapsed_ms": 7301,
+        "prompt_tokens": 1235,
+        "completion_tokens": 489,
+        "total_tokens": 1724,
+        "estimated_cost_usd": 0.01104
+      }
+    },
+    {
+      "knowledge_point_id": 4,
+      "topic": "Credibility and Passion",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "target_mode": "c",
+      "gap_diagnosis": "The current cognitive mode is constructive (c), as evidenced by the rich individual reflections on credibility and passion, e.g., 'I think there are a lot of different things that stood out to me...' and the nuanced reasoning about how appearance impacts scientific credibility. However, the transcript shows mainly a few visible speakers articulating complex ideas, while the majority of the 30-student class remains silent or passive, limiting breadth of participation. The discourse is reflective and individualized but lacks evidence of widespread active cognitive construction across the whole class.",
+      "proposed_rewrite": "To scale the constructive mode to silent participants, integrate an individual written reflection or concept mapping activity immediately after the discussion. Prompt each student to independently synthesize key insights on how credibility and passion interact, drawing personal conclusions without input from others. This will convert passive listeners into active cognitive constructors by producing unique, personal outputs that deepen understanding and reveal individual reasoning.",
+      "scaffolding_strategy": "1. Implement a solo, structured reflection journal where each student writes a brief explanation of how passion influences credibility in scientific communication, citing specific examples from the transcript or lesson. Require them to submit these reflections to ensure accountability.\n2. Provide a digital concept mapping tool for each student to individually create a visual model connecting 'credibility', 'passion', 'societal perceptions', and 'scientific innovation' based on class content. This forces personal cognitive organization and synthesis without any peer interaction.",
+      "new_question": "Individually, how would you explain the relationship between a scientist's passion and their credibility, using examples from what we've discussed about Paul, Mike Reynolds, and Michael Stamets? Please write your detailed reasoning.",
+      "reference_answer": "A scientist’s passion can both enhance and challenge their credibility. For example, Paul and Mike Reynolds are very passionate about their environmental work, but their credibility seems fragile because societal expectations about appearance and communication style affect how seriously they are taken. Despite their innovative ideas, people focus on superficial traits rather than content. Michael Stamets’ example shows that even when others doubt unconventional approaches, persistent passion combined with experimentation can lead to success, which builds credibility over time. Thus, passion is crucial but must be balanced with how messages are conveyed to maintain credibility.",
+      "efficiency": {
+        "elapsed_ms": 7298,
+        "prompt_tokens": 1290,
+        "completion_tokens": 482,
+        "total_tokens": 1772,
+        "estimated_cost_usd": 0.0111
+      }
+    },
+    {
+      "knowledge_point_id": 5,
+      "topic": "Environmental Impact of Fungi",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "target_mode": "c",
+      "gap_diagnosis": "The current observed cognitive mode is constructive (c), matching the target mode. The transcript shows individual students independently reflecting and generating personal knowledge constructions about the environmental impact of fungi, soil formation, and the implications of pesticide use. For instance, comments like 'I thought it was interesting that... fungi can transform wood and straw... into soil' and 'I just thought that was pretty interesting and also pretty amazing because I didn't know about that' indicate individual cognitive construction rather than passive reception or interactive discussion. However, the discussion appears limited to a few visible participants, with many students likely remaining silent or passive, as the transcript snippet only captures isolated individual reflections without evidence of broad participation or contributions from the entire class of 30. This suggests that while the cognitive level is appropriate, the breadth of engagement is narrow and could be expanded.",
+      "proposed_rewrite": "To scale constructive engagement across the entire class, embed individual cognitive construction tasks systematically within the lesson. For example, after presenting the video or content on fungi and soil, assign all students a solo written reflection or individual concept mapping activity where they independently generate explanations or models of how fungi contribute to soil formation and impact biodiversity. These outputs should be produced silently and without peer interaction to maintain Mode C. Incorporate rotation of roles where each student takes turns presenting their independent insights in a subsequent class, ensuring all voices surface over time and cognitive construction is widespread.",
+      "scaffolding_strategy": "1) Implement a silent individual cognitive mapping exercise: Provide students with a blank graphic organizer to individually diagram the processes by which fungi impact soil quality and biodiversity. This forces students to personally synthesize and organize knowledge without peer influence.\n2) Use targeted journaling prompts requiring personal reflection: Ask each student to write a brief, independent explanation of why pesticide use might harm soil health based on fungi's role, encouraging internal reprocessing of information and self-generation of understanding, strictly avoiding any peer discussion.",
+      "new_question": "Independently, can you draw or write out the process by which fungi contribute to soil formation and explain why this process is important for sustainable farming? Please do this entirely on your own without discussing with classmates.",
+      "reference_answer": "Fungi break down organic materials like wood, straw, and grass, transforming them into components that enrich the soil. This process takes a long time but is vital because it creates healthy, nutrient-rich soil that supports plant growth. Without fungi, soil biodiversity decreases, and the soil becomes less fertile. Using pesticides can kill these fungi, which harms the soil’s ability to regenerate, ultimately reducing crop sustainability.",
+      "efficiency": {
+        "elapsed_ms": 8108,
+        "prompt_tokens": 1201,
+        "completion_tokens": 551,
+        "total_tokens": 1752,
+        "estimated_cost_usd": 0.011868
+      }
+    },
+    {
+      "knowledge_point_id": 6,
+      "topic": "Terraforming and Space Travel",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "target_mode": "c",
+      "gap_diagnosis": "The current cognitive mode is constructive (c) as participants individually generate ideas and mentally integrate complex concepts about terraforming, cosmic consciousness, and space travel, evidenced by statements like 'he's overlaying it and saying like, what about this?' and the teacher's probing 'What else stands out to you?'. However, coverage is limited to a few vocal participants, as the transcript reflects a small subset actively contributing while many others remain silent, resulting in low breadth of individual construction across the whole class.",
+      "proposed_rewrite": "Introduce structured individual reflection and knowledge generation tasks that require each student to independently synthesize the concept of terraforming and cosmic consciousness. For example, after the initial discussion, assign a solo mapping or drawing activity where students individually create a concept map linking mycelium, brain nodes, space travel, and planetary habitation to deepen personalized cognitive construction.",
+      "scaffolding_strategy": "1. Silent Concept Mapping: Prompt each student to independently create a detailed concept map connecting key ideas from the discussion (e.g., cosmic consciousness, mycelium, terraforming), emphasizing personal cognitive organization without any peer interaction. 2. Individual Written Reflection: Assign a brief but focused reflective writing task where each student articulates their own understanding and innovative thoughts on how biological concepts might influence future space travel, ensuring all students generate original output individually.",
+      "new_question": "Independently, can you describe how the analogy between mycelium networks and brain nodes might inform innovative ideas for terraforming or sustaining life in space? Please write your detailed thoughts without discussing with others.",
+      "reference_answer": "The mycelium network, similar to brain nodes, suggests a decentralized communication system that could inspire terraforming strategies by creating interconnected biological systems on a new planet. This could help sustain life by efficiently distributing nutrients and information across the habitat, mimicking natural intelligence and resilience, which is vital for adapting to harsh space environments.",
+      "efficiency": {
+        "elapsed_ms": 7300,
+        "prompt_tokens": 1155,
+        "completion_tokens": 417,
+        "total_tokens": 1572,
+        "estimated_cost_usd": 0.00972
+      }
+    },
+    {
+      "knowledge_point_id": 7,
+      "topic": "Stigma and Scientific Solutions",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "c",
+      "target_mode": "c",
+      "gap_diagnosis": "The observed cognitive mode reaches the target constructive level (c) as indicated by the reflective and knowledge-building nature of the transcript. The speaker individually constructs understanding by questioning why scientifically promising solutions like fungal applications have not been more widely adopted, showing internal reasoning about stigma, complexity, and institutional barriers. For example, the speaker says, \"I guess I was kind of curious why if this seems like such a simple solution... why we haven't done it yet?\" and later reflects on the potential influence of Big Pharma and stigma. However, this constructive reasoning seems limited to a small subset of participants (primarily the speaker) while most of the class remains silent or unengaged, limiting breadth and whole-class coverage.",
+      "proposed_rewrite": "To scale individual constructive engagement across more students, redesign the lesson to incorporate structured solo reflection tasks that prompt each student to independently analyze and write about reasons why stigma might inhibit scientific adoption of fungal solutions. This can be supplemented by individual concept-mapping exercises where students diagram causal factors and possible societal barriers without any peer interaction. Embedding these tasks into the lecture or homework ensures cognitive construction happens widely and visibly among all students.",
+      "scaffolding_strategy": "1. Guided Solo Concept Mapping: After presenting scientific evidence about fungal solutions, prompt each student to individually create a detailed concept map linking stigma, scientific barriers, and solution adoption, explicitly prohibiting discussion. 2. Reflective Journaling with Targeted Prompts: Ask students to write a personal reflection on why simple scientific solutions might fail to gain traction, requiring them to construct explanations grounded in lecture content and their own reasoning, submitted anonymously to encourage honest, independent thought.",
+      "new_question": "Independently, can you identify and explain three reasons why the stigma around fungi might limit the scientific exploration and adoption of fungal-based solutions, based solely on your understanding from today’s material?",
+      "reference_answer": "One reason stigma limits scientific adoption is that negative public perceptions create political and funding barriers, making it hard to support research. Another reason is that institutional interests, like Big Pharma, may resist fungal solutions that threaten their profits. Lastly, a lack of widespread scientific awareness and education means many people do not recognize the potential benefits, perpetuating hesitation and slow acceptance.",
+      "efficiency": {
+        "elapsed_ms": 8341,
+        "prompt_tokens": 1592,
+        "completion_tokens": 484,
+        "total_tokens": 2076,
+        "estimated_cost_usd": 0.012036
+      }
+    },
+    {
+      "knowledge_point_id": 8,
+      "topic": "Micro Filtration Techniques",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "i",
+      "target_mode": "i",
+      "gap_diagnosis": "The observed cognitive mode is still at Constructive (c) rather than Interactive (i). Students are individually recalling and contributing fragments (e.g., 'He wasn't he like, didn't use it on one of his properties?', 'Yeah, the government showed up, right?') but there is no evidence of explicit peer-to-peer interaction, debate, or collaborative problem-solving. The discourse is fragmented, with multiple students chiming in sequentially without engaging in dialogic exchanges or negotiation of meaning. For example, the transcript shows students making isolated comments without responding directly to each other's reasoning or challenging ideas. This indicates a lack of interactive engagement, which is essential for Mode I.",
+      "proposed_rewrite": "To transition into Interactive mode, redesign the activity to include structured peer dialogue formats such as 'Think-Pair-Debate' or 'Jigsaw' where students first individually analyze micro filtration techniques and then must collaborate in pairs or small teams to critique, compare, and refine their understanding before reporting back. Incorporate explicit tasks requiring negotiation or co-construction of explanations on how micro filtration works and its applications (e.g., debating the efficacy of mushroom inoculation in different environments). This approach leverages social interdependence and ensures cognitive elaboration through interaction.",
+      "scaffolding_strategy": "1) Implement a 'Role-Play Debate' where students are assigned different stakeholder roles (e.g., government inspector, environmental scientist, farmer) and must interactively argue or defend micro filtration methods' effectiveness and limitations, forcing them to engage in peer-to-peer exchanges.\n2) Use 'Interactive Concept Mapping' in dyads or triads: each student contributes unique knowledge about micro filtration, and together they must negotiate, link, and explain connections between concepts such as wood chip inoculation, mushroom detoxification, and impacts on water quality, explicitly requiring dialogue and co-construction.",
+      "new_question": "Can you and your assigned partner discuss how micro filtration using mushroom inoculation could address oil spill contamination, then decide together which method seems most effective and why?",
+      "reference_answer": "Together, we think that mushroom inoculation is effective in breaking down oil contaminants because fungi have enzymes that can degrade hydrocarbons. Using micro filtration bags inoculated with mushrooms placed strategically in spill-affected water can help detoxify heavy metals and oil residues. While the government initially doubted this method due to salinity concerns, evidence shows it works well even in saline environments, making it a promising bioremediation approach.",
+      "efficiency": {
+        "elapsed_ms": 7813,
+        "prompt_tokens": 1457,
+        "completion_tokens": 533,
+        "total_tokens": 1990,
+        "estimated_cost_usd": 0.012366
+      }
+    },
+    {
+      "knowledge_point_id": 9,
+      "topic": "Cancer and Mycology",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "i",
+      "target_mode": "i",
+      "gap_diagnosis": "The current cognitive mode is constructive (c), as evidenced by mostly individual reflections and solo knowledge generation around mushrooms and nuclear remediation, but it has not reached interactive (i) mode. The transcript shows multiple students contributing individual ideas and recalling facts (e.g., \"I thought the cancer piece was really, really big,\" \"Wasn't there a type of mushroom that's super concentrated radiation?\"), yet there is minimal evidence of peer-to-peer interaction, debate, or collaborative problem-solving. The discourse is largely additive rather than dialogic or co-constructive: \"Yeah, and again, when the inevitable accident happens...\" and \"That's a good, a good, a good comparison,\" which are acknowledgments but not interactive exchanges. Also, the teacher prompt \"Does anybody remember?\" solicits individual recall rather than facilitating student-to-student dialogue or negotiation. Furthermore, the level achieved flag is false and stage distance is 1, indicating the class is near but not at target. The participation breadth involves a few students speaking, but most of the 30 participants remain silent or passive, limiting whole-class interactive engagement.",
+      "proposed_rewrite": "To transition from constructive to interactive mode, redesign the lesson to explicitly require and structure peer-to-peer interaction around the knowledge point. For example, organize an activity where students debate the feasibility and challenges of using mushrooms for nuclear remediation or collaboratively develop a detailed remediation plan. The teacher should pose open-ended problems that cannot be answered by recalling facts alone but require negotiation, argumentation, and joint reasoning. Introducing roles (e.g., 'environmental scientist,' 'policy maker,' 'community advocate') can stimulate perspective-taking and interactive discourse. The teacher must explicitly instruct and monitor that students engage in reciprocal dialogue rather than isolated statements.",
+      "scaffolding_strategy": "1. Structured Debate Cycle: Divide the class into small discussion triads where each student must present a different viewpoint on the effectiveness of mushrooms in nuclear cleanup, respond to peers' points, and jointly generate a consensus or highlight disagreements. The teacher circulates to prompt deeper questioning and ensures all voices interact. 2. Interactive Problem-Solving Task: Assign each student a unique piece of data or a scenario related to mushroom-based remediation. Students must then engage in a round-robin discussion, asking clarifying questions and building on each other's contributions to create a comprehensive remediation strategy for a nuclear disaster site. This requires active listening, questioning, and co-construction of knowledge.",
+      "new_question": "Given what we know about mushrooms' ability to absorb radiation, how would you convince a skeptical community leader that implementing mushroom-based remediation is viable? Respond to each other's arguments and collaboratively develop a plan addressing potential concerns.",
+      "reference_answer": "I would explain the scientific evidence showing mushrooms' capacity to absorb and break down radiation and heavy metals, referencing studies from Chernobyl and Fukushima. Then, I would acknowledge concerns about safety and scalability and propose a phased pilot project with community monitoring and transparent reporting. Together, we could discuss alternative solutions and how mushrooms complement existing methods. By addressing doubts and incorporating community input, we can co-create a plan that balances efficacy, safety, and public trust.",
+      "efficiency": {
+        "elapsed_ms": 28349,
+        "prompt_tokens": 3364,
+        "completion_tokens": 669,
+        "total_tokens": 4033,
+        "estimated_cost_usd": 0.020127
+      }
+    },
+    {
+      "knowledge_point_id": 10,
+      "topic": "Biodiversity and Ecosystem Health",
+      "teacher_current_ci": "c",
+      "teacher_expected_ci": "i",
+      "target_mode": "i",
+      "gap_diagnosis": "The current cognitive mode is constructive (c) rather than interactive (i). The instructor mostly engages in extended monologue and solicits individual reflections or votes (e.g., \"Are you concerned about the dramatic die off of bees?\" with a show of hands) but does not facilitate any explicit peer-to-peer interaction or dialogue. The transcript reveals that participation is largely unidirectional and individual: \"How concerned are you? 49, very. 22, sort of, and just a couple not at all.\" There is no evidence of collaborative discussion, debate, or peer exchange despite the class size of 30. Thus, while some students express opinions or answer prompts, the behavior remains isolated rather than interactive. The bottleneck is that the teacher does not structure or require student-to-student engagement, leaving most participants passive listeners despite occasional individual verbal or poll contributions.",
+      "proposed_rewrite": "To transition from constructive to interactive mode, restructure the lesson to explicitly incorporate structured peer dialogue formats such as debate pairs, small-group problem-solving with rotating roles, or jigsaw discussions on subtopics of bee biodiversity impact. For example, after introducing the economic and ecological importance of bees, assign students to discuss with a partner (rotated every 5 minutes) contrasting perspectives on pesticide use or ecosystem services and then present their partner's argument to the class. Integrate digital collaborative tools (discussion boards, live polls with comment threads) to extend interaction beyond verbal exchanges. This will create a framework where students must actively negotiate meaning and co-construct understanding, fully engaging the interactive mode.",
+      "scaffolding_strategy": "1. Implement 'Fishbowl Debate': Select 4-5 students to sit in an inner circle discussing a prompt like 'Should pesticide use be banned to save bee populations?' while the rest observe, then rotate participants to ensure all contribute verbally and critically respond to peers' points. This encourages sustained peer-peer interaction and reasoning.\n2. Use 'Rotating Peer Interview': Students form pairs and take turns interviewing each other about their views on biodiversity threats and solutions, then synthesize and share the partner's perspective with a new pair, promoting multiple peer exchanges and collaborative knowledge construction.",
+      "new_question": "In your pairs, discuss and debate: What is the most effective community action to protect bee populations, and why? After 5 minutes, share your partner's best argument with the class.",
+      "reference_answer": "One effective community action to protect bee populations is to encourage the reduction or elimination of neonicotinoid pesticides in local gardening and farming practices. This is because these chemicals have been scientifically linked to bee colony collapse disorder by harming pollinator health. By raising awareness and promoting alternative pest control methods like natural predators or organic solutions, communities can reduce harmful chemical exposure and help maintain healthy bee populations, which support biodiversity and crop production. This solution balances ecological benefits with practical feasibility, fostering a healthier ecosystem.",
+      "efficiency": {
+        "elapsed_ms": 27010,
+        "prompt_tokens": 5793,
+        "completion_tokens": 620,
+        "total_tokens": 6413,
+        "estimated_cost_usd": 0.026679
+      }
+    }
+  ]
+}

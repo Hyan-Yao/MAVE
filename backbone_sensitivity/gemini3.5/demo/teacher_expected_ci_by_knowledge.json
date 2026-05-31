@@ -1,0 +1,251 @@
+{
+  "mode": "prompt_llm_expected_ci",
+  "model": "google/gemini-3.5-flash",
+  "knowledge_source": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/project-teacher/output/icap_split_output_now/knowledge_segments_global.json",
+  "student_ci_source": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/backbone_sensitivity/gemini3.5/demo2/knowledge_segments_global_classification.json",
+  "segment_count": 10,
+  "class_size": 30,
+  "c_ratio_threshold": 0.5,
+  "summary": {
+    "expected_c_count": 8,
+    "expected_i_count": 2,
+    "note": "Rule-first expected CI: if I exists or C-ratio>=50%, expect I; otherwise expect C."
+  },
+  "efficiency": {
+    "elapsed_sec": 8.022,
+    "request_count": 10,
+    "pricing_model_reference": "google/gemini-3.5-flash",
+    "prompt_cost_per_1m": 3.0,
+    "completion_cost_per_1m": 15.0,
+    "prompt_tokens": 15615,
+    "completion_tokens": 10650,
+    "total_tokens": 26265,
+    "avg_prompt_tokens_per_req": 1561.5,
+    "avg_completion_tokens_per_req": 1065.0,
+    "avg_total_tokens_per_req": 2626.5,
+    "throughput_tokens_per_sec": 3274.121,
+    "estimated_total_cost_usd": 0.206595
+  },
+  "results": [
+    {
+      "knowledge_point_id": 1,
+      "topic": "Mushroom Solutions",
+      "summary": "The discussion highlights the various solutions that mushrooms and mycelium can provide in environmental contexts.",
+      "position_index_1based": 1,
+      "position_phase": "early",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 1,
+      "current_c_ratio": 0.033,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.033 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "To prepare for the individual solution paper, students need to actively select and reconstruct a specific mycelium-based environmental solution in their own words.",
+      "suggested_question": "Select one specific environmental challenge mentioned in the lecture and explain in your own words how mycelium or mushrooms can be applied to solve it.",
+      "expected_confidence": 0.95,
+      "efficiency": {
+        "prompt_tokens": 623,
+        "completion_tokens": 976,
+        "total_tokens": 1599,
+        "estimated_cost_usd": 0.016509
+      }
+    },
+    {
+      "knowledge_point_id": 2,
+      "topic": "Scientific Jargon and Passion",
+      "summary": "The speaker reflects on the scientific terminology used by Paul and how it reflects his passion for mycology.",
+      "position_index_1based": 2,
+      "position_phase": "early",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 1,
+      "current_c_ratio": 0.033,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.033 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "To encourage students to individually synthesize and articulate the dual function of scientific jargon as both an expression of passion and a tool for establishing credibility.",
+      "suggested_question": "Based on the segment, write down your own explanation of how Paul's use of complex scientific jargon serves the dual purpose of expressing his passion and defending his professional credibility.",
+      "expected_confidence": 1.0,
+      "efficiency": {
+        "prompt_tokens": 627,
+        "completion_tokens": 990,
+        "total_tokens": 1617,
+        "estimated_cost_usd": 0.016731
+      }
+    },
+    {
+      "knowledge_point_id": 3,
+      "topic": "Mycophobia in Academia",
+      "summary": "The conversation addresses the stigma and mycophobia present in higher education regarding mushrooms, particularly psychedelic varieties.",
+      "position_index_1based": 3,
+      "position_phase": "early",
+      "current_student_ci": "unknown",
+      "current_student_speaker_count": 0,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.000 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "To deeply understand the concept of mycophobia and academic stigma, students need to individually construct an explanation of how researchers navigate the tension between scientific credibility and stigmatized subjects.",
+      "suggested_question": "Based on the text's discussion of mycophobia, write a brief explanation of how a researcher can strategically balance scientific credibility with the study of a highly stigmatized topic.",
+      "expected_confidence": 0.95,
+      "efficiency": {
+        "prompt_tokens": 967,
+        "completion_tokens": 1079,
+        "total_tokens": 2046,
+        "estimated_cost_usd": 0.019086
+      }
+    },
+    {
+      "knowledge_point_id": 4,
+      "topic": "Credibility and Passion",
+      "summary": "The parallels between Paul and Mike Reynolds are drawn, emphasizing the fragility of their credibility in the scientific community.",
+      "position_index_1based": 4,
+      "position_phase": "middle",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 2,
+      "current_c_ratio": 0.067,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.067 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "Maintaining a constructive level encourages individual students to synthesize the sociological tension between passion and credibility by generating their own analytical frameworks or solutions, which is crucial given the low current constructive ratio in the class.",
+      "suggested_question": "Based on the parallels between Paul Stamets and Mike Reynolds, write down two specific strategies an unconventional innovator could use to protect their scientific credibility without compromising their passion.",
+      "expected_confidence": 0.95,
+      "efficiency": {
+        "prompt_tokens": 1043,
+        "completion_tokens": 1038,
+        "total_tokens": 2081,
+        "estimated_cost_usd": 0.018699
+      }
+    },
+    {
+      "knowledge_point_id": 5,
+      "topic": "Environmental Impact of Fungi",
+      "summary": "The potential of fungi to transform materials and contribute to soil health is discussed, highlighting their role in sustainability.",
+      "position_index_1based": 5,
+      "position_phase": "middle",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 2,
+      "current_c_ratio": 0.067,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.067 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "To help students internalize the ecological role of fungi in soil generation, they need to individually construct an explanation of the transformation process and propose solutions to protect soil biodiversity, moving from passive appreciation to active knowledge generation.",
+      "suggested_question": "Based on the segment, write a short explanation of how fungi transform organic materials like wood and straw into usable soil, and propose one specific agricultural practice that would protect this fungal activity from the harmful effects of pesticides.",
+      "expected_confidence": 1.0,
+      "efficiency": {
+        "prompt_tokens": 930,
+        "completion_tokens": 1098,
+        "total_tokens": 2028,
+        "estimated_cost_usd": 0.01926
+      }
+    },
+    {
+      "knowledge_point_id": 6,
+      "topic": "Terraforming and Space Travel",
+      "summary": "The unexpected mention of terraforming and intergalactic travel illustrates the broader implications of mycology.",
+      "position_index_1based": 6,
+      "position_phase": "middle",
+      "current_student_ci": "i",
+      "current_student_speaker_count": 2,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": true,
+      "rule_reason": "Expected level upgraded to I because either I behavior already exists or C ratio reached at least 50%.",
+      "expected_ci_level": "i",
+      "expected_reason": "The segment involves highly speculative and multi-dimensional concepts (terraforming, cosmic consciousness, neural-like mycelial networks) that are best explored through collaborative brainstorming and peer-to-peer debate to build a shared understanding of mycology's broader implications.",
+      "suggested_question": "In pairs, take turns proposing one way mycelium could assist in space travel or terraforming, with your partner either challenging your proposal's feasibility or building upon it with a concrete biological mechanism, until you both agree on the most viable application.",
+      "expected_confidence": 0.95,
+      "efficiency": {
+        "prompt_tokens": 850,
+        "completion_tokens": 1067,
+        "total_tokens": 1917,
+        "estimated_cost_usd": 0.018555
+      }
+    },
+    {
+      "knowledge_point_id": 7,
+      "topic": "Stigma and Scientific Solutions",
+      "summary": "The discussion reflects on the stigma surrounding mushrooms and the potential scientific solutions they offer for various problems.",
+      "position_index_1based": 7,
+      "position_phase": "middle",
+      "current_student_ci": "i",
+      "current_student_speaker_count": 2,
+      "current_c_ratio": 0.0,
+      "has_i_behavior": true,
+      "rule_reason": "Expected level upgraded to I because either I behavior already exists or C ratio reached at least 50%.",
+      "expected_ci_level": "i",
+      "expected_reason": "The segment explores complex systemic barriers to scientific adoption, such as stigma and economic interests, which is best analyzed through collaborative peer dialogue where students must challenge and build upon each other's perspectives.",
+      "suggested_question": "With your partner, debate whether societal stigma or economic interests (like Big Pharma) pose a greater barrier to adopting mushroom-based scientific solutions, and combine your perspectives into a joint conclusion.",
+      "expected_confidence": 1.0,
+      "efficiency": {
+        "prompt_tokens": 1372,
+        "completion_tokens": 819,
+        "total_tokens": 2191,
+        "estimated_cost_usd": 0.016401
+      }
+    },
+    {
+      "knowledge_point_id": 8,
+      "topic": "Micro Filtration Techniques",
+      "summary": "Micro filtration using mushrooms is explored as a method for cleaning water and addressing pollution.",
+      "position_index_1based": 8,
+      "position_phase": "late",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 2,
+      "current_c_ratio": 0.067,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.067 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "To encourage students to individually apply the discussed concepts of mycofiltration (using inoculated bags/wood chips at choke points) by generating their own localized filtration plan, thereby solidifying their constructive understanding of the technique.",
+      "suggested_question": "Based on the text's discussion of inoculating wood chips or hay bags, design a step-by-step plan for how you would set up a localized mycofiltration barrier to filter runoff water at a specific choke point on a property.",
+      "expected_confidence": 0.95,
+      "efficiency": {
+        "prompt_tokens": 1245,
+        "completion_tokens": 1104,
+        "total_tokens": 2349,
+        "estimated_cost_usd": 0.020295
+      }
+    },
+    {
+      "knowledge_point_id": 9,
+      "topic": "Cancer and Mycology",
+      "summary": "The potential of mushrooms in cancer treatment is discussed, emphasizing their medicinal properties.",
+      "position_index_1based": 9,
+      "position_phase": "late",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 5,
+      "current_c_ratio": 0.167,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.167 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "Maintaining a constructive level encourages students to individually synthesize the discussed medicinal benefits of mushrooms and apply them to a concrete scenario, deepening their conceptual understanding of mycology in oncology.",
+      "suggested_question": "Select one medicinal mushroom discussed in class, such as turkey tail, and write a brief proposal explaining how its specific properties could be integrated into a complementary cancer treatment protocol.",
+      "expected_confidence": 1.0,
+      "efficiency": {
+        "prompt_tokens": 3205,
+        "completion_tokens": 1230,
+        "total_tokens": 4435,
+        "estimated_cost_usd": 0.028065
+      }
+    },
+    {
+      "knowledge_point_id": 10,
+      "topic": "Biodiversity and Ecosystem Health",
+      "summary": "The importance of biodiversity in maintaining ecosystem health and its direct impact on human survival is emphasized.",
+      "position_index_1based": 10,
+      "position_phase": "late",
+      "current_student_ci": "c",
+      "current_student_speaker_count": 3,
+      "current_c_ratio": 0.1,
+      "has_i_behavior": false,
+      "rule_reason": "Current C ratio is 0.100 (<0.5) and no clear I behavior, so expected level stays at C.",
+      "expected_ci_level": "c",
+      "expected_reason": "To deepen understanding of biodynamic services and pesticide impacts, students should individually construct a practical solution or alternative plan, moving from passive listening to active generation of ecological solutions.",
+      "suggested_question": "Based on our discussion of biodynamic services and the impact of pesticides like glyphosates, design a detailed, non-chemical pest-management plan for a local school garden that actively supports and protects native pollinator populations.",
+      "expected_confidence": 1.0,
+      "efficiency": {
+        "prompt_tokens": 4753,
+        "completion_tokens": 1249,
+        "total_tokens": 6002,
+        "estimated_cost_usd": 0.032994
+      }
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "model": "gpt-5.1",
+  "evaluation_dimensions": [
+    "Accuracy",
+    "Alignment & Grounding",
+    "Actionability"
+  ],
+  "aggregate": {
+    "count": 10,
+    "avg_accuracy": 4.7,
+    "avg_alignment_grounding": 4.8,
+    "avg_actionability": 4.5,
+    "avg_overall_score_5": 4.634,
+    "pass_rate": 1.0,
+    "borderline_rate": 0.0,
+    "fail_rate": 0.0
+  },
+  "results": [
+    {
+      "knowledge_point_id": 1,
+      "topic": "Mushroom Solutions",
+      "rederived_ci_level": "c",
+      "scores": {
+        "accuracy": 5,
+        "alignment_grounding": 5,
+        "actionability": 5
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 5,
+          "comment": "Correctly identifies that current student behavior reaches C level (individual constructive thinking with an essay as output) and accurately diagnoses the main gap as extremely low coverage (1 of 30 students speaking, 3 A-hits, falling trend). Citation of: 'so you just want us to write an essay on any one of them in depth, right? Yeah, absolutely...' is faithful to the transcript and used appropriately to justify C-level cognition."
+        },
+        "proposed_rewrite": {
+          "score": 5,
+          "comment": "The rotational individual synthesis activity logically scales constructive engagement from one student to the whole class while deliberately avoiding interaction, which is correct given target_mode = C. The focus on each student selecting a mushroom solution and producing a written/reflection output is tightly aligned to the topic and ICAP definitions."
+        },
+        "scaffolding_strategy": {
+          "score": 5,
+          "comment": "Both strategies are concrete, specify teacher vs. student roles, and are timed to occur after the initial whole-class exchange. The digital concept map and targeted questioning cycle are specific to 'mushroom solutions' and maintain C (no peer interaction, individual elaboration). Level of detail is practical but not over-scripted."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "New prompt is clearly constructive, requires individual explanation and reasoning, and is fully coherent with the mushroom solutions topic. It does not claim to be from the transcript, so it is an appropriate forward-looking design and not a hallucination."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "Reference answer is content-plausible for mycelium-based environmental solutions, shows causal reasoning, and models the expected depth for a Mode C response. It is logically consistent with the broader theme of mycelium packaging even though that exact example is not in the transcript, which is acceptable under the innovation exemption."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "c",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [],
+      "dimension_rationales": {
+        "accuracy": "The ICAP interpretation is correct: with only one student speaker and no peer dialog, the observed behavior is Constructive, not Interactive. The diagnosis correctly notes that target_mode is already C and focuses on scaling coverage rather than changing level. Quantitative details (1 of 30 students, 3 A hits, falling trend) match the trusted context data. Evolution direction is pedagogically sound: extend C-level thinking from a single vocal student to the whole class while maintaining the same mode.",
+        "alignment_grounding": "All references to classroom facts (essay on one solution in depth, teacher confirming 'yeah, absolutely', single student contribution, early phase of topic) are grounded in the transcript and policy context. The proposed changes (individual synthesis tasks, solo concept mapping, teacher-directed questioning) are tightly aimed at strengthening Mode C rather than drifting to I. The content of activities and questions remains on-topic (mushroom/mycelium solutions in environmental contexts) and respects class size and coverage constraints highlighted in the extra context.",
+        "actionability": "Suggested moves are at a usable level of granularity: who does what (teacher assigns, collects, questions; students choose, analyze, produce written or mapped outputs) and when (after the initial discussion of solutions / during a rotation after whole-class prompt) are clear. They are specific to this knowledge point rather than generic participation advice. No step demands unrealistic choreography; teachers can adapt duration and tools while still preserving the core logic of broadening constructive engagement."
+      },
+      "overall_score_5": 5.0,
+      "verdict": "pass"
+    },
+    {
+      "knowledge_point_id": 2,
+      "topic": "Scientific Jargon and Passion",
+      "rederived_ci_level": "c",
+      "scores": {
+        "accuracy": 5,
+        "alignment_grounding": 5,
+        "actionability": 5
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 5,
+          "comment": "Correctly identifies the student's behavior as constructive (individual explanation and interpretation) and accurately notes the coverage bottleneck (1 of 30 students, ~3.3%). Directly grounded in both the transcript and class-size data; explanation of why CI is capped at C (no peer interaction) is consistent with ICAP."
+        },
+        "proposed_rewrite": {
+          "score": 5,
+          "comment": "Targets scaling from a single constructive contributor to whole-class constructive engagement via individual written analysis. Explicitly keeps mode at C (no interaction required) and logically follows from the diagnosed low coverage problem; tightly aligned to the knowledge point of interpreting scientific jargon and passion."
+        },
+        "scaffolding_strategy": {
+          "score": 5,
+          "comment": "Two concrete, feasible strategies (solo concept mapping; individual reflective writing) with clear constructive demands and explicit non-collaboration constraints, matching the target C mode. Appropriately specific, not over-scripted, and clearly linked to this topic (jargon, passion, credibility)."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "Directly prompts individual explanation and reasoning about how passion and jargon affect credibility, which is on-topic and elicits constructive processing. Wording is suitable for independent reflection and aligns with ICAP-C goals."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "Plausible, coherent explanation that links passion and jargon to perceived credibility, modeling the kind of constructive reasoning expected. Content is logically consistent with the transcript and the topic."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "c",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [],
+      "dimension_rationales": {
+        "accuracy": "The suggestion correctly classifies the observed behavior as constructive: the student is generating an original interpretation of the relationship between scientific jargon, passion, and credibility without turn-taking or co-construction. The explanation that only one student spoke (1/30) is consistent with the context data and correctly used to identify a coverage bottleneck rather than a level mismatch. The proposed pedagogical move (individual reflection tasks) coherently stays within C rather than pushing to I, which matches both the teacher_expected_ci and policy expectations.",
+        "alignment_grounding": "The diagnosis and rationale reference the actual transcript accurately, quoting and paraphrasing the student's explanation in a grounded way. The use of class size (30) and participation count (1) matches the trusted context. All forward-looking elements (rewrite, strategies, new question, answer) are thematically appropriate for 'Scientific Jargon and Passion' and clearly oriented toward expanding constructive engagement rather than generic skills. No invented metrics, speakers, or behaviors conflict with the multi-source context.",
+        "actionability": "The plan is practically executable: it identifies teachers as the initiating actors (introduce tasks, implement exercises, deploy prompts) and students as the ones producing individual written or mapped outputs. Timing is clear (immediately after the discussion / lecture segment on this knowledge point). The strategies are specific enough to implement—solo concept maps focused on jargon/passion/credibility, anonymous reflections on how passion shapes understanding—while leaving room for teacher adaptation. They are neither vague slogans nor minute-by-minute scripts and are strongly tied to this specific content."
+      },
+      "overall_score_5": 5.0,
+      "verdict": "pass"
+    },
+    {
+      "knowledge_point_id": 3,
+      "topic": "Mycophobia in Academia",
+      "rederived_ci_level": "c",
+      "scores": {
+        "accuracy": 5,
+        "alignment_grounding": 5,
+        "actionability": 5
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 5,
+          "comment": "Correctly identifies that the highest observed level is Constructive, driven by a single student speaker elaborating on the topic. The explanation about low coverage (1 of 30 students; 3.3%) and declining active behaviors is consistent with the provided metrics (student_speaker_count=1, c_ratio=0.033, a_total_hits=4, falling trend). Quoted transcript lines accurately match the source. Diagnosis of a coverage bottleneck—not a level bottleneck—is precise and ICAP-consistent."
+        },
+        "proposed_rewrite": {
+          "score": 5,
+          "comment": "The rewrite focuses on scaling constructive behavior (individual written synthesis and critical evaluation) while staying at the Constructive level, which matches the target_mode and expected CI for this knowledge point. It is topic-specific (mycophobia, stigma, scientific rigor) and pedagogically logical as a means to move more silent students into observable C behavior without forcing interaction."
+        },
+        "scaffolding_strategy": {
+          "score": 5,
+          "comment": "Both strategies clearly promote individual knowledge construction (concept mapping; reflective journaling) with no peer interaction, which squarely aligns with the Constructive mode, not Interactive. They are concrete, tied directly to this content (mycophobia, stigma, shamanism, scientific rigor), specify student as main actor, and can be slotted after the transcript discussion. Good middle-granularity: clear steps without over-choreographing."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "The question prompts independent analysis and explanation, requiring students to cite transcript evidence—classic Constructive behavior. It is well aligned with the topic and expected learning aim ('critically analyze the stigma surrounding mycology'). It does not conflict with any classroom facts and is an appropriate future-oriented prompt."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "Accurately reflects and synthesizes key transcript ideas: long-standing avoidance of psychedelic mushrooms in lectures; concern about undermining scientific credibility; conservative colleagues; focus on rigorous, costly scientific testing; gradual opening up of the topic. It logically answers the new question and maintains topic fidelity and conceptual accuracy."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "c",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [
+        "In the scaffolding strategies, briefly note approximate timing (e.g., 'immediately after reading/discussion of the transcript segment, allocate 5–7 minutes') to make implementation planning even clearer.",
+        "Add an explicit teacher action to collect or quickly sample a few anonymous written responses (e.g., exit tickets) so that constructive engagement can be monitored across the whole class, not just assumed."
+      ],
+      "dimension_rationales": {
+        "accuracy": "The ICAP interpretation is fully consistent with the pipeline summary: only one student is constructing (C) and no I behavior is detected; seeking to maintain C as the target is appropriate. The coverage diagnosis (3.3% constructive ratio, single active speaker, falling A hits) aligns with the reported metrics. All cited transcript details (scientific rigor, tens of thousands of dollars, stigma, avoidance of psychedelic topics) are correctly represented, with no misinterpretation.",
+        "alignment_grounding": "The proposal’s goal is to expand the number of students evidencing Constructive cognition, not to push to Interactive, which matches the expected_ci_level 'c' and the teacher’s expectation. Suggested activities (individual synthesis, concept maps, reflections) all foster generative processing by each learner. All grounding references—class size, speaker count, lack of interaction, and specific content about mycophobia and scientific conservatism—are directly supported by the trusted context and transcript. Future-oriented elements stay within the same topic and do not contradict any known facts.",
+        "actionability": "Each component identifies who does what and when: students independently map concepts and write reflections after exposure to the transcript; the teacher assigns and frames these tasks. Instructions are specific enough to implement (what concepts to map, what to reflect on) without descending into rigid scripting. The suggestions are tightly connected to this particular knowledge point (mycophobia, stigma, scientific research) rather than generic engagement tips, and they are realistic small modifications that fit naturally into an early-phase segment of a lesson."
+      },
+      "overall_score_5": 5.0,
+      "verdict": "pass"
+    },
+    {
+      "knowledge_point_id": 4,
+      "topic": "Credibility and Passion",
+      "rederived_ci_level": "c",
+      "scores": {
+        "accuracy": 5,
+        "alignment_grounding": 5,
+        "actionability": 5
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 5,
+          "comment": "Correctly identifies that current student behavior is already Mode C (individual reflective construction) but limited to a single speaker (1/30 ≈ 3.3%); this matches the pipeline data and transcript. The explanation about bottlenecked coverage and the use of the quoted utterance are accurate and well-grounded in ICAP theory and the provided context."
+        },
+        "proposed_rewrite": {
+          "score": 5,
+          "comment": "Pedagogically sound and logically focused on scaling from one constructive participant to many, without shifting into interaction (I). The suggestion to use individual artifacts (journals, concept maps) tightly fits Mode C and this knowledge point (fragile credibility, passion in science communication)."
+        },
+        "scaffolding_strategy": {
+          "score": 5,
+          "comment": "Strategies are concrete, clearly assignable to students, and specify what they do (write, map, explain) and on what content (credibility/passion in the transcript). They operate at a practical level for mid-lesson use and are neither over-generic nor over-scripted."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "Directly elicits individual constructive reflection on the tension between passion and societal expectations, clearly aligned with the transcript themes and Mode C. It appropriately requires students to generate their own interpretation rather than reproduce text."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "Content is accurate to the transcript’s ideas (fragile credibility, appearance/dress, Mike Reynolds, passion and bias) and models the depth and nuance desired at Mode C. It does not contradict any grounded facts and stays within the topic’s conceptual scope."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "c",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [],
+      "dimension_rationales": {
+        "accuracy": "The analysis precisely matches the ICAP classification: with only one student speaker and reflective utterances, the current state is Constructive, consistent with the pipeline summary and rules. The diagnosis that the main problem is coverage, not level, is valid. The evolution direction—maintaining Mode C but expanding to more students—is logically appropriate and consistent with the expected policy for this knowledge point.",
+        "alignment_grounding": "All references to speaker counts, C ratio (1/30 ≈ 0.033), and the nature of the existing discourse are consistent with the data. The quoted example from the transcript is accurate. The proposed future tasks, question, and answer are legitimately extrapolated designs focused on credibility and passion, fitting both the topic description and the teacher’s expected CI level, without contradicting any grounded details.",
+        "actionability": "Suggestions specify actors (students primarily, with teacher as designer/facilitator), clear actions (independent writing, creating concept maps, reflecting using transcript examples), and an implied timing (as a follow-up or parallel activity to the existing discussion in this middle segment). They are realistically implementable within normal classroom constraints and focused on this specific knowledge point rather than generic interaction tips."
+      },
+      "overall_score_5": 5.0,
+      "verdict": "pass"
+    },
+    {
+      "knowledge_point_id": 5,
+      "topic": "Environmental Impact of Fungi",
+      "rederived_ci_level": "c",
+      "scores": {
+        "accuracy": 5,
+        "alignment_grounding": 5,
+        "actionability": 4
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 5,
+          "comment": "Correctly identifies current level as Constructive based on a single student's reflective comments, aligns with ICAP and pipeline summary (1 speaker, C-level reflections). Accurately notes low coverage (1/30 ≈ 3.3%) and distinguishes A-hits from true C-level outputs. Diagnosis is grounded in quoted transcript and matches context data."
+        },
+        "proposed_rewrite": {
+          "score": 5,
+          "comment": "Targets expanding individual constructive work to the whole class via personal concept maps/written explanations, which is a logical move within C (not shifting to I). Clearly linked to fungi, soil formation, and sustainability. Using a digital platform is a plausible implementation detail, not a hallucination about the existing class. Strong conceptual alignment with target mode and bottleneck."
+        },
+        "scaffolding_strategy": {
+          "score": 4,
+          "comment": "Includes clear, targeted actions (silent think-write-draw; sentence stems; teacher probing of individuals). Actors (students/teacher) and general timing (after video/segment) are implied but not explicitly keyed to a precise moment in the flow. The one-on-one probing could be clarified to fit better in a whole-class setting. Overall quite usable but could specify when in the sequence each step occurs."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "Directly prompts individual constructive processing (explain + diagram + concept map) and explicitly forbids discussion, reinforcing Mode C. Content is tightly tied to fungi’s role in soil formation and soil biodiversity for sustainable farming, fully aligned with the knowledge point."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "Scientifically accurate, aligns with transcript themes (decomposition, long soil-formation times, impact of pesticides on soil biodiversity and sustainability). Provides a coherent, high-quality model response that fits the new question’s focus on explanation and reasoning."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "c",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [
+        "In the scaffolding_strategy, explicitly state the timing in the lesson flow (e.g., 'immediately after watching the fungi video segment, before opening the floor for volunteers').",
+        "Clarify how many students will be orally probed and how this will be managed within whole-class time so that the one-on-one probing remains practical and does not excessively slow the lesson.",
+        "Optionally add a brief teacher prompt to remind students to draw on specific ideas from the video (e.g., fungi transforming wood/straw, long time to make soil, pesticide effects) to further anchor their concept maps in the shared content."
+      ],
+      "dimension_rationales": {
+        "accuracy": "The suggestion correctly identifies the existing Constructive level from a single student, matches the pipeline-detected CI level, and accurately characterizes low participation as the main bottleneck. The evolution direction is not a CI-level shift but a coverage expansion within C, which is pedagogically sensible for this segment and consistent with the expected_ci_level and its rationale.",
+        "alignment_grounding": "The analysis and diagnosis are well-grounded in the actual transcript (student’s surprise about fungi transforming wood into soil, teacher’s remarks on soil formation time and pesticides/biodiversity). The proposed activities, question, and reference answer all stay on-topic (fungi, soil formation, soil biodiversity, sustainability) and serve to promote individual constructive processing without requiring interaction, in line with target_mode = C. No invented classroom facts or contradictions with the trusted context.",
+        "actionability": "The plan gives concrete, reasonably concise steps (individual concept mapping with prompts; targeted teacher probing) with clear actors. It avoids generic slogans and is not over-engineered. However, the timing and scope of teacher probing could be specified a bit more to ensure smooth integration into class flow and realistic coverage, so it is highly actionable but not maximal."
+      },
+      "overall_score_5": 4.67,
+      "verdict": "pass"
+    },
+    {
+      "knowledge_point_id": 6,
+      "topic": "Terraforming and Space Travel",
+      "rederived_ci_level": "c",
+      "scores": {
+        "accuracy": 4,
+        "alignment_grounding": 5,
+        "actionability": 4
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 4,
+          "comment": "Correctly identifies that the highest student CI is Constructive and participation is very limited (1/30). It appropriately notes that constructive behavior is confined to a single speaker. However, it slightly over-infers the richness of the student’s associative thinking (e.g., framing as extensive 'exploratory, associative thinking') when the transcript shows a relatively short constructive reflection; still broadly reasonable."
+        },
+        "proposed_rewrite": {
+          "score": 4,
+          "comment": "Pedagogical move (individual concept mapping/journaling then brief reporting) is coherent for scaling Constructive engagement without forcing interaction, thus aligned with target C. It respects ICAP by keeping focus on individual knowledge construction. Minor issue: mentioning 'cosmic consciousness' as a central mapping theme goes a bit beyond what is clearly student-generated (it appears in instructor discourse), but it is still grounded in transcript content and topic-appropriate."
+        },
+        "scaffolding_strategy": {
+          "score": 4,
+          "comment": "Two strategies are concrete and specify clear actions (individual concept sketch; teacher-led think‑aloud probe of one student at a time). They respect non-interactive Constructive mode (no peer collaboration) and are operational. Slightly generic in formulation and could be more tightly tied to the exact wording of the existing student idea on space travel/terraforming rather than adding 'evolutionary intelligence' as a main strand, but overall quite usable."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "Question is clearly on-topic, invites individual generative reasoning (describe and diagram influence of cosmic consciousness on terraforming strategies), and fits Constructive mode well. It builds naturally from the transcript’s mention of cosmic consciousness and terraforming; no grounding conflict."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "Content is scientifically and logically plausible within a speculative discussion (linking mycelial/brain-like networks and adaptive ecosystems to terraforming). It directly answers the new question and is consistent with the transcript’s themes (mycelium, nodes, cosmic consciousness, terraforming). Appropriately at a high-level, future-oriented design; no hallucinated classroom facts."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "c",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [
+        "In the gap_diagnosis, distinguish more explicitly between student-generated content and instructor content. For instance, clarify that the richest phrasing about 'cosmic consciousness and evolution of intelligence' comes from the instructor, while the student mainly comments on unexpectedness and applications to space travel.",
+        "In the proposed_rewrite and scaffolding_strategy, anchor tasks slightly more tightly to the exact student utterances (e.g., unexpected link to organisms living in extreme environments and space travel) rather than broadening to additional constructs like 'evolutionary intelligence' unless you frame them explicitly as teacher-introduced prompts.",
+        "For actionability, specify briefly when in the segment the teacher should transition from open discussion to individual mapping/journaling (e.g., immediately after a student mentions space travel/terraforming) to strengthen timing clarity without over-scripting."
+      ],
+      "dimension_rationales": {
+        "accuracy": "Diagnosis correctly identifies CI level (C) and the key bottleneck as extremely low participation (1 speaker, 3.3% of class), which matches the trusted context (student_current_ci = c, student_speaker_count = 1, c_ratio = 0.033). The evolution direction (maintain C but broaden to more students) is pedagogically appropriate. Minor over-interpretation of the depth of the student's associative reasoning and slight blending of teacher vs. student contributions prevent a perfect score.",
+        "alignment_grounding": "All backward-looking references (class size, one speaking student, constructive but non-interactive behavior, mention of cosmic consciousness and terraforming) are consistent with the provided context and transcript. Future-oriented elements (new task designs, new question, reference answer) stay on the mycology–terraforming–space travel theme and align with the target Constructive mode; they do not claim to be historical facts, so no hallucination issue arises. Suggestions are well aligned with the goal of increasing C participation rather than shifting to Interactive.",
+        "actionability": "Suggested moves (individual concept maps/journals, solo think‑aloud probes, spotlighting different students) specify clear actors (teacher selects/prompts; students draw, write, verbalize), clear actions, and a plausible place in the lesson flow (after initial discussion). They are neither slogan-like nor micromanaged. They could be strengthened slightly by clarifying transition timing and tightening the link to specific statements in this segment, but they are already practical and implementable with modest adaptation."
+      },
+      "overall_score_5": 4.33,
+      "verdict": "pass"
+    },
+    {
+      "knowledge_point_id": 7,
+      "topic": "Stigma and Scientific Solutions",
+      "rederived_ci_level": "c",
+      "scores": {
+        "accuracy": 5,
+        "alignment_grounding": 5,
+        "actionability": 5
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 5,
+          "comment": "Correctly identifies that the single student is operating at Mode C (constructive) with self-generated questioning and causal reasoning, and accurately notes the bottleneck as coverage (1/30 speakers, 3.3% C-ratio). Uses grounded transcript quotes that match the provided text and aligns with policy data about low C-ratio and lack of I behavior."
+        },
+        "proposed_rewrite": {
+          "score": 5,
+          "comment": "Logically targets scaling constructive behaviors from one student to the full class by requiring individual written or concept-map outputs. This directly aligns with the target Mode C and is a concept-level, not over-scripted, adjustment. It stays faithful to the topic (stigma, adoption barriers, mushrooms) and addresses the clearly diagnosed coverage gap."
+        },
+        "scaffolding_strategy": {
+          "score": 5,
+          "comment": "Two strategies (individual concept mapping and solo reflective journaling) are concrete, specify independent work (no interaction, fitting Mode C), and are clearly tied to this knowledge point (stigma, scientific solutions, adoption barriers). They name the actors (students) and implicitly occur after content presentation. Level of detail is operational but flexible for teacher adaptation."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "Question is tightly aligned to the topic (stigma as barrier to mushroom-based scientific solutions) and explicitly enforces individual constructive thinking. It prompts explanation plus proposing a way to overcome the barrier, which fits Mode C and is pedagogically sound for this segment."
+        },
+        "reference_answer": {
+          "score": 4,
+          "comment": "Content is plausible, thematically aligned with stigma and public distrust, and offers a reasonable solution (research dissemination and education). However, it underutilizes specific contextual elements present in the transcript (e.g., Big Pharma, military interest, real-world examples like turkey tail and detoxification), so it is slightly generic relative to the rich classroom context, though still acceptable."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "c",
+        "target_mode": "c",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [
+        "Strengthen the reference answer by explicitly tying it to examples mentioned in the transcript, such as Stamets' products, Big Pharma dynamics, and institutional interest (military, NASA), to model richer, context-embedded constructive reasoning.",
+        "In the scaffolding description, briefly indicate when in the lesson flow the individual tasks should occur (e.g., immediately after viewing the documentary clip and whole-class discussion) to further clarify implementation timing."
+      ],
+      "dimension_rationales": {
+        "accuracy": "The analysis of the current CI level as constructive is fully consistent with ICAP criteria and with the pipeline classification: one student reflects, questions, and reasons without turn-taking, so C is appropriate. The diagnosis that the main issue is low coverage of C across the class (1/30, C-ratio 0.033) is numerically and conceptually accurate. The evolution direction—maintaining Mode C but scaling it from an individual to most students—is pedagogically coherent given that the expected CI level is C and no interactive behaviors are present.",
+        "alignment_grounding": "The suggestion preserves the target Mode C as specified in both the teacher_expected_ci and expected_policy_for_this_kp. It aims to broaden constructive engagement rather than shifting prematurely to I, which matches the policy rule that low C-ratio without I should stay at C. Grounding is solid: quoted lines such as the student's curiosity about adoption and comments on traction are verbatim from the transcript. Numeric references to class size (30) and speaker count (1) match the trusted context. Future-oriented designs (concept maps, reflection prompts) are thematically appropriate to 'Stigma and Scientific Solutions' and not in conflict with any classroom facts.",
+        "actionability": "The proposal is practically implementable and avoids both vacuity and over-choreography. It clearly identifies dominant actors (students generate maps/reflections; teacher assigns and collects) and implies timing (after content exposure when students have material to synthesize). The strategies are specific enough—\"independently create a detailed concept map linking stigma, scientific solutions, and societal adoption barriers\"—to be directly usable by a teacher, yet flexible in exact wording and time allocation. They are not generic templates detached from content; they reference mushrooms, stigma, adoption barriers, and thus are appropriately anchored in this knowledge point."
+      },
+      "overall_score_5": 4.67,
+      "verdict": "pass"
+    },
+    {
+      "knowledge_point_id": 8,
+      "topic": "Micro Filtration Techniques",
+      "rederived_ci_level": "i",
+      "scores": {
+        "accuracy": 4,
+        "alignment_grounding": 4,
+        "actionability": 4
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 4,
+          "comment": "Correctly identifies that only a small portion of the class (2 students out of ~30) are participating interactively, consistent with the context data and transcript excerpts. It reasonably links the bottleneck to low participation and diffusion of discourse. Minor limitation: it infers 'collective knowledge construction' issues without distinguishing that the teacher–student interaction is already interactive and somewhat whole-class oriented, so the diagnosis could more sharply distinguish between interactional depth (already present) and breadth (the main gap)."
+        },
+        "proposed_rewrite": {
+          "score": 4,
+          "comment": "Pedagogically coherent: moving toward small-group debate/collaborative problem solving is an appropriate way to extend I-level behavior to more students. Subthemes (water detoxification, oil spill remediation, bio-inoculation) are well aligned with the lesson content. However, the suggestion is somewhat high-level (\"structured rotating debate\" with \"rotating roles\") without indicating concretely how many rotations or how to scaffold for this specific short segment in a late-phase discussion."
+        },
+        "scaffolding_strategy": {
+          "score": 4,
+          "comment": "Both strategies are specific, name clear structures (Think–Pair–Share–Report; Rotating Expert Panel), and identify interactive moves (debate, questioning, justifying). Dominant actors (students) are clear. They are somewhat generic and could be better tied to the exact transcript moment (e.g., immediately after the teacher asks 'What was another micro filtration piece?'), but overall they are usable in this context."
+        },
+        "new_question": {
+          "score": 4,
+          "comment": "Well targeted to I-mode in principle: asks a student to explain and then explicitly to challenge a peer with a clarifying/probing question, which is archetypal interactive behavior. It fits the micro-filtration-with-wood-chips content. Slight issue: it bundles two actions into a single prompt for one student; in practice, it would need explicit pairing/turn-taking instructions to reliably elicit genuine peer challenge."
+        },
+        "reference_answer": {
+          "score": 4,
+          "comment": "Substantively aligned with the topic and transcript: inoculated wood chips, fungi/mushrooms, detoxifying runoff, heavy metals are all grounded in the teacher's explanation. The sample probing question about fungi surviving saline or fluctuating temperatures is plausible and models interactive questioning. It somewhat extends beyond the provided transcript (salinity mechanisms) but within normal pedagogical extrapolation and thus not a hallucination issue."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "i",
+        "target_mode": "i",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [
+        "Sharpen the gap_diagnosis by explicitly distinguishing that the quality of interaction between the active students and teacher is already I-level; the primary gap is breadth of participation across the class, not depth of reasoning in the vocal subset.",
+        "In the proposed_rewrite, briefly indicate where in this late-phase segment the rotating debate or group work would be inserted (e.g., right after the teacher introduces multiple micro filtration examples) and how long it should roughly last, to improve fit with the actual class flow.",
+        "For the scaffolding_strategy, anchor at least one move directly to a quoted teacher question from the transcript (e.g., 'What was another micro filtration piece?') so teachers can see exactly when to launch Think–Pair–Share or the Expert Panel.",
+        "Refine the new_question into a two-step prompt that clearly assigns interactive roles (e.g., Student A explains, Student B asks a probing question) to make the interactive requirement more executable."
+      ],
+      "dimension_rationales": {
+        "accuracy": "The ICAP interpretation is sound: the segment is correctly classified as interactive for the few active students, and the aim to spread I-level engagement classwide is pedagogically logical. The diagnosis uses appropriate transcript evidence. Minor overgeneralization about 'collective knowledge construction' prevents a perfect score, but the overall direction and reasoning about moving from limited I to broader I are accurate.",
+        "alignment_grounding": "The suggestions are well aligned to the target_mode = I: all key elements (debates, questioning, defending ideas, Think–Pair–Share, Rotating Expert Panel) are interaction-focused. Grounding is consistent with contextual data: class size ~30, 2 active student speakers (~6.7%), late-phase position, and the specific content (inoculated wood chips, detoxifying runoff, oil spill applications). Extensions like saline conditions are reasonable elaborations, not contradictions. Some elements could more explicitly reference the actual timing and teacher prompts seen in the transcript to maximize grounding.",
+        "actionability": "The plan names clear actors (students as debaters/experts; teacher as activity designer/facilitator) and uses concrete structures teachers commonly know. Timing is implied (during the micro filtration discussion) but not always explicitly tied to specific turns or minutes, and the rotating roles idea could be more concretely scoped. Still, a typical teacher could implement these without excessive preparation, and the strategies are neither vague nor over-scripted, yielding solid but not maximal actionability."
+      },
+      "overall_score_5": 4.0,
+      "verdict": "pass"
+    },
+    {
+      "knowledge_point_id": 9,
+      "topic": "Cancer and Mycology",
+      "rederived_ci_level": "i",
+      "scores": {
+        "accuracy": 5,
+        "alignment_grounding": 5,
+        "actionability": 4
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 5,
+          "comment": "Correctly identifies that the segment already operates at Interactive level for the few speaking students, and that the real bottleneck is very low speaker coverage (2 of 30). This is fully consistent with ICAP and with the provided speaker count. Appropriately cites transcript evidence of students building on each other’s ideas about nuclear remediation with mushrooms."
+        },
+        "proposed_rewrite": {
+          "score": 5,
+          "comment": "Logically moves from a narrow I-mode (few students) toward broader I-mode by suggesting small-group debates/problem-solving around mycology remediation scenarios. The direction is pedagogically sound for upgrading coverage while keeping interaction (student–student talk) as the target. Concept-level and not over-scripted."
+        },
+        "scaffolding_strategy": {
+          "score": 4,
+          "comment": "Both strategies clearly target interactive behavior (students responding to and building on peers). Actors and actions are specified (teacher sets structures; students discuss, rotate, respond). However, the digital polling/breakout element is somewhat generic and assumes tech/breakout affordances not evidenced in the current class context; timing (5–7 minutes, etc.) is plausible but a bit pre-engineered. Still largely executable with minor adaptation."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "Directly prompts an explanation plus a response to a classmate’s idea, which is quintessential Interactive ICAP behavior. Content tightly matches the transcript’s focus on mushrooms detoxifying radiation (Fukushima, Chernobyl). Well aligned with the topic and target mode."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "Factually consistent with the classroom discussion: mushrooms/mycelium absorbing radiation and heavy metals, Fukushima/Chernobyl-like contexts, and the pile ecosystem example with larvae/insects enhancing soil restoration. The additional ecosystem detail is a pedagogically reasonable extension, not a contradiction. It models how to build constructively on a peer’s response, supporting I-level discourse."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "i",
+        "target_mode": "i",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [],
+      "major_issues": [],
+      "improvement_suggestions": [
+        "Adapt the digital polling strategy to explicitly mention low-tech variants (e.g., paper cards or quick write-and-swap) so it fits both tech-rich and low-tech classrooms using similar whole-class interactive structures.",
+        "Tie at least one small-group prompt explicitly to the cancer-treatment dimension (e.g., immunomodulatory or anti-tumor properties of mushrooms), not only environmental remediation, to fully leverage the stated topic of 'Cancer and Mycology'."
+      ],
+      "dimension_rationales": {
+        "accuracy": "The ICAP diagnosis is precise: the existing discourse among the few speaking students clearly meets interactive criteria (dialogue, referring to others’ ideas, co-constructing understanding). The cited transcript lines match the actual segment. The proposed evolution—maintaining I-mode but expanding participation—is exactly what an ICAP-aligned improvement should do when depth is sufficient but participation is narrow. No conceptual misinterpretations of ICAP levels are present.",
+        "alignment_grounding": "The suggestion acknowledges that both teacher and students are already at expected I-level, and focuses on participation breadth, which is the actual reported issue (2 speakers out of 30). References to mushrooms detoxifying radiation, Fukushima proposals, and toxic piles with larva/maggots are all grounded in the transcript. Future-oriented designs stay on-topic (mushrooms for remediation/health) and serve the I-mode goal (peer-to-peer response and idea-building). No fabricated metrics or contradictions with the extra context were found.",
+        "actionability": "The recommendations specify who does what and when: the teacher reorganizes portions of discussion time into rotating small-group/fishbowl structures; students take roles, present, and respond to peers; digital polling or equivalent structures are used during scenario discussions. This is practical and not over-scripted, though the second strategy leans slightly generic and presumes technological tools that may or may not be present. Overall, the teacher could realistically implement these within this late-phase discussion segment with modest adjustment."
+      },
+      "overall_score_5": 4.67,
+      "verdict": "pass"
+    },
+    {
+      "knowledge_point_id": 10,
+      "topic": "Biodiversity and Ecosystem Health",
+      "rederived_ci_level": "i",
+      "scores": {
+        "accuracy": 4,
+        "alignment_grounding": 4,
+        "actionability": 4
+      },
+      "field_quality": {
+        "gap_diagnosis": {
+          "score": 3,
+          "comment": "Correctly states that target mode I requires explicit peer-to-peer interaction and notes lack of structured student–student exchanges, which is pedagogically sound. However, it inaccurately characterizes the segment as mainly lecturing with only 'a few' individual responses, and claims 'no evidence' of peer engagement. The trusted context and transcript show multiple students contributing, turn-taking, and teacher uptake of student ideas—already meeting basic Interactive criteria. It also introduces a specific figure ('3 out of 30 students (10%)') that is not grounded in the provided context (we only know 3 speakers, not 10% of class activity nor that this is a key bottleneck). Thus partially misdiagnoses the current CI level and overstates the gap."
+        },
+        "proposed_rewrite": {
+          "score": 4,
+          "comment": "Ideas (debate carousel, ecosystem management council simulation) are conceptually appropriate for deepening Interactive engagement about biodiversity and policy trade-offs. They build on the bee die-off theme and logically promote negotiation and peer dialogue. However, they are somewhat decoupled from the actual flow and constraints of the observed lesson (e.g., online synchronous, use of Top Hat polling, existing whole-class discussion), and no brief justification is given for feasibility within the late-phase segment. Still, they are pedagogically sound and non-hallucinatory as forward-looking designs."
+        },
+        "scaffolding_strategy": {
+          "score": 4,
+          "comment": "Provides two concrete, reasonably detailed strategies (Think–Pair–Share variant; digital debate with breakout rooms). Dominant actors, actions, and sequencing are clear, and both are well-suited to Mode I, emphasizing reciprocal explanation and co-construction. Slight drawbacks: (1) Both strategies are somewhat generic and not tightly tied to the specific moves the teacher is already using (polls, open questions about bees, coffee, pesticides); (2) The second strategy may be ambitious in time/tech demands for a segment of this length without explicit timing guidance. Overall still quite actionable at a moderate granularity."
+        },
+        "new_question": {
+          "score": 5,
+          "comment": "Directly aligned with the topic (bee colony collapse, ecosystem health, and human decision-making). It naturally invites dialogic argumentation and response to counter-arguments, which supports Interactive mode when used in structured peer discussion. Fits the established classroom theme of convincing different stakeholders (e.g., fiscally conservative actors, community members) about biodiversity-friendly practices."
+        },
+        "reference_answer": {
+          "score": 5,
+          "comment": "Scientifically and pedagogically sound: highlights bees’ pollination role, links to crop yields and economic risks, mentions alternatives to harmful pesticides, and addresses short-term cost concerns with phased adoption and support programs. The inclusion of listening and respectful rebuttal models the type of discourse desired in an Interactive activity. Well-aligned with the class’s emphasis on ecosystem services and economic framing (e.g., trillions in biodynamic services, fiscal conservatism)."
+        }
+      },
+      "consistency_checks": {
+        "student_current_ci": "i",
+        "target_mode": "i",
+        "is_student_ci_consistent_with_rederived": true,
+        "is_suggestion_aligned_to_target_mode": true
+      },
+      "hallucination_flags": [
+        "gap_diagnosis: States 'only 3 out of 30 students (10%) are active speakers' as an explicit proportion; context confirms 3 speakers but not that this ratio is a meaningful bottleneck metric or that class-wide engagement is necessarily 'very limited.'",
+        "gap_diagnosis: Claims 'no evidence of students engaging directly with each other,' while the trusted summary classifies the segment as interactive with multiple participants contributing constructively and turn-taking; diagnosis under-recognizes existing I-level behavior."
+      ],
+      "major_issues": [
+        "Misalignment between the pipeline classification (student_current_ci = i with interactive dialogue and multiple participants) and the diagnosis that the class is bottlenecked at 'Individual or lower' with essentially no peer interaction.",
+        "Overemphasis on low speaker count as proof of non-interactive mode, without considering quality of exchanges or teacher-facilitated multi-student dialogue already noted in the context."
+      ],
+      "improvement_suggestions": [
+        "Revise the gap_diagnosis to acknowledge that Interactive-level behavior is already present (multiple students contributing, turn-taking, teacher building on student ideas), and frame the goal as broadening participation and deepening peer–peer exchanges rather than upgrading from Individual to Interactive from scratch.",
+        "Remove or soften the precise '3 out of 30 students (10%)' bottleneck claim, or explicitly link it to a reasoned threshold for equitable participation; focus more on how to leverage the existing engaged students to scaffold wider peer discussion.",
+        "In the proposed_rewrite and scaffolding_strategy, reference concrete observed practices (e.g., Top Hat polls, questions about coffee, fiscal arguments) and show how to pivot from those into the suggested peer structures (e.g., after the poll on bee concern, immediately launch Think–Pair–Share on how to explain bee loss to a fiscally conservative neighbor).",
+        "For the digital debate/breakout strategy, briefly indicate feasible timing and scope within a typical segment (e.g., one 8–10 minute cycle) to keep it realistic for classroom implementation."
+      ],
+      "dimension_rationales": {
+        "accuracy": "Correct understanding of ICAP hierarchy and that Interactive mode requires substantive peer-to-peer exchange. Suggested evolution from current behavior toward stronger Mode I is pedagogically logical, and the new designs appropriately target dialogic reasoning. However, the diagnosis underestimates existing interactive qualities documented in the context (students defending positions, discussing implications, turn-taking) and incorrectly characterizes the current level as Individual or below, reducing accuracy.",
+        "alignment_grounding": "Goal alignment is good: recommendations and new question clearly aim at richer student–student interaction around biodiversity, in line with target_mode = i. Grounding is mixed: use of the bee die-off theme is well aligned with the transcript, but the portrayal of the session as mostly lecture with 'minimal' individual responses and 'no evidence' of interactive dialogue conflicts with the trusted classification summary and examples. Specific numerical framing of participation is not fully supported by provided data.",
+        "actionability": "Strategies are largely at an appropriate granularity: they clearly specify who does what and when (after a complex question, then think, then pair, then share; use breakout rooms with rotating partners to debate and draft consensus statements). They are realistic for many classrooms, especially online/hybrid, and are meaningfully tied to the biodiversity content. Some elements remain a bit generic relative to the observed practices and could benefit from tighter integration with actual class tools and timing, but overall they are executable and not over-scripted."
+      },
+      "overall_score_5": 4.0,
+      "verdict": "pass"
+    }
+  ]
+}

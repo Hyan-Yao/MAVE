@@ -1,0 +1,452 @@
+{
+  "grid_00": {
+    "engagement": 0,
+    "confidence": {
+      "0": 0.7313313317377101,
+      "1": 0.08955622275409664,
+      "2": 0.08955622275409664,
+      "3": 0.08955622275409664
+    },
+    "anchor": 0,
+    "acceptable_deviation": {
+      "-1": false,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual exhibits consistent signs of disengagement across all three minutes, with stable but passive posture and no active engagement indicators such as nodding, speaking, or hand movements. The lack of dynamic behavior and minimal facial expressions supports a level of 0, with no evidence to suggest even a barely engaged state.",
+    "num_segments": 3
+  },
+  "grid_01": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays a generally engaged demeanor with stable posture and some hand gestures across the three minutes, indicating a level of attentiveness. However, the lack of strong high-score indicators like nodding or active speaking, combined with moments of stillness and neutral expressions, suggests that while they are engaged, they are not highly engaged. Thus, a score of 2 is appropriate, with the possibility of a lower score due to some moments of passive behavior.",
+    "num_segments": 3
+  },
+  "grid_02": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The first two minutes show no human presence or engagement, indicating a lack of attention (Level 0). In the third minute, the individual is present and shows some signs of engagement (upright posture, slight head tilt), but the overall behavior is still limited and does not demonstrate strong engagement indicators (Level 1). Therefore, Level 1 is the best representation of the overall behavior, while Level 0 is plausible due to the first two minutes being completely devoid of engagement.",
+    "num_segments": 3
+  },
+  "grid_03": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays mostly low engagement behaviors across all segments, with minimal hand movements and no facial expressions indicating active engagement. While there is a slight improvement in engagement during Minute 2 due to a hand gesture, the overall behavior remains inconsistent and lacks strong indicators of engagement, justifying a score of 1. A score of 0 is plausible due to the presence of stable but passive behaviors, but the slight engagement in Minute 2 supports a score of 1. Higher scores are not supported by the evidence.",
+    "num_segments": 3
+  },
+  "grid_04": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The overall behavior across the three minutes indicates a generally engaged individual, with stable posture and some mid-score behaviors like slight smiles and thoughtful gestures. However, there are moments of distraction, particularly in Minute 2 with looking down and a more relaxed posture, which could justify a drop to Level 1. The presence of animated engagement from the second individual in Minute 3 also suggests that the first person was engaged but not at the highest level, allowing for a plausible interpretation of Level 3 engagement as well.",
+    "num_segments": 3
+  },
+  "grid_05": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays a generally stable posture and a calm demeanor, but their closed-off stance and lack of active engagement behaviors (like nodding or hand movements) suggest only a barely engaged state. While they maintain focus, the absence of high engagement indicators and the presence of a closed posture indicate that a level of 0 is plausible, but not a higher level of engagement.",
+    "num_segments": 3
+  },
+  "grid_06": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays generally stable posture and engagement throughout the three minutes, with some signs of attentiveness such as leaning forward and maintaining an upright position. However, the lack of strong high-score indicators like active hand movements or consistent speaking suggests that while they are engaged, there are moments of passive behavior. Thus, a score of 2 is appropriate, with the possibility of dropping to 1 due to minor lapses in engagement, but also the potential to be considered highly engaged at 3 if more active behaviors were present.",
+    "num_segments": 3
+  },
+  "grid_07": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual exhibits mostly low-score behaviors, such as a relaxed posture and minimal hand gestures, with only slight engagement noted in Minute 2. The overall tendency suggests weak attention and inconsistent engagement, justifying a score of 1. A score of 0 is plausible due to the relaxed demeanor and lack of active engagement, but higher scores are not supported by the evidence.",
+    "num_segments": 3
+  },
+  "grid_08": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays a generally engaged demeanor with stable posture and moments of active engagement, particularly in the second and third minutes. While there are some passive behaviors, the overall tendency leans towards engagement, justifying a score of 2. A score of 1 is plausible due to moments of minimal hand gestures and passive posture, while a score of 3 is also plausible given the slight forward lean and hand gestures in the later minutes, but not strongly supported by sustained high engagement indicators.",
+    "num_segments": 3
+  },
+  "grid_09": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual shows generally stable engagement with consistent posture and occasional hand movements, indicating a level of attentiveness. While there are minor distractions, such as shifts in demeanor, the overall behavior supports an engaged level (2). A lower level (1) is plausible due to the lack of strong high-score indicators, but the overall focus and posture prevent a drop to level 0. A higher level (3) is also plausible given the moments of active engagement, but there are enough minor distractions to keep it at level 2.",
+    "num_segments": 3
+  },
+  "grid_10": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual exhibits a generally stable posture and consistent orientation towards the screen, but lacks high engagement indicators such as nodding or active hand movements. The presence of a relaxed posture and minimal gestures suggests a barely engaged state, making a score of 1 appropriate. A score of 0 is plausible due to the lack of active engagement, but the overall calm demeanor prevents a drop to that level. Higher engagement levels are not supported by the evidence, as there are no strong indicators of active engagement.",
+    "num_segments": 2
+  },
+  "grid_11": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays a generally stable posture and forward orientation, indicating engagement. However, the lack of high-score behaviors such as nodding or active hand movements suggests that a level of distraction could be plausible, supporting a lower score. The absence of significant distractions or passive behaviors also allows for the possibility of a higher score, but the evidence does not strongly support it.",
+    "num_segments": 1
+  },
+  "grid_12": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual exhibits a stable posture and consistent forward orientation, indicating some level of engagement. However, the lack of active gestures, facial expressions, or significant movements suggests only a minimal level of engagement, thus justifying a score of 1. A score of 0 is plausible due to the absence of any high engagement indicators, but the consistent posture prevents a drop to 0. Higher engagement levels (2 or 3) are not supported by the evidence, as there are no signs of active engagement or interaction.",
+    "num_segments": 3
+  },
+  "grid_13": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual shows a generally consistent posture but lacks strong engagement indicators like nodding or active hand movements. There are moments of distraction, such as adjusting the cap, and the facial expressions remain neutral, indicating weak attention. Thus, a score of 1 (Barely Engaged) is appropriate, with a plausible lower score of 0 due to the lack of consistent forward orientation and the presence of distractions.",
+    "num_segments": 3
+  },
+  "grid_14": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual shows some engagement through a generally forward-leaning posture and occasional smiles or nods, but there are also notable distractions, such as playing with their hair and touching their ear, which indicate instability in attention. This supports a score of 1 for barely engaged. A score of 0 is plausible due to the distractions, but higher levels (2 or 3) are not supported by the evidence.",
+    "num_segments": 3
+  },
+  "grid_15": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays mostly low engagement indicators, such as minimal hand gestures and neutral facial expressions, suggesting a barely engaged state. While they maintain a consistent posture, the lack of active engagement behaviors like nodding or smiling supports a level of 1. A level of 0 is plausible due to the absence of dynamic engagement, but the consistent posture prevents a drop to that level.",
+    "num_segments": 3
+  },
+  "grid_16": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays a mix of engagement and distraction across the three minutes. While there are moments of leaning forward and thoughtful poses, there are also instances of slouching and stillness, particularly in the third minute. This inconsistency suggests a barely engaged state overall. A lower score of 0 is plausible due to the observed distractions, but a higher score of 2 is not supported by the evidence.",
+    "num_segments": 3
+  },
+  "grid_17": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The overall behavior across the three minutes indicates weak and unstable attention, with minimal engagement and no high-score indicators. The individual maintains a relaxed posture and shows some signs of attentiveness, but the lack of active engagement behaviors (like nodding or speaking) supports a score of 1. A score of 0 is plausible due to the consistent low engagement, but the slight forward lean and occasional head tilts suggest they are at least barely engaged.",
+    "num_segments": 3
+  },
+  "grid_18": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual exhibits mostly low-score behaviors, such as adjusting hair and minimal hand gestures, indicating weak or unstable attention. While there are moments of slight engagement, the overall tendency leans towards distraction, justifying a score of 1. A score of 0 is plausible due to the presence of some inattentive behaviors, but the consistent posture and slight engagement prevent a lower score from being the most accurate representation.",
+    "num_segments": 3
+  },
+  "grid_19": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays a generally stable posture and orientation towards the camera, indicating some level of engagement. However, the lack of active hand movements, facial expressions, and minimal gestures suggest that their attention is weak or inconsistent, justifying a score of 1. A score of 0 is plausible due to the absence of strong engagement indicators, but the overall demeanor remains calm and focused, preventing a drop to 0. Higher engagement levels (2 or 3) are not supported by the evidence, as there are no strong indicators of active engagement.",
+    "num_segments": 3
+  },
+  "grid_20": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays consistent but passive behavior across all three minutes, with stable posture and no engagement indicators like nodding or speaking. This suggests a barely engaged state (Level 1). A lower score (Level 0) is plausible due to the lack of active engagement, but the consistent forward orientation prevents a higher score (Level 2) from being justified.",
+    "num_segments": 3
+  },
+  "grid_21": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays mostly low engagement behaviors across all segments, with minimal gestures and a neutral expression. While there is some upright posture and occasional hand movements, the overall lack of active engagement indicators (like nodding or speaking) suggests a barely engaged state. A lower score is plausible due to the consistent neutral demeanor and lack of forward orientation, but a higher score is not supported by the evidence.",
+    "num_segments": 3
+  },
+  "grid_22": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The overall behavior across the three minutes indicates a generally stable posture and consistent forward orientation, with some active hand movements suggesting engagement. While there are moments of stillness and lack of overt gestures, the presence of slight forward leaning and focus on tasks supports an engaged level. However, the lack of strong high-score indicators prevents a higher engagement level, making a drop to barely engaged plausible but not a two-level drop.",
+    "num_segments": 3
+  },
+  "grid_23": {
+    "engagement": 0,
+    "confidence": {
+      "0": 0.7313313317377101,
+      "1": 0.08955622275409664,
+      "2": 0.08955622275409664,
+      "3": 0.08955622275409664
+    },
+    "anchor": 0,
+    "acceptable_deviation": {
+      "-1": false,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The evidence across all three minutes shows no human presence or engagement behaviors, only static images of a logo and text. This clearly indicates a lack of engagement, justifying a score of 0. There are no indicators of even minimal engagement, making lower or higher levels implausible.",
+    "num_segments": 3
+  },
+  "grid_24": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual maintains a consistent upright posture, indicating some level of attentiveness, but the absence of active engagement behaviors (like hand movements or facial expressions) suggests only a low level of engagement. Thus, a score of 1 is appropriate, while a score of 2 is not plausible due to the lack of high-engagement indicators.",
+    "num_segments": 1
+  }
+}

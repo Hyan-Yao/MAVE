@@ -1,0 +1,182 @@
+{
+  "grid_00": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.07031671410555589,
+      "2": 0.28514833670947665,
+      "3": 0.5742182350794116
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays consistent forward orientation and stable posture across all three minutes, with minimal distractions or lapses in attention. While there are moments of contemplation indicated by hand gestures, these do not detract from overall engagement. Therefore, a score of 3 is appropriate, with a plausible lower deviation to 2 due to minor contemplative gestures, but no higher deviation is supported.",
+    "num_segments": 3
+  },
+  "grid_01": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.07031671410555589,
+      "2": 0.28514833670947665,
+      "3": 0.5742182350794116
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual consistently displays stable forward orientation and posture across all three minutes, with no significant distractions or sustained inattentiveness. Their engagement is characterized by attentive body language, facial expressions, and gestures that indicate active participation in the scene. While there are minor shifts in focus, they do not detract from the overall engagement level, justifying a score of 3. A score of 2 could be considered plausible due to slight variations in posture and focus, but the overall behavior strongly supports a higher engagement level.",
+    "num_segments": 3
+  },
+  "grid_02": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.28514833670947665,
+      "2": 0.5742182350794116,
+      "3": 0.07031671410555589
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual demonstrates a generally engaged demeanor across all three minutes, maintaining a forward orientation and stable posture with minor lapses in attention. However, there are subtle signs of distraction, such as head tilting and lack of expressive engagement, which could justify a drop to Level 1. There is no strong evidence to support a higher engagement level (Level 3) due to the observed minor distractions and lack of dynamic interaction.",
+    "num_segments": 3
+  },
+  "grid_03": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.07031671410555589,
+      "2": 0.28514833670947665,
+      "3": 0.5742182350794116
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual consistently displays stable forward orientation, upright posture, and active engagement through gestures and facial expressions across all three minutes. There are no significant distractions or lapses in attention, supporting a high engagement level. A lower score is plausible due to minor shifts in posture and gestures, but higher scores are not supported as the engagement remains strong throughout.",
+    "num_segments": 3
+  },
+  "grid_05": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The overall behavior across the three minutes shows a generally engaged demeanor with stable postures and attentiveness, particularly from Tommy Lee. Jason displays some variability in posture and gestures, but this does not detract significantly from the overall engagement level. While there are moments of distraction, they are not sustained, supporting an anchor level of 2. A lower level (1) is plausible due to Jason's occasional slouching and hand adjustments, but a higher level (3) is not supported as there are noticeable lapses in Jason's engagement.",
+    "num_segments": 3
+  },
+  "grid_06": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The overall behavior across all three minutes shows generally stable forward orientation and posture, with attentive engagement and only minor lapses. However, there are moments of inconsistent posture and varying degrees of expressiveness, particularly in the second minute, which could justify a lower score. A higher score is not supported due to the presence of these minor distractions.",
+    "num_segments": 3
+  },
+  "grid_07": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.07031671410555589,
+      "2": 0.28514833670947665,
+      "3": 0.5742182350794116
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The overall behavior of both individuals, particularly Taylor, shows stable forward orientation and posture throughout the three minutes, with no dominant distractions. Both participants demonstrate attentive body language and gestures, indicating a high level of engagement in the conversation.",
+    "num_segments": 3
+  },
+  "grid_08": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "Melanie shows generally stable engagement with active gestures and forward orientation, particularly in the second and third minutes. While there are minor lapses, her overall behavior indicates engagement. However, there are moments of distraction that could justify a lower score, making a score of 1 plausible. A score of 3 is not supported due to the presence of these distractions.",
+    "num_segments": 3
+  },
+  "grid_09": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The overall behavior across the observed minutes indicates a generally stable and attentive presence, particularly in Minute 2 where Ellison maintains a consistent posture and focused gaze. Minute 3 shows active engagement in conversation, with both individuals displaying attentive behaviors. While there are minor distractions (like Allison adjusting her hair), they do not significantly detract from the overall engagement level, supporting an anchor of 2. A drop to 1 is plausible due to minor lapses, but a rise to 3 is not supported as there are still moments of distraction.",
+    "num_segments": 2
+  },
+  "grid_10": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.07031671410555589,
+      "2": 0.28514833670947665,
+      "3": 0.5742182350794116
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "Jason's stable posture and forward orientation throughout the interaction indicate a high level of engagement. While Christine shows some variability, her occasional leaning forward and head tilting suggest attentiveness. The overall behavior leans towards highly engaged, with no significant distractions noted.",
+    "num_segments": 1
+  }
+}

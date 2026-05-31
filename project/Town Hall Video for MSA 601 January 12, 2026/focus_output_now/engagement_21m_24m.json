@@ -1,0 +1,218 @@
+{
+  "grid_00": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The evidence shows limited engagement due to the absence of human presence and observable behaviors. While there are indications of interaction with the digital interface (like cursor movement), the lack of stable forward orientation or consistent attention suggests barely engaged behavior. A lower level of engagement (0) is plausible due to the static nature of the first minute, but overall, the cursor activity in the second and third minutes indicates some level of engagement, albeit weak. Higher engagement levels are not supported as there are no signs of sustained focus or active participation.",
+    "num_segments": 3
+  },
+  "grid_01": {
+    "engagement": 0,
+    "confidence": {
+      "0": 0.7313313317377101,
+      "1": 0.08955622275409664,
+      "2": 0.08955622275409664,
+      "3": 0.08955622275409664
+    },
+    "anchor": 0,
+    "acceptable_deviation": {
+      "-1": false,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The evidence describes a scene without any visible human behavior or interaction across all three minutes. There are no indications of engagement, attention, or any observable actions from a person, leading to a clear assessment of 'Not Engaged' (0). No higher levels of engagement are plausible given the complete absence of human presence or behavior.",
+    "num_segments": 3
+  },
+  "grid_02": {
+    "engagement": 0,
+    "confidence": {
+      "0": 0.7313313317377101,
+      "1": 0.08955622275409664,
+      "2": 0.08955622275409664,
+      "3": 0.08955622275409664
+    },
+    "anchor": 0,
+    "acceptable_deviation": {
+      "-1": false,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The evidence indicates a complete lack of observable behavior or engagement across all three minutes, suggesting the person is not engaged at all.",
+    "num_segments": 3
+  },
+  "grid_03": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.28514833670947665,
+      "2": 0.5742182350794116,
+      "3": 0.07031671410555589
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual demonstrates stable engagement with the digital document across all three minutes, maintaining a consistent posture and focus. While there are moments of stillness and lack of visible human gestures, the overall behavior suggests attentiveness and engagement, justifying an anchor level of 2. A lower level of 1 is plausible due to the lack of dynamic interaction, but higher levels are not supported by the evidence.",
+    "num_segments": 3
+  },
+  "grid_04": {
+    "engagement": 0,
+    "confidence": {
+      "0": 0.7313313317377101,
+      "1": 0.08955622275409664,
+      "2": 0.08955622275409664,
+      "3": 0.08955622275409664
+    },
+    "anchor": 0,
+    "acceptable_deviation": {
+      "-1": false,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The evidence across all three minutes shows a consistent lack of human presence and observable behavior. The individual does not exhibit any engagement through gestures, posture, or facial expressions, leading to a clear assessment of 'Not Engaged'. There are no indicators of attention or interaction that would support a higher engagement level.",
+    "num_segments": 3
+  },
+  "grid_06": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.28514833670947665,
+      "2": 0.5742182350794116,
+      "3": 0.07031671410555589
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual demonstrates stable engagement in the first two minutes with consistent posture and focus on the screen. However, the third minute lacks observable human behavior, which could suggest a drop in engagement. Therefore, while Level 2 is appropriate overall, a drop to Level 1 is plausible due to the absence of visible engagement in the last minute.",
+    "num_segments": 3
+  },
+  "grid_07": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The first minute shows engaged behavior with stable posture and interaction, but the second and third minutes lack any observable human engagement, leading to an overall barely engaged assessment. The absence of human behavior in the last two minutes supports a drop to level 1, but the first minute's engagement prevents a drop to level 0.",
+    "num_segments": 3
+  },
+  "grid_08": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.07031671410555589,
+      "2": 0.28514833670947665,
+      "3": 0.5742182350794116
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual consistently maintains a stable forward orientation and posture across all three minutes, with no significant distractions or lapses in attention. While there are minor movements, such as adjusting glasses, these do not detract from the overall engagement level, which is best represented as highly engaged (3). A drop to level 2 is plausible due to the minimal gestures and slight variations in posture, but levels 1 and 0 are not supported by the evidence.",
+    "num_segments": 3
+  },
+  "grid_09": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.07031671410555589,
+      "2": 0.28514833670947665,
+      "3": 0.5742182350794116
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays a highly engaged demeanor with stable forward orientation, animated gestures, and active participation in the discussion. There are no strong indications of sustained distraction, supporting a level of 3. A drop to level 2 is plausible due to minor moments of stillness, but the overall engagement remains strong. Levels 1 and 0 are not supported by the evidence.",
+    "num_segments": 1
+  },
+  "grid_10": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays stable posture and generally forward orientation in the second minute, indicating engagement. However, the first minute lacks any human presence, which could suggest a lower engagement level. The second minute shows consistent attention with minor lapses, supporting an anchor of 2. A one-level lower interpretation (1) is plausible due to the lack of engagement evidence in the first minute, while a one-level higher interpretation (3) is also plausible given the stable engagement in the second minute. However, a two-level deviation in either direction is not supported by the evidence.",
+    "num_segments": 2
+  },
+  "grid_11": {
+    "engagement": 0,
+    "confidence": {
+      "0": 0.7313313317377101,
+      "1": 0.08955622275409664,
+      "2": 0.08955622275409664,
+      "3": 0.08955622275409664
+    },
+    "anchor": 0,
+    "acceptable_deviation": {
+      "-1": false,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The evidence primarily consists of static frames with no observable human behavior or engagement. The absence of any visible attention or interaction leads to a clear assessment of 'Not Engaged'. There are no indicators of even minimal engagement, making lower or higher interpretations implausible.",
+    "num_segments": 1
+  },
+  "grid_24": {
+    "engagement": 0,
+    "confidence": {
+      "0": 0.7313313317377101,
+      "1": 0.08955622275409664,
+      "2": 0.08955622275409664,
+      "3": 0.08955622275409664
+    },
+    "anchor": 0,
+    "acceptable_deviation": {
+      "-1": false,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The evidence across all three minutes consistently describes a static digital interface with no visible human presence or behavior. There are no gestures, postures, or any signs of engagement, leading to a clear assessment of 'Not Engaged' (0). No higher engagement levels are plausible given the complete absence of observable human activity.",
+    "num_segments": 3
+  }
+}

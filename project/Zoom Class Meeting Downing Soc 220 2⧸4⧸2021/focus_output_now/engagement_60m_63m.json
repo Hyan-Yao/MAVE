@@ -1,0 +1,434 @@
+{
+  "grid_00": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.28514833670947665,
+      "2": 0.5742182350794116,
+      "3": 0.07031671410555589
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual shows generally stable posture and forward orientation, indicating engagement, but there are moments of introspection and slight shifts in gaze that suggest minor lapses in attention. This supports an anchor level of 2, with a plausible lower level of 1 due to the observed shifts in engagement. However, levels 3 and 0 are not supported by the evidence.",
+    "num_segments": 2
+  },
+  "grid_01": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.07031671410555589,
+      "2": 0.28514833670947665,
+      "3": 0.5742182350794116
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual consistently displays stable forward orientation and posture across all three minutes, with no significant distractions or lapses in attention. Their body language is engaged and expressive, particularly in the second and third minutes, reinforcing a high level of engagement. While a lower score of 2 could be considered due to minor fluctuations in gestures, the overall evidence strongly supports a score of 3.",
+    "num_segments": 3
+  },
+  "grid_02": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual shows generally oriented forward and stable posture most of the time, with minor lapses in engagement. There are moments of casual demeanor but also signs of active engagement, especially in the latter part of the observed minutes. This supports an anchor level of 2, while also allowing for the possibility of a lower level (1) due to moments of passive behavior, and a higher level (3) due to signs of engagement towards the end.",
+    "num_segments": 2
+  },
+  "grid_03": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.28514833670947665,
+      "2": 0.5742182350794116,
+      "3": 0.07031671410555589
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual shows generally stable posture and forward orientation across the observed minutes, indicating engagement. However, there are moments of stillness and contemplation that suggest minor lapses in attention, preventing a higher score. The evidence does not support a lower engagement level due to the overall consistent focus and posture.",
+    "num_segments": 3
+  },
+  "grid_04": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.28514833670947665,
+      "2": 0.5742182350794116,
+      "3": 0.07031671410555589
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays generally stable posture and forward orientation across all segments, indicating engagement. However, there are minor lapses in attention and variability in posture, particularly in Minute 2 where the focus shifts. This supports an anchor level of 2, with a plausible lower level of 1 due to the occasional shifts in focus and posture.",
+    "num_segments": 3
+  },
+  "grid_06": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The overall behavior shows a blend of engagement and occasional distractions. In Minute 1, there is no engagement as the scene is static with no observable actions. Minute 2 shows some engagement with leaning forward and slight gestures, while Minute 3 indicates more active engagement with writing and varied facial expressions. The engagement is generally stable but has minor lapses, justifying an anchor of 2. A drop to 1 is plausible due to the distractions noted, and a rise to 3 is not supported as there are moments of distraction.",
+    "num_segments": 3
+  },
+  "grid_07": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays generally stable posture and forward orientation, indicating engagement. However, there are moments of distraction, such as leaning forward with head lowered and adjusting glasses, which suggest minor lapses in attention. This supports an anchor level of 2, while a drop to 1 is plausible due to the observed distractions. A rise to 3 is not supported as there are noticeable lapses in focus.",
+    "num_segments": 2
+  },
+  "grid_08": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays generally stable posture and a forward orientation in minutes 2 and 3, indicating engagement. However, there are minor distractions noted, such as adjusting hair or clothing, which could justify a lower score. The first minute lacks any human presence, making it irrelevant for engagement assessment. Overall, the evidence suggests a tendency towards engagement with some minor lapses, supporting an anchor of 2.",
+    "num_segments": 3
+  },
+  "grid_09": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual shows a generally stable posture and forward orientation across the three minutes, indicating engagement. However, there are moments of slight distraction and passive behavior, especially in Minute 2 and 3, which could justify a lower score. A higher score is plausible due to the overall consistent engagement, but the lack of sustained interaction or gestures prevents reaching the highest level.",
+    "num_segments": 3
+  },
+  "grid_10": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays generally stable posture and forward orientation, indicating engagement. However, there are minor lapses in attention, such as slight head tilts and minimal hand gestures, which suggest they are not fully absorbed. This allows for a plausible interpretation of barely engaged (1) but does not support a drop to not engaged (0) or a rise to highly engaged (3).",
+    "num_segments": 2
+  },
+  "grid_11": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays generally stable posture and a forward orientation, indicating engagement. However, there are minor distractions noted, such as slight weight shifts and a moment of face-wiping, which suggest occasional lapses in attention. This supports an anchor level of 2, while a drop to 1 is plausible due to these distractions. A rise to 3 is also plausible given the overall stability and engagement, but the distractions prevent a definitive classification at that level.",
+    "num_segments": 3
+  },
+  "grid_12": {
+    "engagement": 1,
+    "confidence": {
+      "0": 0.28514833670947665,
+      "1": 0.5742182350794116,
+      "2": 0.07031671410555589,
+      "3": 0.07031671410555589
+    },
+    "anchor": 1,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The overall behavior reflects weak and unstable attention, particularly in Minute 2 where the individual slouches and yawns, indicating distraction. While there are moments of engagement, the inconsistencies in posture and attention suggest a barely engaged state. A lower level (0) is plausible due to the distractions, but a higher level (2 or 3) is not supported by the evidence.",
+    "num_segments": 3
+  },
+  "grid_13": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.07031671410555589,
+      "2": 0.28514833670947665,
+      "3": 0.5742182350794116
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays stable forward orientation and posture throughout the observed minutes, particularly in the second minute where they become animated and engaged in conversation. The first and third minutes show consistent focus and minor adjustments, indicating a high level of engagement. While a drop to level 2 could be considered due to minor lapses in expressiveness, the overall behavior strongly supports a level 3 engagement.",
+    "num_segments": 3
+  },
+  "grid_14": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays generally stable posture and forward orientation, indicating engagement. While there are moments of passive behavior and slight distractions, the overall tendency suggests they are attentive with minor lapses, justifying an anchor level of 2. A lower level (1) is plausible due to the observed passive engagement at times, but a higher level (3) is also reasonable given the consistent forward posture and moments of active engagement.",
+    "num_segments": 2
+  },
+  "grid_15": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.08955622275409664,
+      "1": 0.08955622275409664,
+      "2": 0.08955622275409664,
+      "3": 0.7313313317377101
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": false,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual consistently exhibits stable forward orientation and posture across both minutes, with no signs of distraction or instability. Their engagement appears strong and focused, justifying a level of 3. There is no evidence to support lower levels of engagement, as the behavior does not reflect any significant lapses or distractions.",
+    "num_segments": 2
+  },
+  "grid_16": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays generally stable posture and a forward orientation, indicating engagement. However, there are minor distractions noted, such as adjusting hair and glasses, which could justify a drop to Level 1. The consistent demeanor across all three minutes supports a Level 2 rating, but the lack of strong distractions allows for a plausible consideration of Level 3 as well.",
+    "num_segments": 3
+  },
+  "grid_17": {
+    "engagement": 2,
+    "confidence": {
+      "0": 0.05788186016662632,
+      "1": 0.23472251742861105,
+      "2": 0.4726731049761516,
+      "3": 0.23472251742861105
+    },
+    "anchor": 2,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual shows stable posture and generally forward orientation in the second and third minutes, indicating engagement. However, the first minute lacks any observable behavior, which could suggest a lower engagement level. The third minute demonstrates active gestures and a positive demeanor, supporting a higher engagement level. Overall, the evidence suggests a tendency towards engagement, but with moments that could be interpreted as less engaged.",
+    "num_segments": 3
+  },
+  "grid_18": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.07031671410555589,
+      "2": 0.28514833670947665,
+      "3": 0.5742182350794116
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays stable forward orientation and posture throughout all three minutes, with no signs of sustained distraction. Their calm demeanor and consistent engagement suggest a high level of attentiveness, justifying the anchor level of 3. A drop to level 2 could be considered due to minimal hand gestures and facial expressions, but overall engagement remains strong.",
+    "num_segments": 3
+  },
+  "grid_19": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.08955622275409664,
+      "1": 0.08955622275409664,
+      "2": 0.08955622275409664,
+      "3": 0.7313313317377101
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": false,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual consistently maintains a forward orientation and stable posture across both observed minutes, with no significant distractions or lapses in attention. Their demeanor suggests a high level of engagement with the task, making a score of 3 appropriate. There is no evidence to support lower engagement levels, as the behavior does not indicate any instability or distraction.",
+    "num_segments": 2
+  },
+  "grid_20": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.07031671410555589,
+      "2": 0.28514833670947665,
+      "3": 0.5742182350794116
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual exhibits stable forward orientation and posture throughout both minutes, with no significant distractions or lapses in attention. Their calm demeanor and consistent engagement with the scene support a high engagement level. A one-level lower interpretation (2) could be considered due to slight variations in gaze direction, but overall, the evidence strongly supports a level of 3.",
+    "num_segments": 2
+  },
+  "grid_21": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.08955622275409664,
+      "1": 0.08955622275409664,
+      "2": 0.08955622275409664,
+      "3": 0.7313313317377101
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": false,
+      "+1": true,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays consistent forward orientation and stable posture across all three minutes, with no significant distractions or lapses in attention. The slight shifts in posture and hand positioning indicate a thoughtful engagement rather than distraction, supporting a high engagement level.",
+    "num_segments": 3
+  },
+  "grid_22": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.07031671410555589,
+      "1": 0.07031671410555589,
+      "2": 0.28514833670947665,
+      "3": 0.5742182350794116
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": true,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual displays stable forward orientation and posture, with no signs of distraction or disengagement. Their consistent focus and active hand movements indicate high engagement, making a score of 3 appropriate. A score of 2 could be considered due to minor fluctuations in hand gestures, but overall, the evidence strongly supports a high engagement level.",
+    "num_segments": 1
+  },
+  "grid_23": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.08955622275409664,
+      "1": 0.08955622275409664,
+      "2": 0.08955622275409664,
+      "3": 0.7313313317377101
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": false,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The hedgehog consistently displays stable forward orientation and posture, remaining alert and attentive throughout the observations. There are no signs of distraction or instability, supporting a high engagement level.",
+    "num_segments": 3
+  },
+  "grid_24": {
+    "engagement": 3,
+    "confidence": {
+      "0": 0.08955622275409664,
+      "1": 0.08955622275409664,
+      "2": 0.08955622275409664,
+      "3": 0.7313313317377101
+    },
+    "anchor": 3,
+    "acceptable_deviation": {
+      "-1": false,
+      "+1": false,
+      "-2": false,
+      "+2": false
+    },
+    "reasoning": "The individual exhibits stable forward orientation and posture throughout both minutes, with no signs of distraction or instability. Their calm and composed state, along with consistent posture, strongly supports a high engagement level.",
+    "num_segments": 2
+  }
+}
