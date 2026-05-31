@@ -2,13 +2,12 @@
 This repository contains the implementation of **MAVE**, a collaborative multi-agent framework designed to transform raw multimodal classroom data into structured, 
 pedagogically actionable optimization signals.
 ## Overview
-Effective instructional optimization in online education relies on fine-grained, authentic feedback.However, current analytics are often limited to behavioral labeling and fail to generate actionable insights. 
-This project proposes a methodology that shifts focus from simple classification to a **feedback-to-optimization paradigm**. By decomposing long-duration analysis into interacting subtasks, the framework achieves robust denoising and translates low-dimensional numerical behavior into explainable textual guidance.
+Timely pedagogical feedback is critical for effective online instruction, yet existing AI-based educational assessment systems still struggle to generate actionable and trustworthy recommendations from authentic classroom environments. Major challenges include long-context noisy videos and weak grounding in real student behaviors. To address these challenges, we introduce **MAVE** (**M**ultimodal **A**gents for **V**ideo-based **E**ducational Feedback), a collaborative multi-agent framework for generating pedagogically grounded feedback from online classroom videos. Built upon the ICAP framework, MAVE formulates feedback generation as a discrepancy reasoning problem between instructors’ intended engagement objectives and students’ observed cognitive states. MAVE decomposes classroom understanding into specialized agents for instructional structuring, multimodal evidence extraction, engagement assessment, and pedagogical recommendation generation. By grounding feedback in temporally aligned multimodal classroom evidence, MAVE produces interpretable and actionable instructional recommendations. Experiments on real-world online classroom videos demonstrate that MAVE generates more pedagogically grounded and actionable feedback than existing LLM-based feedback generation baselines. 
 
 ---
 ## Framework Architecture
+<img width="1422" height="623" alt="截屏2026-05-31 18 15 56" src="https://github.com/user-attachments/assets/ee29f3f5-6e83-48ee-862e-d74e00a29948" />
 
-<img width="1378" height="715" alt="截屏2026-04-21 00 16 21" src="https://github.com/user-attachments/assets/aaa42b15-07b7-4aa0-a838-c9e13a14cf89" />
 > *Figure: Overview of the proposed framework, including Instructional Context Recognition, Learner Engagement Quantification, and Feedback Generation.
 
 
