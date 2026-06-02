@@ -46,11 +46,10 @@ Decouples complex classroom understanding into four highly specialized, coordina
 Clone the repository and create the environment:
 
 ```bash
-git clone https://github.com/JaxnBai/FUAS.git
-cd FUAS
-git lfs pull
+git clone https://github.com/Hyan-Yao/MAVE.git
+cd mave
 conda env create -f environment.yml
-conda activate FUAS
+conda activate mave
 ````
 
 ---
