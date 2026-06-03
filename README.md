@@ -42,15 +42,122 @@ Decouples complex classroom understanding into four highly specialized, coordina
 ### *there's a demo of our project:*
 <img width="1349" height="676" alt="截屏2026-06-02 17 10 16" src="https://github.com/user-attachments/assets/a2859cde-ca1e-41d3-be60-7614cd8c9812" />
 
-## Installation
+## 1. Prerequisites
+### 1.1 Environment
 Clone the repository and create the environment:
-
 ```bash
 git clone https://github.com/Hyan-Yao/MAVE.git
-cd mave
+cd MAVE
 conda env create -f environment.yml
 conda activate mave
 ````
+### 1.2 API Key
+The scripts read either of the following environment variables by default:
+```bash
+OPENROUTER_API_KEY
 
----
-*This project is part of ongoing research into fine-grained feedback-to-optimization paradigms in intelligent education.*
+OPENAI_API_KEY
+````
+Example:
+```bash
+export OPENROUTER_API_KEY="your_api_key_here"
+````
+## 2. Data Preparation (Video -> Text)
+You need to prepare the course video first and obtain the transcription text. Either of the following methods works:
+
+* **Method A**: Run your own Whisper transcription pipeline (the project already contains relevant video processing and behavior extraction scripts).
+
+* **Method B**: Use YouTube's built-in speech-to-text and export the text.
+
+Ultimately, it is recommended to prepare at least one of the following key inputs:
+
+knowledge_segments_global*.json (Knowledge point segmentation results, which serve as the core input for run_pipeline.py)
+
+writing_behavior.json (Used for Action A-related features)
+
+## 3. One-Click Suggestion Generation (sug)
+Main entry script:
+
+/project_class/run_pipeline.py
+
+Most common execution method:
+
+```bash
+python "/project_class/run_pipeline.py" \
+  --segments-json "your/knowledge_segments_global.json" \
+  --writing-behavior-json "your/writing_behavior.json" \
+  --output-dir "your_output_directory" \
+  --model "your llm"
+````
+Upon completion, the core suggestion file generated is:
+
+output_directory/icap_suggestions.json
+
+You can also choose to re-run only the suggestion phase (reusing existing upstream results):
+```bash
+python "/project_class/run_pipeline.py" \
+  --segments-json "your/knowledge_segments_global.json" \
+  --writing-behavior-json "your/writing_behavior.json" \
+  --output-dir "your_output_directory" \
+  --only-suggestion
+````
+## 4. Evaluate Suggestion Quality (Optional)
+Evaluation script:
+
+/project_class/project_eval/eval.py
+
+This script currently uses fixed paths defined under Path Config at the top of the file.
+
+If you change the output directory, please modify the paths at the top of eval.py to match your directory before running:
+
+```bash
+python "/project_class/project_eval/eval.py"
+````
+Common outputs:
+
+demo_icap_eval.json
+
+demo_icap_eval.md
+
+## 5. Script Composition by Folder
+The following section explains the main working directories in your current project.
+```bash
+data/llm/
+├── 📂 project_class (Core Engineering Pipeline)
+│   ├── 📄 run_pipeline.py  <────── [Main Entry: Orchestrates all core modules]
+│   │
+│   ├── 📂 project_engage/ ───────► [Video Processing & Behavior Extraction] (Video splitting, frame extraction, face tracking, Action A)
+│   ├── 📂 project-teacher/ ──────► [ICAP Pedagogical Analysis] (Knowledge points, CI inference, suggestion generation)
+│   ├── 📂 project_eval/ ─────────► [Quality Evaluation] (Accuracy, Alignment, Actionability)
+│   └── 📂 vis_result/ ───────────► [Visualization] (Trend charts, comparison charts, distribution plots)
+│
+├── 📂 prompt (Baseline Method)
+│   └── 💡 Prompt-only ───────────► [Baseline suggestions and evaluation without optimization loops]
+│
+├── 📂 reflexion_my (Reflexion Experiments)
+│   └── 🔄 run_reflexion_repo.py ─► [Generates transcript.jsonl with reflection signals]
+│
+├── 📂 textgrad_my (TextGrad Experiments)
+│   └── 📉 trainwith_textgrad.py ─► [Transcript optimization based on text gradients]
+│
+└── 📂 ablation (Ablation Studies)
+    ├── 📂 wo_observer/ ──────────► [Suggestions and evaluation without the Observer role]
+    ├── 📂 wo_accessor/ ──────────► [Suggestions and evaluation without the Accessor role]
+    └── 📂 wo_curator/ ───────────► [Suggestions and evaluation without the Curator role]
+````
+
+## 6. Your Shortest Path Now (Recommended)
+Prepare the video + API key.
+
+Run Whisper (or YouTube transcription) to produce knowledge_segments_global.json and writing_behavior.json.
+
+Run run_pipeline.py to obtain icap_suggestions.json.
+
+Run project_eval/eval.py when comparisons are needed.
+
+## 7. Result Files Quick Reference
+Suggestion Results (sug): icap_suggestions.json
+
+Pipeline Run Summary: pipeline_run_summary.json
+
+Evaluation Results: demo_icap_eval.json / demo_icap_eval.md
