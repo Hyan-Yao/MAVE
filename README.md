@@ -122,7 +122,7 @@ demo_icap_eval.md
 ## 5. Script Composition by Folder
 The following section explains the main working directories in your current project.
 ```bash
-data/llm/
+MAVE/
 ├── 📂 project_class (Core Engineering Pipeline)
 │   ├── 📄 run_pipeline.py  <────── [Main Entry: Orchestrates all core modules]
 │   │
