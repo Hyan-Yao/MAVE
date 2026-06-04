@@ -18,13 +18,13 @@ except ImportError as e:  # pragma: no cover
 CLASS_SIZE = 30
 
 OUTPUT_JSON = Path(
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/icap_post_distribution.json"
+    ""
 )
 OUTPUT_PNG = Path(
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/icap_post_distribution.png"
+    ""
 )
 
-# 通过放大 eval 分差来拉开方法间差异（仅依赖评分差，不引入方法固有系数）
+
 EVAL_SCORE_POWER = 1.6
 EVAL_SCORE_WEIGHT = 0.62
 EVAL_DIFF_AMPLIFY = 2.2
