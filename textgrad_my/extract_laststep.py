@@ -7,10 +7,10 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 DEFAULT_INPUT = Path(
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/textgrad_my/stem_icap/optimized_transcripts_with_gradients.jsonl"
+    ""
 )
 DEFAULT_OUTPUT = Path(
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/textgrad_my/stem_icap/laststep_text_gradients.json"
+    ""
 )
 
 
