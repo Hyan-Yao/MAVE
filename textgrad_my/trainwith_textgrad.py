@@ -1,5 +1,3 @@
-#[USAGE] time=114.313s, tokens=222086 (prompt=175631, completion=46455), cost=$0.054216(4iter)
-
 
 import os
 import sys
@@ -23,10 +21,10 @@ from textgrad.model import BlackboxLLM
 from textgrad.engine import get_engine
 
 
-INPUT_JSON_PATH = "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/project-teacher/output/icap_split_output_now/knowledge_segments_global.json"
+INPUT_JSON_PATH = ""
 OUTPUT_JSONL_PATH = os.getenv(
     "TEXTGRAD_OUTPUT_JSONL",
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/textgrad_my/now_demo_icap/optimized_transcripts_with_gradients.jsonl",
+    "",
 )
 
 # By default, do one TextGrad step to limit cost. You can override with env var.
