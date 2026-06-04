@@ -1,12 +1,12 @@
 import os
 from moviepy import VideoFileClip
 
-input_video_path = r"D:\Desktop\llm_as_a_judge\data\appendix\Zoom Class Meeting Downing Soc 220 2⧸18⧸2021 [i-w2sxYTQbc].mp4"
+input_video_path = r""
 
 # extract 2nd hour vedio
 EXTRACT_START_SEC = 3600       
 EXTRACT_DURATION_SEC = 3600    
-base_dir = r"D:\Desktop\llm_as_a_judge\data\llm\project_class"
+base_dir = r""
 
 
 def extract_one_hour(input_path):
