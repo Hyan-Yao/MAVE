@@ -11,11 +11,6 @@ strongly depend on Wikipedia, QA questions, and action parsing. Transcript optim
 is treated as a standalone task while preserving the Reflexion protocol:
 "generate reflection + inject into next iteration".
 
-[USAGE] requests=150, tokens=384733 (prompt=338444, completion=46289), elapsed=413.304s, throughput=1.452 kp/min, cost≈$0.07854
-
-[USAGE] requests=165, tokens=353206 (prompt=310043, completion=43163), elapsed=145.903s, throughput=4.524 kp/min, cost≈$0.072404
-
-[USAGE] requests=105, tokens=303480 (prompt=265921, completion=37559), elapsed=177.183s, throughput=2.37 kp/min, cost≈$0.062424
 """
 import os
 import re
@@ -65,7 +60,7 @@ def _api_provider_label() -> str:
 # --- Aligned with original reflexion/hotpotqa_runs ---
 _HOTPOT_ROOT = os.getenv(
     "REFLEXION_HOTPOT_ROOT",
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/reflexion/hotpotqa_runs",
+    "",
 )
 if _HOTPOT_ROOT not in sys.path:
     sys.path.insert(0, _HOTPOT_ROOT)
@@ -131,11 +126,11 @@ except ImportError:
 
 KNOWLEDGE_SEGMENTS_JSON = os.getenv(
     "REFLEXION_KNOWLEDGE_SEGMENTS_JSON",
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/icap_output/icap_split_free/knowledge_segments_global_free.json",
+    "",
 )
 OUTPUT_DIR = os.getenv(
     "REFLEXION_OUTPUT_DIR",
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/reflexion_my/now_stem_icap",
+    "",
 )
 OUTPUT_JSONL_PATH = os.getenv(
     "REFLEXION_REPO_OUTPUT_JSONL",
