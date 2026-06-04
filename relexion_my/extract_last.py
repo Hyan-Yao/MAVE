@@ -4,10 +4,10 @@ from typing import Any, Dict, List
 
 
 INPUT_JSONL = Path(
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/reflexion_my/stem_icap/reflection_signals.jsonl"
+    ""
 )
 OUTPUT_JSON = Path(
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/reflexion_my/stem_icap/laststep_reflection_signals.json"
+    ""
 )
 
 
