@@ -16,13 +16,13 @@ except ImportError:
 
 # -------------------- Path Config --------------------
 INPUT_JSONL = Path(
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/textgrad_my/now_demo_icap/optimized_transcripts_with_gradients.jsonl"
+    ""
 )
 OUTPUT_JSON = Path(
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/textgrad_my/now_demo_icap/evaluation_text_gradients.json"
+    ""
 )
 OUTPUT_MD = Path(
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/textgrad_my/now_demo_icap/evaluation_text_gradients.md"
+    ""
 )
 
 MODEL = "gpt-5.1"
