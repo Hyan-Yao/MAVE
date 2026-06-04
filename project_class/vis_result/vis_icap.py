@@ -7,9 +7,9 @@ from typing import Dict, List, Tuple
 import matplotlib.pyplot as plt
 
 
-WRITING_JSON = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/output/writing_behavior3.json")
-ICAP_DIR = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/project-teacher/i_c_output")
-OUT_DIR = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/vis_result/icap_align_charts")
+WRITING_JSON = Path("")
+ICAP_DIR = Path("")
+OUT_DIR = Path("")
 
 
 def window_label(start_min: int, end_min: int) -> str:
