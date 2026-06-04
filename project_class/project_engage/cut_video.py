@@ -2,8 +2,8 @@ import subprocess
 import os
 import shutil
 
-PROJECT_DIR = r"/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Class Meeting Downing Soc 220 2⧸4⧸2021"
-VIDEO_FILENAME = "Zoom Class Meeting Downing Soc 220 2⧸4⧸2021.mp4"
+PROJECT_DIR = r""
+VIDEO_FILENAME = ""
 input_video = os.path.join(PROJECT_DIR, VIDEO_FILENAME)
 
 output_root = os.path.join(PROJECT_DIR, "frames")
