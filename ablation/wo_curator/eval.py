@@ -16,13 +16,13 @@ except ImportError:
     OpenAI = None
 
 # -------------------- Path Config --------------------
-INPUT_SUGGESTIONS_JSON = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/ablation/wo_accessor/demo/icap_suggestions.json")
-INPUT_WRITING_BEHAVIOR_JSON = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/project_engage/output/writing_behavior3.json")
-INPUT_TRANSCRIPT_FULL_TXT = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/project_engage/transcript.txt")
-INPUT_SEGMENT_CLASSIFICATION_JSON = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/project_engage/knowledge_segments_global_classification.json")
-INPUT_EXPECTED_CI_JSON = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/project_engage/teacher_expected_ci_by_knowledge.json")
-DEFAULT_OUTPUT_JSON = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/ablation/wo_accessor/demo/demo_icap_eval.json")
-DEFAULT_OUTPUT_MD = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/ablation/wo_accessor/demo/demo_icap_eval.md")
+INPUT_SUGGESTIONS_JSON = Path("")
+INPUT_WRITING_BEHAVIOR_JSON = Path("")
+INPUT_TRANSCRIPT_FULL_TXT = Path("")
+INPUT_SEGMENT_CLASSIFICATION_JSON = Path("")
+INPUT_EXPECTED_CI_JSON = Path("")
+DEFAULT_OUTPUT_JSON = Path("")
+DEFAULT_OUTPUT_MD = Path("")
 
 
 MODEL = "openai/gpt-5.1"
