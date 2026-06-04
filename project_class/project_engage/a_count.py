@@ -5,8 +5,8 @@ from typing import Dict, List, Any
 
 
 TARGET_REASONING = "Strong rule applied: writing behavior detected in evidence, directly assign engagement=3."
-INPUT_DIR = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/output/focus_output_now")
-OUTPUT_JSON = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/output/writing_rule_summary.json")
+INPUT_DIR = Path("")
+OUTPUT_JSON = Path("")
 
 
 def parse_time_window(file_name: str) -> str:
