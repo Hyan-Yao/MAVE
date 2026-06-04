@@ -12,26 +12,26 @@ try:
 except ImportError as e:  # pragma: no cover
     raise ImportError("Missing dependency: matplotlib. Install with `pip install matplotlib`.") from e
 
-
+#only by estimated
 CLASS_SIZE = 30
 
 INPUT_STUDENT_CLASSIFICATION = Path(
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/project-teacher/output/i_c_output_now/knowledge_segments_global_classification.json"
+    ""
 )
 INPUT_SHARED_SIGNALS = Path(
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/project-teacher/output/teaching_report_now/icap_suggestions.json"
+    ""
 )
 INPUT_WRITING_BEHAVIOR = Path(
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/output/writing_behavior3.json"
+    ""
 )
 OUTPUT_JSON = Path(
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/project_eval/icap_post_distribution.json"
+    ""
 )
 OUTPUT_PNG = Path(
-    "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/project_eval/icap_post_distribution.png"
+    ""
 )
 
-# 通过放大 eval 分差来拉开方法间差异（仅依赖评分差，不引入方法固有系数）
+
 EVAL_SCORE_POWER = 1.6
 EVAL_SCORE_WEIGHT = 0.62
 EVAL_DIFF_AMPLIFY = 2.2
@@ -42,32 +42,32 @@ METHOD_SCENARIOS: List[Dict[str, Any]] = [
     {
         "name": "ours",
         "display_name": "Ours",
-        "suggestions_path": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/project-teacher/output/teaching_report_now/icap_suggestions.json",
-        "eval_path": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/project_eval/eval_output/demo_icap_eval.json",
+        "suggestions_path": "",
+        "eval_path": "",
         "default_effect": 0.6,
         "color": "#059669",
     },
     {
         "name": "prompt",
         "display_name": "Prompt",
-        "suggestions_path": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/prompt/demo_icap/teaching_suggestions_prompt_only_by_kp.json",
-        "eval_path": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/prompt/demo_icap/prompt_only_evaluation.json",
+        "suggestions_path": "",
+        "eval_path": "",
         "default_effect": 0.6,
         "color": "#2563eb",
     },
     {
         "name": "reflexion",
         "display_name": "Reflexion",
-        "suggestions_path": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/reflexion_my/demo_icap/laststep_reflection_signals.json",
-        "eval_path": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/reflexion_my/demo_icap/evaluation.jsonl",
+        "suggestions_path": "",
+        "eval_path": "",
         "default_effect": 0.6,
         "color": "#7c3aed",
     },
     {
         "name": "textgrad",
         "display_name": "TextGrad",
-        "suggestions_path": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/textgrad_my/demo_icap/teaching_suggestions_textgrad_by_kp.json",
-        "eval_path": "/Users/alyssa/Desktop/llm_as_a_judge/data/llm/textgrad_my/demo_icap/evaluation_text_gradients.json",
+        "suggestions_path": "",
+        "eval_path": "",
         "default_effect": 0.6,
         "color": "#ea580c",
     },
@@ -84,9 +84,6 @@ def load_json(path: Path) -> Dict:
 
 
 def resolve_effect_eval_path(preferred: Path) -> Optional[Path]:
-    """
-    解析建议效果评估文件路径，避免路径变更后静默退回默认值。
-    """
     candidates = [
         preferred,
         preferred.parent.parent / "eval_output" / preferred.name,
