@@ -6,8 +6,8 @@ from typing import Dict, List
 import matplotlib.pyplot as plt
 
 
-INPUT_JSON = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/output/writing_behavior3.json")
-OUTPUT_DIR = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/vis_result/writing_behavior_charts")
+INPUT_JSON = Path("")
+OUTPUT_DIR = Path("")
 
 
 def load_hits(path: Path) -> List[Dict]:
