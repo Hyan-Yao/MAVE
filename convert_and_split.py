@@ -12,8 +12,8 @@ from typing import Dict, List
 import torch
 
 
-VIDEO_PATH = r"D:\Desktop\llm_as_a_judge\data\llm\Zoom Class Meeting Downing Soc 220 2⧸18⧸2021 [i-w2sxYTQbc]_001.mp4"
-OUT_DIR = r"D:\Desktop\llm_as_a_judge\data\llm\whisper_out"
+VIDEO_PATH = r""
+OUT_DIR = r""
 
 # WhisperX model (recommended: large-v2 / medium / small; depends on speed and VRAM)
 WHISPERX_MODEL_NAME = os.getenv("WHISPERX_MODEL_NAME", "medium")
