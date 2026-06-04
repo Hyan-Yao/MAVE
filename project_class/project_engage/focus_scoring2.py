@@ -42,10 +42,10 @@ else:
     )
 
 # Input: minute-level and grid-level output from preprocessor.py
-PREPROCESSOR_OUTPUT_DIR = r"/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/output/preprocessor_output_now"
+PREPROCESSOR_OUTPUT_DIR = r""
 # Output one scoring file every 3 minutes:
 # engagement_0m_3m.json, engagement_3m_6m.json, ...
-OUTPUT_DIR = r"/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/output/focus_output_now"
+OUTPUT_DIR = r""
 WINDOW_MINUTES = 3
 
 
