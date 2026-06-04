@@ -14,10 +14,10 @@ try:
 except ImportError:
     OpenAI = None
 
-# ---------- 配置与路径 ----------
+# ---------- config ----------
 PATHS = {
-    "knowledge": Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/icap_output/icap_split_free/knowledge_segments_global_free.json"),
-    "out_dir": Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/ablation/wo_accessor/demo")
+    "knowledge": Path(""),
+    "out_dir": Path("")
 }
 
 MODEL = "openai/gpt-4.1-mini"
@@ -50,7 +50,7 @@ def build_client() -> OpenAI:
         
     return OpenAI(api_key=api_key, base_url=base_url, timeout=TIMEOUT)
 
-# ---------- 通用数据加载器 (核心去重) ----------
+# ---------- load data ----------
 def load_json_records(path: Path, key_name: str) -> List[Dict]:
     if not path.exists():
         raise FileNotFoundError(f"Missing file: {path}")
@@ -78,7 +78,7 @@ def build_unified_kp_map() -> Dict[int, Dict[str, Any]]:
             
     return kp_map
 
-# ---------- 核心 LLM 驱动与 Prompt 架构升级 ----------
+# ---------- run llm ----------
 def get_system_prompt() -> str:
     # 优化点：1. 严厉禁止 C 状态出现任何交互词汇； 2. 显式要求发挥想象力，输出多样化、有创意的支架策略。
     return """You are an expert teaching coach analyzing classroom interaction using ICAP theory.
