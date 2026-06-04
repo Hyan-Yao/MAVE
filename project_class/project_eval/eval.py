@@ -16,7 +16,7 @@ except ImportError:
     OpenAI = None
 
 # -------------------- Path Config --------------------
-DEMO_BASE = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/backbone_sensitivity/claude-4.5-sonnet/stem2")
+DEMO_BASE = Path("")
 INPUT_SUGGESTIONS_JSON = DEMO_BASE / "icap_suggestions.json"
 INPUT_WRITING_BEHAVIOR_JSON = DEMO_BASE / "writing_behavior.json"
 INPUT_SEGMENT_CLASSIFICATION_JSON = DEMO_BASE / "knowledge_segments_global_classification.json"
