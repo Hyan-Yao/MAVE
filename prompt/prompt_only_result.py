@@ -1,16 +1,4 @@
 
-# [TOKEN] prompt=12086, completion=1956, total=14042, requests=10
-# [EFFICIENCY] elapsed=7.372s, avg_total_tokens_per_req=1404.2, throughput_tokens_per_sec=1904.9
-# [COST] input_tokens_k=12.09, output_tokens_k=1.96, estimated_input_cost=$0.0018, estimated_output_cost=$0.0012, estimated_total_cost=$0.0030
-# [TOKEN] prompt=8872, completion=1347, total=10219, requests=7
-
-# [EFFICIENCY] elapsed=10.133s, avg_total_tokens_per_req=1459.9, throughput_tokens_per_sec=1008.5
-# [COST] input_tokens_k=8.87, output_tokens_k=1.35, estimated_input_cost=$0.0013, estimated_output_cost=$0.0008, estimated_total_cost=$0.0021]
-
-# [TOKEN] prompt=8063, completion=1152, total=9215, requests=7
-# [EFFICIENCY] elapsed=15.072s, avg_total_tokens_per_req=1316.4, throughput_tokens_per_sec=611.4
-# [COST] input_tokens_k=8.06, output_tokens_k=1.15, estimated_input_cost=$0.0012, estimated_output_cost=$0.0007, estimated_total_cost=$0.0019
-
 import json
 import os
 import re
@@ -45,10 +33,10 @@ else:
 
 # Path configuration (knowledge-point based input)
 KNOWLEDGE_SEGMENTS_JSON = (
-    r"/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/icap_output/icap_split_free/knowledge_segments_global_free.json"
+    r""
 )
 OUTPUT_DIR = (
-    r"/Users/alyssa/Desktop/llm_as_a_judge/data/llm/prompt/now_stem/teaching_suggestions_prompt_only_by_kp"
+    r""
 )
 OUTPUT_JSON_PATH = os.path.join(OUTPUT_DIR, "teaching_suggestions_prompt_only_by_kp.json")
 
