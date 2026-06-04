@@ -1,10 +1,6 @@
 """
 Evaluate reflection signals (last step per knowledge point) with one unified ICAP prompt.
 No dean/calibration stage: directly score three dimensions aligned with eval2.py.
-
-[TOKEN] total_prompt_tokens=5615, total_completion_tokens=3034, total_tokens=8649, requests=10
-[EFFICIENCY] avg_prompt_tokens_per_req=561.5, avg_completion_tokens_per_req=303.4, avg_total_tokens_per_req=864.9
-[COST] input_tokens_k=5.62, output_tokens_k=3.03, estimated_input_cost=$0.0008, estimated_output_cost=$0.0018, estimated_total_cost=$0.0027
 """
 
 import json
@@ -34,9 +30,9 @@ TIMEOUT = 60
 TEMPERATURE = 0
 MAX_WORKERS = max(1, int(os.getenv("REPORT_EVAL_MAX_WORKERS", "8")))
 
-INPUT_JSONL_PATH = r"/Users/alyssa/Desktop/llm_as_a_judge/data/llm/reflexion_my/now_stem_icap/reflection_signals.jsonl"
-OUTPUT_JSON_PATH = r"/Users/alyssa/Desktop/llm_as_a_judge/data/llm/reflexion_my/now_stem_icap/icap/evaluation.jsonl"
-OUTPUT_MD_PATH = r"/Users/alyssa/Desktop/llm_as_a_judge/data/llm/reflexion_my/now_stem_icap/icap/evaluation_table.md"
+INPUT_JSONL_PATH = r""
+OUTPUT_JSON_PATH = r""
+OUTPUT_MD_PATH = r""
 
 TOTAL_PROMPT_TOKENS = 0
 TOTAL_COMPLETION_TOKENS = 0
