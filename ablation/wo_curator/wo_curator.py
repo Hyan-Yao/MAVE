@@ -17,10 +17,10 @@ except ImportError:
 
 # ---------- 配置与路径 ----------
 PATHS = {
-    "writing": Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/writing_behavior.json"),
-    "student_ci": Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/icap_output/icap_student/knowledge_segments_global_classification.json"),
-    "transcript_full": Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/transcript.txt"),
-    "out_dir": Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/ablation/wo_curator/stem")
+    "writing": Path(""),
+    "student_ci": Path(""),
+    "transcript_full": Path(""),
+    "out_dir": Path("")
 }
 
 MODEL = "openai/gpt-4.1-mini"
