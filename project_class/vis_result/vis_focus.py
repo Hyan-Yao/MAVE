@@ -7,8 +7,8 @@ from typing import Dict, List, Tuple
 import matplotlib.pyplot as plt
 
 
-INPUT_DIR = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/output/focus_output_now")
-OUTPUT_DIR = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class/vis_result/focuas_output_black")
+INPUT_DIR = Path("")
+OUTPUT_DIR = Path("")
 SUMMARY_CSV = OUTPUT_DIR / "focus_output3_summary.csv"
 
 
