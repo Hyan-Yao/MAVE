@@ -13,7 +13,6 @@ total_completion_tokens=115671, avg_prompt_tokens_per_req=47798.8, avg_completio
 
 [USAGE] requests=681, total_prompt_tokens=33241619, total_completion_tokens=130850, avg_prompt_tokens_per_req=48813.0, avg_completion_tokens_per_req=192.1, elapsed_sec=488.41, req_per_sec=1.394, tokens_per_sec=68328.7
 [COST] prompt=$4.9862, completion=$0.0785, total=$5.0648
-[SAVED] /Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/HIS 101 (4) - ZOOM Class from Fri. Aug 21st - Syllabus Questions and Announcements for next week/preprocessor_output_now/preprocessor_efficiency_report.json
 '''
 import os
 import base64
@@ -54,11 +53,11 @@ else:
         "  - set OPENAI_API_KEY=your_key       (Official OpenAI API)"
     )
 
-IMAGE_ROOT = r"/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Class Meeting Downing Soc 220 2⧸4⧸2021/images_black"
-OUTPUT_DIR = r"/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Class Meeting Downing Soc 220 2⧸4⧸2021/preprocessor_output_now"
-PPT_EXCLUDED_TIMES_JSON = r"/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Class Meeting Downing Soc 220 2⧸4⧸2021/ppt_excluded_times.json"
-ICON_EXCLUDED_FRAMES_JSON = r"/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Class Meeting Downing Soc 220 2⧸4⧸2021/icon_excluded_frames.json"
-BLACK_EXCLUDED_FRAMES_JSON = r"/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Class Meeting Downing Soc 220 2⧸4⧸2021/black_excluded_frames.json"
+IMAGE_ROOT = r""
+OUTPUT_DIR = r""
+PPT_EXCLUDED_TIMES_JSON = r""
+ICON_EXCLUDED_FRAMES_JSON = r""
+BLACK_EXCLUDED_FRAMES_JSON = r""
 # Resume controls:
 # - Set START_MINUTE=17 to continue from minute_17.
 # - Set to None to process all minutes from the beginning.
