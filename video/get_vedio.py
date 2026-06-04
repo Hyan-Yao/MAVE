@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 r"""
 
-ffmpeg -y -i "D:\Desktop\llm_as_a_judge\data\llm\your_filename.mkv" -c copy "D:\Desktop\llm_as_a_judge\data\llm\your_filename.mp4"
+ffmpeg -y -i ""
 
 Current video inventory:
 Creator: sociology Jason
