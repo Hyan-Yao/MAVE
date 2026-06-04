@@ -7,8 +7,8 @@ from typing import Dict, List, Tuple
 from openai import OpenAI
 
 
-INPUT_DIR = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Class Meeting Downing Soc 220 2⧸4⧸2021/preprocessor_output_now")
-OUTPUT_JSON = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Class Meeting Downing Soc 220 2⧸4⧸2021/writing_behavior.json")
+INPUT_DIR = Path("")
+OUTPUT_JSON = Path("")
 MODEL = "gpt-4o-mini"
 TIMEOUT = 60
 MAX_WORKERS = 10
