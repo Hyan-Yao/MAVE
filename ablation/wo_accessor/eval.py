@@ -16,13 +16,13 @@ except ImportError:
     OpenAI = None
 
 # -------------------- Path Config --------------------
-INPUT_SUGGESTIONS_JSON = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/ablation/wo_accessor/stem/icap_suggestions.json")
-INPUT_WRITING_BEHAVIOR_JSON = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/writing_behavior.json")
-INPUT_SEGMENT_CLASSIFICATION_JSON = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/icap_output/icap_student/knowledge_segments_global_classification.json")
-INPUT_EXPECTED_CI_JSON = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/icap_output/icap_teacher/teacher_expected_ci_by_knowledge.json")
+INPUT_SUGGESTIONS_JSON = Path("")
+INPUT_WRITING_BEHAVIOR_JSON = Path("")
+INPUT_SEGMENT_CLASSIFICATION_JSON = Path("")
+INPUT_EXPECTED_CI_JSON = Path("")
 
-DEFAULT_OUTPUT_JSON = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/ablation/wo_accessor/stem/demo_icap_eval.json")
-DEFAULT_OUTPUT_MD = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/ablation/wo_accessor/stem/demo_icap_eval.md")
+DEFAULT_OUTPUT_JSON = Path("")
+DEFAULT_OUTPUT_MD = Path("")
 
 
 MODEL = "openai/gpt-5.1"
