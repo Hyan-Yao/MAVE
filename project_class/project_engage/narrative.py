@@ -39,9 +39,9 @@ MODEL = "gpt-4o-mini"
 TIMEOUT = 60
 
 # Input: minute-level preprocessor output from project_class
-INPUT_DIR = r"D:\Desktop\llm_as_a_judge\data\llm\project_class\output\preprocessor_output"
+INPUT_DIR = r""
 # Output: one structured_output file per 3-minute window
-OUTPUT_DIR = r"D:\Desktop\llm_as_a_judge\data\llm\project_class\output\structured_output_3min"
+OUTPUT_DIR = r""
 
 # Token and cost statistics (prices can be adjusted as needed)
 TOTAL_PROMPT_TOKENS = 0
