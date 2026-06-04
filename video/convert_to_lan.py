@@ -6,8 +6,8 @@ import whisper
 import os
 import subprocess
 
-VIDEO_PATH = r"D:\Desktop\llm_as_a_judge\data\llm\Zoom Class Meeting Downing Soc 220 2⧸18⧸2021 [i-w2sxYTQbc]_001.mp4"
-OUT_DIR = r"D:\Desktop\llm_as_a_judge\data\llm\whisper_out"
+VIDEO_PATH = r""
+OUT_DIR = r""
 LANGUAGE = "en"     
 MODEL_SIZE = "medium"  # tiny / base / small / medium / large
 
@@ -17,7 +17,7 @@ os.makedirs(OUT_DIR, exist_ok=True)
 audio_path = os.path.join(OUT_DIR, "audio.wav")
 
 # Extract audio
-FFMPEG_PATH = r"D:\Desktop\llm_as_a_judge\data\llm\ffmpeg-8.0.1-full_build\bin\ffmpeg.exe"
+FFMPEG_PATH = r""
 
 subprocess.run([
     FFMPEG_PATH, "-y",
