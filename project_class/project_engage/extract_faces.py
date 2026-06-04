@@ -33,8 +33,8 @@ def write_image_unicode_safe(path, img):
 
 
 # macOS paths (change VIDEO_FOLDER for another class/video)
-PROJECT_LLM_DIR = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm")
-VIDEO_FOLDER = "Zoom Class Meeting Downing Soc 220 2⧸4⧸2021"
+PROJECT_LLM_DIR = Path("")
+VIDEO_FOLDER = ""
 FRAMES_ROOT = str(PROJECT_LLM_DIR / "project" / VIDEO_FOLDER / "frames")
 OUT_DIR = str(PROJECT_LLM_DIR / "project" / VIDEO_FOLDER / "images")
 
