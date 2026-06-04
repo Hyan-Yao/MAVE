@@ -14,12 +14,12 @@ try:
 except ImportError:
     OpenAI = None
 
-# ---------- 配置与路径 ----------
+# ---------- data config ----------
 PATHS = {
-    "knowledge": Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/icap_output/icap_split_free/knowledge_segments_global_free.json"),
-    "teacher_curr": Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/icap_output/icap_teacher/teacher_current_ci_by_knowledge.json"),
-    "teacher_exp": Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/icap_output/icap_exp/teacher_expected_ci_by_knowledge.json"),
-    "out_dir": Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/ablation/wo_observer/stem")
+    "knowledge": Path(""),
+    "teacher_curr": Path(""),
+    "teacher_exp": Path(""),
+    "out_dir": Path("")
 }
 
 MODEL = "openai/gpt-4.1-mini"
