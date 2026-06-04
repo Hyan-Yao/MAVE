@@ -1,13 +1,3 @@
-r'''
-Evaluate teaching reports (6-minute teaching suggestions) together with transcript text (whisper_out).
-Flow: load suggestions + transcript by window -> one-pass 3-dimension evaluation -> output.
-
-[TOKEN] total_prompt_tokens=114435, total_completion_tokens=7376, total_tokens=121811, requests=70
-[EFFICIENCY] avg_prompt_tokens_per_req=1634.8, avg_completion_tokens_per_req=105.4, avg_total_tokens_per_req=1740.2
-[COST] input_tokens_k=114.44, output_tokens_k=7.38, estimated_input_cost=$0.0172, estimated_output_cost=$0.0044, estimated_total_cost=$0.0216
-
-Evaluation completed.
-Results saved to: D:\Desktop\llm_as_a_judge\data\llm\prompt\Zoom Class Meeting Downing Soc 220 2.18.2021\prompt_only_evaluation.json'''
 import os
 import json
 import re
@@ -41,12 +31,12 @@ TEMPERATURE = 0  # Evaluation must use temperature 0
 MAX_WORKERS = max(1, int(os.getenv("PROMPT_EVAL_MAX_WORKERS", "20")))
 
 # Prompt-only big JSON input (contains all knowledge points)
-TEACHING_REPORTS_PATH = r"/Users/alyssa/Desktop/llm_as_a_judge/data/llm/prompt/now_stem/teaching_suggestions_prompt_only_by_kp/teaching_suggestions_prompt_only_by_kp.json"
+TEACHING_REPORTS_PATH = r""
 # Knowledge segments JSON (used to provide transcript context per knowledge point)
-TRANSCRIPT_SEGMENTS_JSON = r"/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project/Zoom Meeting for 3D Design/icap_output/icap_split_free/knowledge_segments_global_free.json"
+TRANSCRIPT_SEGMENTS_JSON = r""
     # Evaluation output path (single file containing all window results)
-OUTPUT_JSON_PATH = r"/Users/alyssa/Desktop/llm_as_a_judge/data/llm/prompt/now_stem/prompt_only_evaluation.json"
-OUTPUT_MD_PATH = r"/Users/alyssa/Desktop/llm_as_a_judge/data/llm/prompt/now_stem/prompt_only_evaluation_table.md"
+OUTPUT_JSON_PATH = r""
+OUTPUT_MD_PATH = r""
 
 # Token and cost statistics (prices can be updated to latest OpenAI pricing)
 TOTAL_PROMPT_TOKENS = 0
