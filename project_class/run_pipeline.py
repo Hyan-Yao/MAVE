@@ -10,11 +10,11 @@ from types import ModuleType
 from typing import Any, Dict, Optional
 
 
-ROOT = Path("/Users/alyssa/Desktop/llm_as_a_judge/data/llm/project_class")
-STUDENT_SCRIPT = ROOT / "project-teacher/tools/icap_student.py"
-TEACHER_SCRIPT = ROOT / "project-teacher/tools/icap_teacher.py"
-EXPECT_SCRIPT = ROOT / "project-teacher/tools/icap_expect.py"
-SUGGESTION_SCRIPT = ROOT / "project-teacher/icap_suggestion.py"
+ROOT = Path("")
+STUDENT_SCRIPT = 
+TEACHER_SCRIPT = 
+EXPECT_SCRIPT = 
+SUGGESTION_SCRIPT = 
 
 
 def load_module(module_path: Path, module_name: str) -> ModuleType:
